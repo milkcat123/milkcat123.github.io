@@ -1,0 +1,123 @@
+#mktContent, #mktContent *{ box-sizing: border-box; font-family:  Helvetica, '思源黑體', 'Noto sans', Arial, sans-serif;  transition: 0.3s;}
+#mktContent{ background: var(--bg-color);}
+
+#mktContent p{letter-spacing: 1px;}
+:root{
+    --main-color:#181818;
+    --sub-color:#a0d079;
+    --d-sub-color:#85c254;
+    --bg-color:#fdfaf4;
+    --light-color:#ffec94;
+    --pi-color:#fc7c73;
+    --gre-color:#b1b1b1;
+    --goTop:60px;
+}
+#goTop{display: none; position: fixed; width: var(--goTop); height:var(--goTop); bottom: 30px; right: 60px; line-height: var(--goTop); font-size: 20px; color: #fff; text-align: center; background: var(--d-sub-color); border-radius: 99rem; cursor:pointer; z-index: 20;}
+
+
+/*header*/
+#mktContent header.header h1{height: 670px; width: 100%; background:center top / cover no-repeat url('../images/tao-header.jpg');margin: 0; }
+#mktContent header.header h1 img{display: none;}
+
+nav{width: 100%; background: var(--sub-color); }
+nav ul{display:flex; justify-content:space-evenly ;max-width: 1200px;width:100%; margin: 0 auto; }
+nav ul li{position:relative;  display: inline-block; margin: 0 6px; }
+#mktContent nav ul li a{position:relative; display: inline-block;font-size: 26px; line-height: 1.8;color: var(--main-color);font-weight: 500; letter-spacing: 1px; padding: 4px 16px; vertical-align: middle; z-index: 5;}
+nav ul li a span{font-size: 36px;vertical-align: initial; margin:0 6px;}
+nav ul li .dot{position: absolute; width: 14px; height: 14px; left: 38px; bottom: 16px; background:var(--light-color); border-radius: 99rem;  }
+nav ul li.on .dot{ width: calc(100% - 76px); }
+
+/*index*/
+    /*內容頁籤*/
+ul.sub-nav{position: sticky; position: -webkit-sticky; top: 0px; z-index: 10; display: flex; width:100%; max-width:1200px; justify-content: space-evenly; border-bottom: solid var(--sub-color) 2px; background: var(--bg-color); margin: 0 auto;}
+ul.sub-nav li{display: inline-block; width: 22%;}
+ul.sub-nav li a{display: block;width: 100%; font-size: 24px; color: var(--d-sub-color)  ;text-align: center; line-height: 2;padding-top: 12px; }
+ul.sub-nav li a span{margin: 0 4px;}
+ul.sub-nav li.on a{color: var(--main-color);}
+ul li a span.deco{display:none;vertical-align: middle;}
+ul li.on a span.deco{display:inline-block; font-size: 12px; }
+
+/* ul.sub-nav.scroll-tag{position: sticky; position: -webkit-sticky; top: 0px; z-index: 10;} */
+
+    /*main主要內容*/
+main{background: #fff; max-width: 1200px; text-align: center; padding: 10px; margin: 30px auto;}
+main>section{display:none;width: 100%; padding: 15px 20px;}
+main.group>section{display: block; padding:40px 20px 0px 20px;}
+main section.on{display: block;}
+
+main h2{text-indent: -1000rem; width: 100%; height: 40px; margin: 20px 0 30px 0; overflow-x: hidden;}
+main h2.tao-1-1{ background: url('../images/tao-1-1-h2.png')top center no-repeat;}
+main h2.tao-1-2{ background: url('../images/tao-1-2-h2.png')top center no-repeat;}
+main h2.tao-2-1{ background: url('../images/tao-2-1-h2.png')top center no-repeat;}
+main h2.tao-2-2{ background: url('../images/tao-2-2-h2.png')top center no-repeat;}
+main h2.miao-1-1{ background: url('../images/miao-1-1-h2.png')top center no-repeat;}
+main h2.miao-1-2{ background: url('../images/miao-1-2-h2.png')top center no-repeat;}
+main h2.miao-2-1{ background: url('../images/miao-2-1-h2.png')top center no-repeat;}
+main h2.miao-2-2{ background: url('../images/miao-2-2-h2.png')top center no-repeat;}
+
+main.group h2{
+    /*reset*/text-indent: 0; width: auto; height: auto; margin: 20px 0 30px 0; overflow:hidden;
+    position:relative; color: var(--gre-color);font-weight: 400; 
+}
+main.group h2::before,
+main.group h2::after{position:absolute; content: '';width: 45%; top: 50%; border-bottom: dotted 1px var(--gre-color);}
+main.group h2::before{left:0%;}
+main.group h2::after{right:0%;}
+main.group .ntp h2::before,
+main.group .ntp h2::after,
+main.group .tn h2::before,
+main.group .tn h2::after{width: calc(45% - 30px);}
+
+    /*c23商品模組樣式 與無圖版POI連動*/
+.intro-anchors,
+.carrier ul li.box-head,
+.carrier a#anc_1{display: none;}
+.carrier ul,
+main.group .content{padding:0 15px; margin-bottom: 8px;}
+.carrier h4{display: block; text-align: left;font-size: 16px; font-weight: 200; letter-spacing: 1px; color: var(--gre-color); border-bottom: dotted 1px var(--gre-color); padding: 6px 0; margin-bottom:4px; }
+.carrier ul li,
+main.group .ph-group-content{display:inline-block; width:100%; text-align: left;  border-bottom: solid 1px var(--main-color);margin-bottom: 12px;}
+.carrier ul li a,
+main.group .ph-group-content-text{display:inline-block;width:100%;padding: 10px 10px 6px 10px; color: var(--d-sub-color);font-weight: 300; line-height: 1.5; letter-spacing: 1px;}
+.carrier ul li a strong,
+main.group .ph-group-content-text-name{display: block; font-size: 20px; color: var(--main-color);  font-weight: 500; line-height: 1.5;}
+.carrier ul li a em,
+main.group .ph-group-content-text-price{display: block; text-align: right; color: var(--pi-color); font-size: 22px; margin-top:-20px; font-style: italic;}
+#mktContent .carrier ul li a:hover{color: rgb(185, 158, 0);}
+#mktContent .carrier ul li a:hover strong{color: rgb(99, 104, 55);}
+
+    /*c26訂房樣式*/
+.group-type-ph{display: flex; justify-content: space-between; flex-wrap: wrap; align-items: stretch;}
+.group-type-ph .ph{display: inline-block; width: 24%; padding:8px; border: solid 1px var(--main-color); margin-bottom: 12px;}
+.group-type-ph .ph-img img{width: 100%;}
+.group-type-ph .ph-title{font-size: 19px; color: var(--main-color); font-weight: 500; letter-spacing: 1px;line-height: 1.2; border-bottom: 1px solid var(--main-color); padding: 8px 0;}
+.group-type-ph .ph-detail{font-size:16px; color: var(--d-sub-color); font-weight: 300; line-height: 1.3; letter-spacing:1px; margin: 10px 0; }
+.group-type-ph em.price,
+.group-type-ph em.price i{font-size: 16px; color: var(--pi-color); vertical-align: baseline; }
+.group-type-ph em.price span{font-size: 22px; vertical-align: baseline;}
+
+    /*景點介紹*/
+section.tao-2 ul,
+section.miao-2 ul{display: flex; justify-content: left; flex-wrap: wrap; align-items: stretch;}
+section.tao-2 ul li,
+section.miao-2 ul li{display: inline-block; width: 32%; padding:8px; border: solid 1px var(--main-color); margin:10px 1.33% 10px 0;}
+section.tao-2 ul li:nth-child(3n),
+section.miao-2 ul li:nth-child(3n){margin-right: 0;}
+section.tao-2 ul li img,
+section.miao-2 ul li img{width: 100%;}
+section.tao-2 ul li h5,
+section.miao-2 ul li h5{font-size: 19px;line-height: 1.3; margin: 10px;}
+section.tao-2 ul li p,
+section.miao-2 ul li p{font-size: 14px;line-height: 1.5; padding: 10px; text-align: left;}
+
+/*團體旅遊group-index*/
+
+    /*POI模組樣式 無圖版與c23連動*/
+.ph nav.ph-menu,
+header.ph-group-title,
+main.group .ph-group-content-photo a,
+main.group .ph-group-content-tag{display: none;}
+main.group section.ph-group{display: inline-block; width: 100%;}
+main.group .ph-group-content-text-price{font-size: 25px;vertical-align: baseline;}
+main.group .ph-group-content-text-price span{font-size: 19px;vertical-align: baseline;}
+

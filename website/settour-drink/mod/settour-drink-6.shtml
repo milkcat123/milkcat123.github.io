@@ -1,0 +1,252 @@
+<!-- 6 MODULE -->
+<article class="ph">
+    <!--錨點選單開始-->
+    <nav class="ph-menu has-banner">
+        <ul class="slidecontain">
+            <li>
+                <a class="anchorLink" href="#9842">
+                    <img src="https://www.settour.com.tw/st_dist/img/amp/poi-icon-01.png" alt="個人旅遊" />
+                    <div>個人旅遊 </div>
+                </a>
+            </li>
+            <li>
+                <a class="anchorLink" href="#9844">
+                    <img src="https://www.settour.com.tw/st_dist/img/amp/poi-icon-01.png" alt="當地體驗、票券" />
+                    <div>當地體驗、票券 </div>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <header class="ph-group-title" id="9842">
+        <img src="https://www.settour.com.tw/st_dist/img/amp/poi-icon-01.png" alt="個人旅遊" onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';" />
+        <span>個人旅遊</span>
+
+    </header>
+
+    <!-- 直式 三個一排 累加模組 V113 -->
+    <section class="ph-group type-3-normal">
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://ticket.settour.com.tw/product/TKT0000007412">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/TKT/0000/0074/12/ori_30568454.jpg"
+                        alt="【小琉球出發】小琉球海上獨木舟體驗券（1人出發）" onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/thsr/product/HRH0000000508" class="ph-group-content-text-name">
+                    【小琉球出發】 SUP立槳體驗
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    SUP 體驗 、加贈浮潛&拍照體驗、水上水下熱門三項目一次滿足！
+                </p>
+                <a href="https://trip.settour.com.tw/thsr/product/HRH0000000508" class="ph-group-content-text-price">
+                    <span>1天</span>
+                    $1,820 <span>起</span>
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://ticket.settour.com.tw/product/TKT0000007412">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/TKT/0000/0074/12/ori_30568454.jpg"
+                        alt="【小琉球出發】小琉球海上獨木舟體驗券（1人出發）" onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/thsr/product/HRH0000000508" class="ph-group-content-text-name">
+                    【小琉球出發】 SUP立槳體驗
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    SUP 體驗 、加贈浮潛&拍照體驗、水上水下熱門三項目一次滿足！
+                </p>
+                <a href="https://trip.settour.com.tw/thsr/product/HRH0000000508" class="ph-group-content-text-price">
+                    <span>1天</span>
+                    $1,820 <span>起</span>
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://ticket.settour.com.tw/product/TKT0000007412">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/TKT/0000/0074/12/ori_30568454.jpg"
+                        alt="【小琉球出發】小琉球海上獨木舟體驗券（1人出發）" onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/thsr/product/HRH0000000508" class="ph-group-content-text-name">
+                    【小琉球出發】 SUP立槳體驗
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    SUP 體驗 、加贈浮潛&拍照體驗、水上水下熱門三項目一次滿足！
+                </p>
+                <a href="https://trip.settour.com.tw/thsr/product/HRH0000000508" class="ph-group-content-text-price">
+                    <span>1天</span>
+                    $1,820 <span>起</span>
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://ticket.settour.com.tw/product/TKT0000007412">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/TKT/0000/0074/12/ori_30568454.jpg"
+                        alt="【小琉球出發】小琉球海上獨木舟體驗券（1人出發）" onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/thsr/product/HRH0000000508" class="ph-group-content-text-name">
+                    【小琉球出發】 SUP立槳體驗
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    SUP 體驗 、加贈浮潛&拍照體驗、水上水下熱門三項目一次滿足！
+                </p>
+                <a href="https://trip.settour.com.tw/thsr/product/HRH0000000508" class="ph-group-content-text-price">
+                    <span>1天</span>
+                    $1,820 <span>起</span>
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://ticket.settour.com.tw/product/TKT0000007412">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/TKT/0000/0074/12/ori_30568454.jpg"
+                        alt="【小琉球出發】小琉球海上獨木舟體驗券（1人出發）" onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/thsr/product/HRH0000000508" class="ph-group-content-text-name">
+                    【小琉球出發】 SUP立槳體驗
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    SUP 體驗 、加贈浮潛&拍照體驗、水上水下熱門三項目一次滿足！
+                </p>
+                <a href="https://trip.settour.com.tw/thsr/product/HRH0000000508" class="ph-group-content-text-price">
+                    <span>1天</span>
+                    $1,820 <span>起</span>
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+
+
+        <!-- end of foreach -->
+    </section>
+    <!-- 看更多連結 -->
+    <header class="ph-group-title" id="9844">
+        <img src="https://www.settour.com.tw/st_dist/img/amp/poi-icon-01.png" alt="當地體驗、票券" onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';" />
+        <span>當地體驗、票券</span>
+
+    </header>
+
+    <!-- 直式 三個一排 累加模組 V113 -->
+    <section class="ph-group type-3-normal">
+        <!--ph-group-content-->
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://ticket.settour.com.tw/product/TKT0000007965">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/TKT/0000/0079/65/ori_31845433.jpg"
+                        alt="【小琉球出發】 SUP立槳體驗" onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://ticket.settour.com.tw/product/TKT0000007965" class="ph-group-content-text-name">
+                    【小琉球出發】 SUP立槳體驗
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    SUP 體驗 、加贈浮潛&拍照體驗、水上水下熱門三項目一次滿足！
+                </p>
+                <a href="https://ticket.settour.com.tw/product/TKT0000007965" class="ph-group-content-text-price">
+                    <span></span>
+                    $1,099 <span>起</span>
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://ticket.settour.com.tw/product/TKT0000007412">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/TKT/0000/0074/12/ori_30568454.jpg"
+                        alt="【小琉球出發】小琉球海上獨木舟體驗券（1人出發）" onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://ticket.settour.com.tw/product/TKT0000007412" class="ph-group-content-text-name">
+                    【小琉球出發】小琉球海上獨木舟體驗券（1人出發）
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    切換不同視角，從海上欣賞小琉球的熱帶島嶼景緻
+                </p>
+                <a href="https://ticket.settour.com.tw/product/TKT0000007412" class="ph-group-content-text-price">
+                    <span></span>
+                    $599 <span>起</span>
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://ticket.settour.com.tw/product/TKT0000007408">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/TKT/0000/0074/08/ori_30562174.jpg"
+                        alt="
+                                                                                                        【小琉球出發】小琉球半潛艇夕陽巡禮體驗券
+                                                                                                        "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://ticket.settour.com.tw/product/TKT0000007408" class="ph-group-content-text-name">
+                    【小琉球出發】小琉球半潛艇夕陽巡禮體驗券
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    造訪台灣最大的珊瑚礁島小琉球，享受夕陽巡航之旅<br /><br />
+                </p>
+                <a href="https://ticket.settour.com.tw/product/TKT0000007408" class="ph-group-content-text-price">
+                    <span></span>
+                    $150 <span>起</span>
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+        <!-- end of foreach -->
+    </section>
+</article>

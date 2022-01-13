@@ -1,0 +1,580 @@
+<!-- 010 MODULE -->
+<article class="ph">
+    <div class="ph-title" style="display: none;">鹹水多多</div>
+    <!--錨點選單開始-->
+    <nav class="ph-menu has-banner">
+        <ul class="slidecontain">
+            <li>
+                <a class="anchorLink" href="#9899">
+                    <img src="https://www.settour.com.tw/st_dist/img/amp/poi-icon-01.png" alt="夏日好團結" />
+                    <div>夏日好團結 </div>
+                </a>
+            </li>
+            <li>
+                <a class="anchorLink" href="#9901">
+                    <img src="https://www.settour.com.tw/st_dist/img/amp/poi-icon-01.png" alt="上山下海趣" />
+                    <div>上山下海趣 </div>
+                </a>
+            </li>
+            <li>
+                <a class="anchorLink" href="#9905">
+                    <img src="https://www.settour.com.tw/st_dist/img/amp/poi-icon-01.png" alt="個人迷你遊" />
+                    <div>個人迷你遊 </div>
+                </a>
+            </li>
+        </ul>
+        <div class="ph-menu-arrow-left disabled">
+            <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        </div>
+        <div class="ph-menu-arrow-right">
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+        </div>
+    </nav>
+    <!--錨點選單結束-->
+    <header class="ph-group-title" id="9899">
+        <img src="https://www.settour.com.tw/st_dist/img/amp/poi-icon-01.png" alt="夏日好團結" onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';" />
+        <span>夏日好團結</span>
+
+    </header>
+
+    <!-- 直式 三個一排 累加模組 V113 -->
+    <section class="ph-group type-3-normal">
+        <!--ph-group-content-->
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002772">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GRT/0000/0027/72/ori_31780174.jpg"
+                        alt="
+                                                                                                        【2021台東熱氣球】清水斷崖、三仙台、新社梯田、大石鼻步道，玩樂花東2日遊
+                                                                                                        "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002772" class="ph-group-content-text-name">
+                    【2021台東熱氣球】清水斷崖、三仙台、新社梯田、大石鼻步道，玩樂花東2日遊
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    世界級清水斷崖<br />最美跨海八拱橋<br />一生必來一次的山陵線海景步道。
+                </p>
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002772" class="ph-group-content-text-price">
+                    <span>2天</span>
+                    $3,480 <span>起</span>
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000001905">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GRT/0000/0019/05/ori_31028602.jpg"
+                        alt="
+                                                                                                        【海洋饗宴】帆船出海體驗、SUP漁光島、和風浴衣漫遊古都 2日遊
+                                                                                                        "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000001905" class="ph-group-content-text-name">
+                    【海洋饗宴】帆船出海體驗、SUP漁光島、和風浴衣漫遊古都 2日遊
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    ● 賓士車出遊，4人成行
+                </p>
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000001905" class="ph-group-content-text-price">
+                    <span>2天</span>
+                    $11,300 <span>起</span>
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002620">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GRT/0000/0026/20/ori_31629795.jpg"
+                        alt="
+                                                                                                        【一起尋「藻」愛】新豐紅樹林、香山賞蟹大道、觀新藻礁保護區生態 1日遊
+                                                                                                        "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002620" class="ph-group-content-text-name">
+                    【一起尋「藻」愛】新豐紅樹林、香山賞蟹大道、觀新藻礁保護區生態 1日遊
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+
+                </p>
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002620" class="ph-group-content-text-price">
+                    <span>1天</span>
+                    $888 <span>起</span>
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000001429">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GRT/0000/0014/29/ori_31792917.jpg"
+                        alt="
+                                                                                                        【夢幻赫蒂法莊園】那山那谷漂流探險、冬山神祕洞穴、DIY川燙海鮮 2日遊
+                                                                                                        "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000001429" class="ph-group-content-text-name">
+                    【夢幻赫蒂法莊園】那山那谷漂流探險、冬山神祕洞穴、DIY川燙海鮮 2日遊
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    ■夢幻爆棚赫蒂法莊園<br />■網美飯店【煙波大飯店宜蘭館】
+                </p>
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000001429" class="ph-group-content-text-price">
+                    <span>2天</span>
+                    $3,999 <span>起</span>
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+        <!-- end of foreach -->
+    </section>
+    <header class="ph-group-title" id="9901">
+        <img src="https://www.settour.com.tw/st_dist/img/amp/poi-icon-01.png" alt="上山下海趣" onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';" />
+        <span>上山下海趣</span>
+
+    </header>
+
+    <!-- 直式 三個一排 累加模組 V113 -->
+    <section class="ph-group type-3-normal">
+        <!--ph-group-content-->
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002809">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GRT/0000/0028/09/ori_31845094.jpg"
+                        alt="
+                                                                                                        【上山下海】花蓮太魯閣山月吊橋、台泥DAKA園區、佳興冰室、清水斷崖一日
+                                                                                                        "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+                <span class="ph-group-content-tag">
+                    太魯閣山月吊橋
+                </span>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002809" class="ph-group-content-text-name">
+                    【上山下海】花蓮太魯閣山月吊橋、台泥DAKA園區、佳興冰室、清水斷崖一日
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+
+                </p>
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002809" class="ph-group-content-text-price">
+                    <span>1天</span>
+                    $499 <span>起</span>
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002802">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GRT/0000/0028/02/ori_31817437.jpg"
+                        alt="
+                                                                                                        【上山下海】宜蘭黃金河稻划獨木舟、台版摩西分海、抹茶湖一日
+                                                                                                        "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+                <span class="ph-group-content-tag">
+                    黃金河稻划獨木舟
+                </span>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002802" class="ph-group-content-text-name">
+                    【上山下海】宜蘭黃金河稻划獨木舟、台版摩西分海、抹茶湖一日
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+
+                </p>
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002802" class="ph-group-content-text-price">
+                    <span>1天</span>
+                    $888 <span>起</span>
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002734">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GRT/0000/0027/34/ori_31792478.jpg"
+                        alt="
+                                                                                                        【上山下海】航海王初體驗、海上基隆嶼、九份老街、十分瀑布一日
+                                                                                                        "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+                <span class="ph-group-content-tag">
+                    搭船看海上基隆嶼
+                </span>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002734" class="ph-group-content-text-name">
+                    【上山下海】航海王初體驗、海上基隆嶼、九份老街、十分瀑布一日
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+
+                </p>
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002734" class="ph-group-content-text-price">
+                    <span>1天</span>
+                    $888 <span>起</span>
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002739">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GRT/0000/0027/39/ori_31705404.jpg"
+                        alt="
+                                                                                                        【上山下海】宜蘭蘭陽溪划船、香草菲菲、手作DIY體驗一日
+                                                                                                        "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+                <span class="ph-group-content-tag">
+                    蘭陽溪口划獨木舟
+                </span>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002739" class="ph-group-content-text-name">
+                    【上山下海】宜蘭蘭陽溪划船、香草菲菲、手作DIY體驗一日
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+
+                </p>
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002739" class="ph-group-content-text-price">
+                    <span>1天</span>
+                    $1,888 <span>起</span>
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002759">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GRT/0000/0027/59/ori_31870463.jpg"
+                        alt="
+                                                                                                        【上山下海】勇敢站起來～花蓮清水斷崖SUP立槳活動一日
+                                                                                                        "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+                <span class="ph-group-content-tag">
+                    花蓮清水斷崖立槳
+                </span>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002759" class="ph-group-content-text-name">
+                    【上山下海】勇敢站起來～花蓮清水斷崖SUP立槳活動一日
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+
+                </p>
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002759" class="ph-group-content-text-price">
+                    <span>1天</span>
+                    $2,888 <span>起</span>
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002693">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GRT/0000/0026/93/ori_31648912.jpg"
+                        alt="
+                                                                                                        【上山下海】花蓮溯溪冒險 ( 砂婆礑 ) 、宜蘭傳藝、山姆先生二日
+                                                                                                        "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+                <span class="ph-group-content-tag">
+                    花蓮溯溪探險活動
+                </span>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002693" class="ph-group-content-text-name">
+                    【上山下海】花蓮溯溪冒險 ( 砂婆礑 ) 、宜蘭傳藝、山姆先生二日
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+
+                </p>
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002693" class="ph-group-content-text-price">
+                    <span>2天</span>
+                    $5,388 <span>起</span>
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002690">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GRT/0000/0026/90/ori_31648904.jpg"
+                        alt="
+                                                                                                        【上山下海】清水斷崖 ( SUP 立槳 ) 宜蘭傳藝、花蓮山姆先生二日
+                                                                                                        "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+                <span class="ph-group-content-tag">
+                    花蓮清水斷崖立槳
+                </span>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002690" class="ph-group-content-text-name">
+                    【上山下海】清水斷崖 ( SUP 立槳 ) 宜蘭傳藝、花蓮山姆先生二日
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+
+                </p>
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002690" class="ph-group-content-text-price">
+                    <span>2天</span>
+                    $5,388 <span>起</span>
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002724">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GRT/0000/0027/24/ori_31663185.jpg"
+                        alt="
+                                                                                                        【上山下海】鯨彩花蓮、秀姑巒溪泛舟、天空步道、網紅打卡雲山水三日
+                                                                                                        "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+                <span class="ph-group-content-tag">
+                    出海賞鯨親子泛舟
+                </span>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002724" class="ph-group-content-text-name">
+                    【上山下海】鯨彩花蓮、秀姑巒溪泛舟、天空步道、網紅打卡雲山水三日
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+
+                </p>
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002724" class="ph-group-content-text-price">
+                    <span>3天</span>
+                    $6,888 <span>起</span>
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+        <!-- end of foreach -->
+    </section>
+    <header class="ph-group-title" id="9905">
+        <img src="https://www.settour.com.tw/st_dist/img/amp/poi-icon-01.png" alt="個人迷你遊" onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';" />
+        <span>個人迷你遊</span>
+
+    </header>
+
+    <!-- 直式 三個一排 累加模組 V113 -->
+    <section class="ph-group type-3-normal">
+        <!--ph-group-content-->
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://trip.settour.com.tw/taiwan/product/GDP0000002499">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GDP/0000/0024/99/ori_31025563.jpg"
+                        alt="
+                                                                                                        台東FUN鬆趣遊、最美南迴海景、墾丁自然生態三日遊
+                                                                                                        "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/taiwan/product/GDP0000002499" class="ph-group-content-text-name">
+                    台東FUN鬆趣遊、最美南迴海景、墾丁自然生態三日遊
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    ■安排搭乘南迴鐵道欣賞花東縱谷風光及美麗海岸線<br />■享優惠價加購台東縱谷半日遊<br />■墾丁福華平日限量升等尊爵房型
+                </p>
+                <a href="https://trip.settour.com.tw/taiwan/product/GDP0000002499" class="ph-group-content-text-price">
+                    <span>3天</span>
+                    $7,200 <span>起</span>
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://trip.settour.com.tw/taiwan/product/GDP0000002582">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GDP/0000/0025/82/ori_31845388.jpg"
+                        alt="
+                                                                                                        台東熱氣球嘉年華、海端布農部落、絕美南迴海景、墾丁福華梅花鹿三日
+                                                                                                        "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/taiwan/product/GDP0000002582" class="ph-group-content-text-name">
+                    台東熱氣球嘉年華、海端布農部落、絕美南迴海景、墾丁福華梅花鹿三日
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    ■台東海端布農文物館、瑞和火車站懷舊情、龍田日本移民村<br />■鹿野高台:熱氣球年華7/3-8/8<br />■墾丁福華平日限量升等尊爵房型
+                </p>
+                <a href="https://trip.settour.com.tw/taiwan/product/GDP0000002582" class="ph-group-content-text-price">
+                    <span>3天</span>
+                    $8,300 <span>起</span>
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://trip.settour.com.tw/taiwan/product/GDP0000000991">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GDP/0000/0009/91/ori_26185152.jpg"
+                        alt="
+                                                                                                        南島祕境、台東太麻里、多良、墾丁、福華海洋五星三日
+                                                                                                        "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/taiwan/product/GDP0000000991" class="ph-group-content-text-name">
+                    南島祕境、台東太麻里、多良、墾丁、福華海洋五星三日
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    ■台東放鬆享受知本美人湯<br />■南迴IG打卡秘境觀海聽濤，最美的多良車站，造訪牡丹鄉哭泣湖。<br />■墾丁國家公園五星蔚藍海洋親子樂。
+                </p>
+                <a href="https://trip.settour.com.tw/taiwan/product/GDP0000000991" class="ph-group-content-text-price">
+                    <span>3天</span>
+                    $9,200 <span>起</span>
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://trip.settour.com.tw/taiwan/product/GDP0000002534">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GDP/0000/0025/34/ori_31450037.jpg"
+                        alt="
+                                                                                                        台東池上縱谷、高雄旗津海岸、台南安平藝術、台中自主輕旅四日
+                                                                                                        "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/taiwan/product/GDP0000002534" class="ph-group-content-text-name">
+                    台東池上縱谷、高雄旗津海岸、台南安平藝術、台中自主輕旅四日
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    ■精選台東秘境景點<br />■旗后燈塔、星空隧道、海岸公園、旗津大街<br />■台南文創散策遊
+                </p>
+                <a href="https://trip.settour.com.tw/taiwan/product/GDP0000002534" class="ph-group-content-text-price">
+                    <span>4天</span>
+                    $9,900 <span>起</span>
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+        <!-- end of foreach -->
+    </section>
+</article>

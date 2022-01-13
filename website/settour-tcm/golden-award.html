@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW"> <!--語言為繁體中文-->
+    <head>
+        <meta charset="UTF-8"> <!--編碼-->
+        <!--#include virtual="inc/gold-seo.shtml"-->
+        <link rel="stylesheet" href="../../css/reset.css" type="text/css">
+        <link rel="stylesheet" href="./css/style.css?v=20211213-7" type="text/css">
+        <link rel="stylesheet" href="./css/golden-style.css?v=20211213-7" type="text/css">
+        <link rel="stylesheet" href="./css/rwd.css?v=20211213-7" type="text/css">
+        <!--寬度符合裝置的寬度-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;">
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="mktContent" class="gold">
+           <div id="goTop" class="hover-y">TOP</div>
+           <!-- header -->
+            <header class="header">
+                <h1>
+                    <img src="./images/gold-header-m.jpg" alt="桃園金牌旅遊" title="桃園金牌旅遊">
+                </h1>
+            </header>
+            <!-- 切換頁籤 -->
+            <nav>
+                <ul>
+                    <li class="on"><a><span>{</span>2021桃園金牌好遊<span>}</span></a> <div class="dot"></div></li>
+                    <li><a href="group-index.html"><span>{</span>團體旅遊<span>}</span></a> <div class="dot"></div></li>
+                    <li><a href="index.html"><span>{</span>個人自由行<span>}</span></a> <div class="dot"></div></li>
+                </ul>
+            </nav>
+            <ul class="sub-nav nav-height scroll-tag">
+                <li class="on"><a href="javascript:void(0)"><span class="deco">◆</span>樂活漫遊<span class="deco">◆</span></a></li>
+                <li><a href="javascript:void(0)"><span class="deco">◆</span>親子同遊<span class="deco">◆</span></a></li>
+            </ul>
+           <div class="intro">
+               <p>
+                    由桃園市政府觀光旅遊局主辦，<br>
+                    透過專家評審及民眾票選，從多件的旅遊行程中，<br>
+                    選出結合桃園在地特色及深度體驗的青春品味、樂活慢遊、親子同遊的優質遊程。<br>
+                    <br style="display:block;">
+                    東南旅遊能夠榮獲「樂活慢遊」、「親子同遊」的雙料殊榮與肯定，<br>
+                    是從產品設計、專業服務品質、行程內容創意，<br>
+                    以及最重要客戶與喜愛民眾的支持，透過專業的把關獲選為最佳的優質行程。                    
+               </p>
+           </div>
+           <main class="scroll-target">
+               <section>
+                   <h2 class="gold-1">樂活漫遊 得獎行程</h2>
+                   <div class="content hover-y">
+                       <!--#include virtual="./mod/tcm-006.shtml"-->
+                   </div>
+               </section>
+               <section>
+                   <h2 class="gold-2">親子同遊 得獎行程</h2>
+                   <div class="content hover-y">
+                       <!--#include virtual="./mod/tcm-007.shtml"-->
+                    </div>
+                   
+               </section>
+           </main>
+            
+        </div><!--mktContent-->
+        <!--東南Footer-->
+        <script src="./js/slideTop.js" type="text/javascript"></script>
+        <script>
+            $(document).ready(function(){
+                $('.ph .ph-group a').attr('target','_blank');
+                
+                const h3_content = ' <h3><span class="deco">◆</span>推薦行程</h3>',
+                      _class = '.ph .ph-group:nth-of-type(2)';
+                
+                $(_class).prepend(h3_content);
+
+            });
+        </script>   
+    </body>
+</html>

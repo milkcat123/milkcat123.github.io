@@ -1,0 +1,358 @@
+* { box-sizing: border-box; font-family: Arial, Helvetica, sans-serif, '思源黑體', '微軟正黑體'; transition: 0.3s;}
+body{overflow-x: hidden;}
+#mktContent{background: #f7f3e4}
+a{text-decoration: none; color:#ffffff;}
+#goTop{position: fixed;width: 50px; height: 50px; bottom: 10px; right: 50px;font-size: 22px;line-height: 50px; color: #ffffff; text-align:center; background: #c05447; z-index: 10; cursor:pointer;}
+#set-footer-base .set-footer-alert{display: none;}
+/*導覽列*/
+nav.menuBar{ display:block; z-index:20;position:sticky;position:-webkit-sticky; top: 0px; text-align: center; background:#f3e124; padding: 10px 0;  }
+nav.menuBar ul{display: inline-block; max-width:1400px; width: 100%; }
+nav.menuBar ul li{position: relative; display: inline-block; width: 18%; font-size: 26px; font-weight: 400; color: #ffffff; background: #cbba00; padding: 10px 0; margin: 0 5px; overflow: hidden;}
+nav.menuBar ul li.on,
+nav.menuBar ul li:hover{background: #c05447; }
+
+.drinkList.aaa{display: none; position: sticky;position:-webkit-sticky; top:66px; text-align: center; z-index: 5;}
+.drinkList.aaa ul{width: 100%; margin: 0 auto; background: #ffffffec;}
+.drinkList.aaa ul li{display: inline-block; font-size: 22px; color: #c05447; font-weight: 300; padding: 0 16px; margin: 10px 0; border-right: #c05447 1px solid; cursor: pointer; }
+.drinkList.aaa ul li:last-child{border: none;}
+
+/*版頭*/
+header.header{position: relative; height: 618px; background: url(../images/header-dodo.jpg) top center no-repeat;}
+header.header h1{display: none;}
+header.header::before{position: absolute; content: ""; width: 153px; height: 179px; bottom: -50px; left: 20%;background: url('../images/leaf.png') center no-repeat;background-size: 100% auto; z-index: 5;}
+
+/*台灣多多選單*/
+.teaMenu{clip-path: ellipse(80% 55% at 50% 36%); width: 100%; padding: 40px 0 110px 0; background: url('../images/menuContentBG-dodo.png') center 33% no-repeat, #ffffff;}
+
+.teaMenu .wrap{max-width: 1200px; width: 100%; text-align: center; padding: 60px 0 40px 0; margin: 0 auto;}
+.teaMenu .drinkList{position: relative; padding: 3px; margin: 25px 0; border: #c05447 4px solid; border-radius: 14px; background: #ffffff;}
+.teaMenu .drinkList::before,
+.teaMenu .drinkList::after{position: absolute; content: ''; width: 99px; height: 19px;left: calc(50% - 49.5px); background: url('../images/menuListDeco.png') center top no-repeat; }
+.teaMenu .drinkList::before{top: -22px;}
+.teaMenu .drinkList::after{bottom: -22px;transform: rotate(180deg);}
+.teaMenu ul{width: 100%; padding: 10px 0;border: #c05447 1px solid; border-radius: 8px; background: #ffffff;}
+.teaMenu ul li{display: inline-block; font-size: 23px; color: #c05447; font-weight: 300; padding: 0 16px; margin: 10px 0; border-right: #c05447 1px solid; cursor: pointer; }
+.teaMenu ul li:last-child{border: none;}
+.teaMenu .content{position:relative; display: inline-block; width: 75%; color: #c05447; font-size: 22px; line-height: 1.5;padding: 45px 5%; margin: 30px 0; }
+.teaMenu .content::before,
+.teaMenu .content::after{content: ''; position: absolute; width: 192px; height: 98px; background: url('../images/menuContentDeco-dodo.png') center top no-repeat;}
+.teaMenu .content::before{left: 0px; top: 0px;}
+.teaMenu .content::after{right: 0px; transform: rotate(180deg); bottom: 0px;}
+
+/*多多項目區*/
+.wrapAllDrinks .wrap .content{max-width: 1200px; width: 100%;text-align: center; padding: 20px 0 120px 0; margin: 0 auto;}
+.wrapAllDrinks .wrap .contentBG{clip-path: ellipse(80% 55% at 50% 40%); padding-bottom: 50px; }
+.wrapAllDrinks .content .contentTopTT{position: relative; display: inline-block; width: 68%;}
+.wrapAllDrinks .content .contentTopTT::before{position: absolute; content: ""; z-index: 5;}
+.wrapAllDrinks .content .contentTopTT p{position: absolute;left: 0;top: 0;font-size: 22px;line-height: 1.3;margin: 171px 30px 0 299px; color:#6e3c00;}
+.wrapAllDrinks .content .contentTopPic{display: inline-block; width: 31%;}
+.wrapAllDrinks .content .contentTopPic img{width: 100%;}
+.wrapAllDrinks .content .contentBottom{margin: 40px 0 48px 0; }
+
+.dodo1{ width:100%; background:#ebfaff;}
+.dodo1 .contentBG{background: bottom center/155% auto no-repeat url('../images/dodobg1.png'),#f7f3e4 }
+.dodo1 .content .contentTopTT::before{width: 200px; height: 145px; right: -32px; bottom: -86px; background: center/contain no-repeat url('../images/dododeco1.png');}
+
+.dodo2{ width:100%; background:#ffebeb;}
+.dodo2 .contentBG{background:  bottom center/155% auto no-repeat url('../images/dodobg2.png'),#ebfaff; }
+.dodo2 .content .contentTopTT::before{width: 173px; height: 149px; right: -60px; bottom: -45px; background: center/contain no-repeat url('../images/dododeco2.png');}
+.dodo2 .content .contentTopTT img{transform: translate(24px,8px);}
+
+.dodo3{ width:100%; background:#e3f4da;}
+.dodo3 .contentBG{background:  bottom center/155% auto no-repeat url('../images/dodobg3.png'),#ffebeb; }
+.dodo3 .content .contentTopTT::before{width: 57px; height: 161px; right: 3px; bottom: -103px; background: center/contain no-repeat url('../images/dododeco3.png');}
+.dodo3 .content .contentTopTT img{transform: translate(23px,11px);}
+
+.dodo4{ width:100%; background:#daf4ef;}
+.dodo4 .contentBG{background: bottom center/155% auto no-repeat url('../images/dodobg4.png'),#e3f4da; }
+.dodo4 .content .contentTopTT::before{width: 78px; height: 138px; right: -28px; bottom: -73px; background: center/contain no-repeat url('../images/dododeco4.png');}
+.dodo4 .content .contentTopTT img{transform: translate(6px,18px);}
+
+.dodo5{ width:100%; background:#f7f0d9;}
+.dodo5 .contentBG{background: bottom center/155% auto no-repeat url('../images/dodobg5.png'),#daf4ef; }
+.dodo5 .content .contentTopTT::before{width: 110px; height: 110px; right: -22px; bottom: -7px; background: center/contain no-repeat url('../images/dododeco5.png');}
+.dodo5 .content .contentTopTT img{transform: translate(6px,-23px);}
+
+.dodo6{ width:100%; background:#fde5da;}
+.dodo6 .contentBG{background: bottom center/155% auto no-repeat url('../images/dodobg6.png'),#f7f0d9; }
+.dodo6 .content .contentTopTT::before{width: 103px; height: 120px; right: -36px; bottom: -61px; background: center/contain no-repeat url('../images/dododeco6.png');}
+.dodo6 .content .contentTopTT img{transform: translate(38px,13px);}
+
+.dodo7{ width:100%; background:#e4e2f7;}
+.dodo7 .contentBG{background: bottom center/155% auto no-repeat url('../images/dodobg7.png'),#fde5da; }
+.wrapAllDrinks .dodo7 .content .contentTopTT p{margin: 155px 30px 0 339px;}
+.dodo7 .content .contentTopTT::before{width: 85px; height: 126px; right: -22px; bottom: -7px; background: center/cover no-repeat url('../images/dododeco7.png');}
+.dodo7 .content .contentTopTT img{transform: translate(30px,-23px);}
+
+.dodo8{ width:100%; background:#faf7cf;}
+.dodo8 .contentBG{background: bottom center/155% auto no-repeat url('../images/dodobg8.png'),#e4e2f7; }
+.dodo8 .content .contentTopTT::before{width: 126px; height: 115px; right: -32px; bottom: -53px; background: center/cover no-repeat url('../images/dododeco8.png');}
+.dodo8 .content .contentTopTT img{transform: translate(53px,20px);}
+
+.wrapAllDrinks .dodo9.wrap .contentBG{ clip-path: none;}
+.dodo9 .contentBG{background: bottom center/155% auto no-repeat url('../images/dodobg9.png'),#faf7cf; }
+.dodo9 .content .contentTopTT::before{width: 76px; height: 118px; right: -12px; bottom: -57px; background: center/cover no-repeat url('../images/dododeco9.png');}
+.dodo9 .content .contentTopTT img{transform: translate(32px,20px);}
+
+/*模組統一修改區*/
+ul.slidecontain{max-width: 1200px; text-align: left;}
+ul.slidecontain li{display: inline-block;width: auto; color: #ffffff; text-align: center; font-size: 24px;  padding: 10px 15px; border-radius: 8px 8px 0 0;}
+ul.slidecontain li img{display: none;}
+header.ph-group-title{display: none;}
+
+section.ph-group{display: none;padding: 10px; border-radius:0 8px 8px 8px;}
+section.ph-group.on{display:flex;flex-flow: row wrap; justify-content: flex-start;}
+article.ph-group-content{position: relative;display: inline-block; width: 24.5%;padding-bottom: 40px; margin: 0 0.5% 0.5% 0; background: #ffffff;box-shadow: 0 3px 6px #00000034; }
+.ph-group-content-text{text-align: left;  padding: 10px 6px 0px 6px; }
+a.ph-group-content-text-name{color: #6e3c00; font-size: 20px; font-weight: 500; line-height: 1.3; }
+p.ph-group-content-text-detail{color: #6c6c6c; font-size: 14px; line-height: 1.3; padding: 5px 0;}
+a.ph-group-content-text-price{position: absolute; color: #f1603a;right: 10px;bottom: 10px; font-size: 25px;}
+.ph-group-content-photo{position: relative;}
+.ph-group-content-photo a img{width: 100%;}
+.ph-group-content-photo span.ph-group-content-tag{position: absolute; top: 16px; left: 0; padding: 4px; font-size: 14px; color: #ffffff; background: #f1603a;}
+
+.likec23 article.ph-group-content{position: relative;display: block; width: auto; padding-bottom: 20px;}
+section.ph-group.likec23.on{display: block;}
+.likec23 .ph-group-content-text{text-align: left;  padding: 10px; margin: 5px 0;}
+.likec23 a.ph-group-content-text-name{font-size: 24px; }
+.likec23 p.ph-group-content-text-detail{font-size: 16px;width: 100%; }
+.likec23 a.ph-group-content-text-price{font-size: 30px;}
+.likec23 .ph-group-content-photo{display: none;}
+
+.dodo1 ul.slidecontain li{background: #ffca10;}
+.dodo1 ul.slidecontain li.on{background:#ff9a49 ;}
+.dodo1 section.ph-group{background: #ff9a49;}
+.dodo1 section.ph-group.on::-webkit-scrollbar-corner,
+.dodo1 section.ph-group.on::-webkit-scrollbar{background: #ff9a49;}
+
+.dodo2 ul.slidecontain li{background: #4abfe6;}
+.dodo2 ul.slidecontain li.on{background:#4a85e6 ;}
+.dodo2 section.ph-group{background: #4a85e6;}
+.dodo2 section.ph-group.on::-webkit-scrollbar-corner,
+.dodo2 section.ph-group.on::-webkit-scrollbar{background: #4a85e6;}
+
+.dodo3 ul.slidecontain li{background: #ff6fba;}
+.dodo3 ul.slidecontain li.on{background:#ff8282 ;}
+.dodo3 section.ph-group{background: #ff8282;}
+.dodo3 section.ph-group.on::-webkit-scrollbar-corner,
+.dodo3 section.ph-group.on::-webkit-scrollbar{background: #ff8282;}
+
+.dodo4 ul.slidecontain li{background: #a6c547;}
+.dodo4 ul.slidecontain li.on{background:#6cb841 ;}
+.dodo4 section.ph-group{background: #6cb841;}
+.dodo4 section.ph-group.on::-webkit-scrollbar-corner,
+.dodo4 section.ph-group.on::-webkit-scrollbar{background: #6cb841;}
+
+.dodo5 ul.slidecontain li{background: #65c5e0;}
+.dodo5 ul.slidecontain li.on{background:#64ceba ;}
+.dodo5 section.ph-group{background: #64ceba;}
+.dodo5 section.ph-group.on::-webkit-scrollbar-corner,
+.dodo5 section.ph-group.on::-webkit-scrollbar{background: #64ceba;}
+
+.dodo6 ul.slidecontain li{background: #bcc34a;}
+.dodo6 ul.slidecontain li.on{background:#d9b643 ;}
+.dodo6 section.ph-group{background: #d9b643;}
+.dodo6 section.ph-group.on::-webkit-scrollbar-corner,
+.dodo6 section.ph-group.on::-webkit-scrollbar{background: #d9b643;}
+
+.dodo7 ul.slidecontain li{background: #f4b964;}
+.dodo7 ul.slidecontain li.on{background:#f2956a ;}
+.dodo7 section.ph-group{background: #f2956a;}
+.dodo7 section.ph-group.on::-webkit-scrollbar-corner,
+.dodo7 section.ph-group.on::-webkit-scrollbar{background: #f2956a;}
+
+.dodo8 ul.slidecontain li{background: #657edc;}
+.dodo8 ul.slidecontain li.on{background:#8d84d9 ;}
+.dodo8 section.ph-group{background: #8d84d9;}
+.dodo8 section.ph-group.on::-webkit-scrollbar-corner,
+.dodo8 section.ph-group.on::-webkit-scrollbar{background: #8d84d9;}
+
+.dodo9 ul.slidecontain li{background: #b0dc3b;}
+.dodo9 ul.slidecontain li.on{background:#dbc920 ;}
+.dodo9 section.ph-group{background: #dbc920;}
+.dodo9 section.ph-group.on::-webkit-scrollbar-corner,
+.dodo9 section.ph-group.on::-webkit-scrollbar{background: #dbc920;}
+
+/*滑桿*/
+section.ph-group.type-3-normal.on::-webkit-scrollbar{height: 10px;width: 10px;}
+section.ph-group.type-3-normal.on::-webkit-scrollbar-thumb{background: #ffffff; border-radius: 99rem;}
+
+/*手機板*/
+@media screen and (max-width:1440px){
+    header.header::before{left: 8%;}
+    .wrapAllDrinks .wrap .contentBG{clip-path: ellipse(100% 58% at 50% 36%);}
+}
+@media screen and (max-width:1200px){
+    #goTop{right: 10px;}
+    header.header::before{width: 115px;}
+    .teaMenu .content{font-size: 18px; width: 80%;}
+    .teaMenu .wrap{padding: 50px 0 0 0;}
+    .teaMenu .drinkList{width: 90%; margin: 25px auto;}
+    .teaMenu ul li{font-size: 20px; padding: 0 10px;margin: 5px 0;}
+    .drinkList.aaa ul li{font-size: 18px; }
+    .teaMenu .title img{width: 40%;}
+    .wrapAllDrinks .content .contentTopTT img{width: 100%;}
+    ul.slidecontain li{font-size: 22px;}
+    .wrapAllDrinks .wrap .content{padding: 0 10px 180px 10px;}
+    .teaMenu,
+    .wrapAllDrinks .wrap .contentBG{clip-path: ellipse(100% 60% at 50% 36%)}
+    .likec23 a.ph-group-content-text-name{font-size: 22px;}
+    .likec23 p.ph-group-content-text-detail{font-size: 14px;}
+    .likec23 a.ph-group-content-text-price{font-size: 26px;}
+    .wrapAllDrinks .content .contentTopTT p{font-size: 18px;}
+    .wrapAllDrinks .dodo1 .content .contentTopTT{transform: translate(-1%, 0px);}
+    .wrapAllDrinks .dodo2 .content .contentTopTT{transform: translate(-3%, 1%);}
+    .wrapAllDrinks .dodo3 .content .contentTopTT{transform: translate(-2.5%, 0px);}
+    .wrapAllDrinks .dodo4 .content .contentTopTT{transform: translate(-1%, 0px);}
+    .wrapAllDrinks .dodo5 .content .contentTopTT{transform: translate(-1.5%, 2%);}
+    .wrapAllDrinks .dodo6 .content .contentTopTT{transform: translate(-5%, -4%);}
+    .wrapAllDrinks .dodo7 .content .contentTopTT{transform: translate(-6.5%, -1%);}
+    .wrapAllDrinks .dodo8 .content .contentTopTT{transform: translate(-6.5%, 0);}
+    .wrapAllDrinks .dodo9 .content .contentTopTT{transform: translate(-4%, 0px);}
+
+    .wrapAllDrinks .dodo1 .content .contentTopTT p,
+    .wrapAllDrinks .dodo2 .content .contentTopTT p,
+    .wrapAllDrinks .dodo4 .content .contentTopTT p,
+    .wrapAllDrinks .dodo5 .content .contentTopTT p{margin: 22% 5% 0 37%;}
+    .wrapAllDrinks .dodo3 .content .contentTopTT p{margin: 23% 5% 0 37%;}
+    .wrapAllDrinks .dodo6 .content .contentTopTT p{margin: 24% 4% 0 38%;}
+    .wrapAllDrinks .dodo7 .content .contentTopTT p{margin: 23% 0% 0 49%;}
+    .wrapAllDrinks .dodo8 .content .contentTopTT p{margin: 26% 0% 0 36%;}
+    .wrapAllDrinks .dodo9 .content .contentTopTT p{margin: 24% 2% 0 37%;}
+    
+}
+@media screen and (max-width:1024px){
+    header.header{height: auto; background: none;}
+    header.header h1{display: block;}
+    header.header h1 img{width: 100%;}
+    nav.menuBar{padding: 8px 0;}
+    nav.menuBar ul li{width: 190px;}
+    .drinkList.aaa{top: 58px;}
+    .teaMenu, .wrapAllDrinks .wrap .contentBG{clip-path: ellipse(117% 60% at 50% 33%);}
+    .teaMenu .drinkList{width: 100%;}
+    .teaMenu .wrap{padding: 60px 10px 40px 10px;}
+    .teaMenu .content{width: 80%;}
+    ul.slidecontain li{font-size: 20px;padding: 8px 10px;}
+    article.ph-group-content{width: 30%;}
+    .content .contentTopTT::before{background-size: 100% auto;}
+    .dodo1 .content .contentTopTT::before{width: 159px; height: 125px;bottom: -26%;}
+    .dodo2 .content .contentTopTT::before{width: 149px;}
+    .dodo3 .content .contentTopTT::before{width: 43px;height: 130px;right: -14px;bottom: -76px;}
+    .drinkList.aaa ul li{padding: 0 8px;margin: 8px 0;}
+}
+@media screen and (max-width:946px){
+    .wrapAllDrinks .content .contentTopTT p{font-size: 16px;}
+    .wrapAllDrinks .content .contentTopPic{width: 28%;}
+    .wrapAllDrinks .content .contentTopTT{width: 71%;}
+    .drinkList.aaa ul{white-space: nowrap; overflow: scroll;}
+}
+@media screen and (max-width:860px){
+    header.header::before{display: none;}
+    nav.menuBar ul li{font-size: 22px;}
+    .teaMenu .title img{width: 55%;}
+    .teaMenu .content{width: 85%; font-size: 16px;}
+    .teaMenu ul li{font-size: 19px;}
+    .teaMenu .wrap{padding: 15px 10px 0px 10px;}
+    .teaMenu, .wrapAllDrinks .wrap .contentBG{clip-path: ellipse(122% 55% at 50% 33%);}
+    a.ph-group-content-text-name,
+    .likec23 a.ph-group-content-text-name{font-size: 18px;}
+    p.ph-group-content-text-detail{padding: 0 0 0px 0; line-height: 1.5;}
+    .likec23 a.ph-group-content-text-price{font-size: 22px;}
+    .likec23 a.ph-group-content-text-price span{font-size: 18px; vertical-align: baseline;}
+
+    .wrapAllDrinks .content .contentTop{position: relative;}
+    .wrapAllDrinks .content .contentTopPic{position: absolute; width:23%; right: 12px; top: -57px;}
+    .wrapAllDrinks .content .contentTopTT{width: 90%;}
+    .wrapAllDrinks .dodo1 .content .contentTopTT{transform: translate(-4%, 0px);}
+    .wrapAllDrinks .dodo2 .content .contentTopTT{transform: translate(-7%, 1%);}
+    .wrapAllDrinks .dodo3 .content .contentTopTT{transform: translate(-4.5%, 8px);}
+    .wrapAllDrinks .dodo4 .content .contentTopTT{transform: translate(-5%, 0px);}
+    .wrapAllDrinks .dodo5 .content .contentTopTT{transform: translate(-6.5%, 2%);}
+    .wrapAllDrinks .dodo6 .content .contentTopTT{transform: translate(-10%, -4%);}
+    .wrapAllDrinks .dodo7 .content .contentTopTT{transform: translate(-11.5%, -1%);}
+    .wrapAllDrinks .dodo8 .content .contentTopTT{transform: translate(-12.5%, 0);}
+    .wrapAllDrinks .dodo9 .content .contentTopTT{transform: translate(-10%, 0px);}
+}
+@media screen and (max-width:768px){
+    .drinkList.aaa ul{white-space: nowrap; overflow: scroll;}
+    .drinkList.aaa ul li{font-size: 16px;}
+    section.ph-group.on{display: block; white-space: nowrap; overflow: scroll; text-align: left;}
+    article.ph-group-content{width: 49%;}
+    .ph-group-content-text{white-space: normal;}
+    .likec23 p.ph-group-content-text-detail{width: 100%;}
+}
+@media screen and (max-width:660px){
+    nav ul li,nav.menuBar ul li{padding: 8px 0; font-size: 20px;}
+    nav.menuBar{padding: 5px 0;}
+    .drinkList.aaa{top: 46px;}
+    .teaMenu{padding-bottom: 100px;}
+    .teaMenu .content{width: 100%;}
+    .teaMenu .content br{display: none;}
+    .teaMenu .wrap{padding: 10px 10px 0 10px;}
+    .teaMenu .title img{width: 70%;}
+    .wrapAllDrinks .content .contentTopTT{width: 100%;}
+    ul.slidecontain li{font-size: 18px;}
+    .wrapAllDrinks .dodo7 .content .contentTopTT p{margin: 21% 0% 0 45%;}
+    section.ph-group{padding: 5px;}
+    
+}
+@media screen and (max-width:590px){
+    .teaMenu .drinkList{display: none;}
+    .teaMenu .wrap{padding: 0;}
+    .teaMenu .title{margin-bottom: 10px;}
+    .teaMenu .content{margin: 30px 0; padding: 0 10px;}
+    .teaMenu, .wrapAllDrinks .wrap .contentBG{clip-path: ellipse(125% 52% at 50% 43%);}
+    .wrapAllDrinks .wrap .content{padding: 0 10px 76px 10px;}
+    .wrapAllDrinks .content .contentTopPic{display: none;}
+    .teaMenu .content::before, .teaMenu .content::after{display: none;}
+    .content .contentTopTT::before{display: none;}
+    article.ph-group-content{width: 60%;}
+    .likec23 .ph-group-content-text{padding: 5px;}
+    .wrapAllDrinks .content .contentTopTT p{font-size: 14px;}
+    .wrapAllDrinks .dodo2 .content .contentTopTT{transform: translate(-7%, 0);}
+    .wrapAllDrinks .dodo3 .content .contentTopTT{transform: translate(-4.5%, 0);}
+    .wrapAllDrinks .dodo4 .content .contentTopTT{transform: translate(-5%, 0);}
+    .wrapAllDrinks .dodo5 .content .contentTopTT{transform: translate(-3.5%, 0);}
+    .wrapAllDrinks .dodo6 .content .contentTopTT{transform: translate(-8%, 0);}
+    .wrapAllDrinks .dodo7 .content .contentTopTT{transform: translate(-7.5%, 0);}
+    .wrapAllDrinks .dodo8 .content .contentTopTT{transform: translate(-9.5%, 0);}
+    .wrapAllDrinks .dodo9 .content .contentTopTT{transform: translate(-6%, 0);}
+    .dodo5 .content .contentTopTT img{transform: translate(6px,-3px);}
+    .wrapAllDrinks .dodo1 .content .contentTopTT p,
+    .wrapAllDrinks .dodo2 .content .contentTopTT p,
+    .wrapAllDrinks .dodo4 .content .contentTopTT p,
+    .wrapAllDrinks .dodo5 .content .contentTopTT p{margin: 21% 3% 0 35%;}
+    .wrapAllDrinks .dodo3 .content .contentTopTT p{margin: 23% 0% 0 36%;}
+    .wrapAllDrinks .dodo6 .content .contentTopTT p{margin: 24% 0% 0 38%;}
+    .wrapAllDrinks .dodo7 .content .contentTopTT p{margin: 21% 0% 0 47%;}
+    .wrapAllDrinks .dodo9 .content .contentTopTT p{margin: 24% 0% 0 36%;}
+    .wrapAllDrinks .content .contentBottom{margin-top: 20px;}
+}
+@media screen and (max-width:425px){
+    nav.menuBar ul li{width: 150px; margin: 0;}
+    .teaMenu{padding-bottom: 30px;}
+    .teaMenu .content{margin: 15px 0; padding: 0 10px; font-size: 14px;}
+    .teaMenu .title img{width: 90%;}
+    a.ph-group-content-text-name, .likec23 a.ph-group-content-text-name{font-size: 16px;}
+    section.ph-group{padding: 3px;}
+    ul.slidecontain li{font-size: 16px;}
+    article.ph-group-content{width: 330px;}
+    ul.slidecontain li{padding: 8px;}
+    a.ph-group-content-text-price{font-size: 22px;}
+    .wrapAllDrinks .content .contentTopTT img{width: 106%;}
+    .wrapAllDrinks .content .contentTopTT p{font-size: 12px;}
+    .wrapAllDrinks .dodo3 .content .contentTopTT{transform: translate(-11%, 0);}
+    .wrapAllDrinks .dodo1 .content .contentTopTT,.wrapAllDrinks .dodo2 .content .contentTopTT,.wrapAllDrinks .dodo4 .content .contentTopTT,.wrapAllDrinks .dodo5 .content .contentTopTT{transform: translate(-21px, 0);}
+    .dodo1 .content .contentTopTT img,.dodo2 .content .contentTopTT img,.dodo4 .content .contentTopTT img,.dodo5 .content .contentTopTT img{transform: translate(0, 0);}
+    .wrapAllDrinks .dodo6 .content .contentTopTT{transform: translate(-8%, 0);}
+    .wrapAllDrinks .dodo7 .content .contentTopTT{transform: translate(-7.5%, 0);}
+    .wrapAllDrinks .dodo8 .content .contentTopTT{transform: translate(-9.5%, 0);}
+    .wrapAllDrinks .dodo9 .content .contentTopTT{transform: translate(-6%, 0);}
+    .dodo6 .content .contentTopTT img{transform: translate(8px,4px);}
+    .dodo7 .content .contentTopTT img{transform: translate(9px,3px);}
+    .dodo8 .content .contentTopTT img{transform: translate(20px,13px);}
+    .dodo9 .content .contentTopTT img{transform: translate(0px,10px);}
+    .wrapAllDrinks .dodo1 .content .contentTopTT p,.wrapAllDrinks .dodo2 .content .contentTopTT p,.wrapAllDrinks .dodo4 .content .contentTopTT p,.wrapAllDrinks .dodo5 .content .contentTopTT p{margin: 21% 0 0 37%;}
+    .wrapAllDrinks .dodo3 .content .contentTopTT p{margin: 25% -4% 0 43%;}
+    .wrapAllDrinks .dodo7 .content .contentTopTT p {margin: 27% 0% 0 44%;}
+}

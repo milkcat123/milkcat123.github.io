@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW"> <!--語言為繁體中文-->
+    <head>
+        <meta charset="UTF-8"> <!--編碼-->
+        <!--#include virtual="./inc/seo_free.shtml"-->
+        <link rel="stylesheet" href="../../css/reset.css" type="text/css">
+        <link rel="stylesheet" href="./css/style.css?v=20210225" type="text/css">
+        <!-- c26樣式 -->
+        <link rel="stylesheet" href="./css/c26-style.css" type="text/css">
+        <!--寬度符合裝置的寬度-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;">
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="mktContent">
+            <!--版頭-->
+            <header class="header">
+                <h1>
+                    <img src="./images/header-m.jpg" alt="作客北北基">
+                </h1>
+                <!-- 個人自由行-團體旅遊 按鈕 -->
+                <div class="wrap-menu">
+                    <ul class="menu-bar">
+                        <li class="on"><a>個人自由行</a></li>
+                        <li><a href="group.html">團體旅遊</a></li>
+                    </ul>
+                </div>
+            </header>
+            <!-- 內容區塊 -->
+            <section class="wrap-content">
+                <!-- 頁籤 -->
+                <div class="wrap-tags-bar">
+                    <ul class="tags-bar">
+                        <li><a href="index.html">推薦行程</a></li>
+                        <li class="on"><a>特色飯店</a></li>
+                        <li><a href="hotspots.html">景點介紹</a></li>
+                    </ul>
+                    <div class="deco-bar"></div>
+                </div>
+
+                <!-- 模組內容 -->
+                <div class="standard-content" id="hotels">
+                    <ul class="archor-list">
+                        <li>基隆飯店精選</li>
+                        <li>雙北飯店精選</li>
+                    </ul>
+                    <div class="archor-content">
+                        <div class="hotel-title">基隆飯店精選</div>
+                        <!--#include virtual="./mod/ttc_23985.shtml"-->
+                    </div>
+                    <div class="archor-content">
+                        <div class="hotel-title">雙北飯店精選</div>
+                        <!--#include virtual="./mod/ttc_23984.shtml"-->
+                    </div>
+                </div>
+                <div class="deco-bar"></div>
+            </section>
+        </div><!--mktContent-->
+        <script>
+            $(document).ready(function(){
+                    var archor_li = $('ul.archor-list').find('li');
+                    archor_li.click(function(){
+                    var archor_content = $('.standard-content').find('.archor-content');
+                    var li_num = $(this).index();
+                    console.log("點擊index:" + li_num);
+                    $('html,body').animate({scrollTop: archor_content.eq(li_num).offset().top},500);
+
+                });
+            });
+        </script>
+    </body>
+</html>

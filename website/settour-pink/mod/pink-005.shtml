@@ -1,0 +1,94 @@
+<!-- 005 MODULE -->
+<article class="ph">
+    <!-- 直式 三個一排 累加模組 V113 -->
+    <section class="ph-group type-3-normal">
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002683">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GRT/0000/0026/83/ori_32415780.jpg"
+                        alt="
+                                                                                                        【品．奢華】極獻五星酒店、部落原藝生活美學、米其林追星之旅5日
+                                                                                                        "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002683" class="ph-group-content-text-name">
+                    【品．奢華】極獻五星酒店、部落原藝生活美學、米其林追星之旅5日
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    我是範例，請自行修改內容
+                </p>
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002683" class="ph-group-content-text-price">
+                    <span>5天</span>
+                    $18,888 <span>起</span>
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+    </section>
+    <section class="ph-group type-3-normal">
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002105">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GRT/0000/0021/05/ori_32437970.jpg"
+                        alt="
+                                                                                                        【環島巴士】見晴古道森呼吸、太魯閣大峽谷、池上金黃稻海、落羽松秘境6日
+                                                                                                        "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002105" class="ph-group-content-text-name">
+                    【環島巴士】見晴古道森呼吸、太魯閣大峽谷、池上金黃稻海、落羽松秘境6日
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    我是範例，請自行修改內容
+                </p>
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002105" class="ph-group-content-text-price">
+                    <span>6天</span>
+                    $9,999 <span>起</span>
+                </a>
+            </div>
+        </article>
+
+    </section>
+    <section class="ph-group type-3-normal">
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://trip.settour.com.tw/taiwan/product/GDP0000000991">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GDP/0000/0009/91/ori_32384618.jpg"
+                        alt="
+                                                                                                        【南島祕境】知本世紀湯饗、太麻里南迴藝術季、墾丁福華海洋五星三日
+                                                                                                        "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/taiwan/product/GDP0000000991" class="ph-group-content-text-name">
+                    【南島祕境】知本世紀湯饗、太麻里南迴藝術季、墾丁福華海洋五星三日
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    我是範例，請自行修改內容
+                </p>
+                <a href="https://trip.settour.com.tw/taiwan/product/GDP0000000991" class="ph-group-content-text-price">
+                    <span>3天</span>
+                    $9,200 <span>起</span>
+                </a>
+            </div>
+        </article>
+
+    </section>
+
+</article>

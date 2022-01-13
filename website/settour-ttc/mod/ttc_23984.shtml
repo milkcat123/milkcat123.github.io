@@ -1,0 +1,119 @@
+
+<div class="group-type-ph">
+   <div class="ph">
+      <a href="https://hotel.settour.com.tw/product/HDP0000010441">
+      <div class="ph-img">
+        			<img src="https://photo.settour.com.tw/300x200/https://www.settour.com.tw/ss_img/HDP/0000/0104/41/ori_9706554.jpg" alt="alt" onError="this.src ='/st_ec/img/sys/300x200.gif'"/>
+	      </div>
+      <div class="ph-title">君品酒店</div>
+      <div class="ph-detail">龍蝦分享餐住房專案</div>
+      <div class="ph-feature">
+       
+      </div>
+                  <em class="price">$<span>
+      5,350
+      </span><i>起</i></em>
+                </a>
+  </div>
+    <div class="ph">
+      <a href="https://hotel.settour.com.tw/product/HDP0000000125">
+      <div class="ph-img">
+        			<img src="https://photo.settour.com.tw/300x200/https://www.settour.com.tw/ss_img/HDP/0000/0001/25/ori_7297325.jpg" alt="alt" onError="this.src ='/st_ec/img/sys/300x200.gif'"/>
+	      </div>
+      <div class="ph-title">歐華酒店</div>
+      <div class="ph-detail">小小畢卡闖關成功送500抵用券</div>
+      <div class="ph-feature">
+       
+      </div>
+                  <em class="price">$<span>
+      3,800
+      </span><i>起</i></em>
+                </a>
+  </div>
+    <div class="ph">
+      <a href="https://hotel.settour.com.tw/product/HDP0000000195">
+      <div class="ph-img">
+        			<img src="https://photo.settour.com.tw/300x200/https://i.travelapi.com/hotels/1000000/10000/3200/3180/4e019c61_z.jpg" alt="alt" onError="this.src ='/st_ec/img/sys/300x200.gif'"/>
+	      </div>
+      <div class="ph-title">西華飯店</div>
+      <div class="ph-detail">國人促銷專案</div>
+      <div class="ph-feature">
+       
+      </div>
+                  <em class="price">$<span>
+      3,100
+      </span><i>起</i></em>
+                </a>
+  </div>
+    <div class="ph">
+      <a href="https://hotel.settour.com.tw/product/HDP0000020952">
+      <div class="ph-img">
+        			<img src="https://photo.settour.com.tw/300x200/https://www.settour.com.tw/ss_img/HDP/0000/0209/52/ori_10123549.jpg" alt="alt" onError="this.src ='/st_ec/img/sys/300x200.gif'"/>
+	      </div>
+      <div class="ph-title">美侖商旅</div>
+      <div class="ph-detail">振興優惠專案</div>
+      <div class="ph-feature">
+       
+      </div>
+                  <em class="price">$<span>
+      2,999
+      </span><i>起</i></em>
+                </a>
+  </div>
+    <div class="ph">
+      <a href="https://hotel.settour.com.tw/product/HDP0000020020">
+      <div class="ph-img">
+        			<img src="https://photo.settour.com.tw/300x200/https://www.settour.com.tw/ss_img/HDP/0000/0200/20/ori_5968666.jpg" alt="alt" onError="this.src ='/st_ec/img/sys/300x200.gif'"/>
+	      </div>
+      <div class="ph-title">WESTGATE Hotel永安棧</div>
+      <div class="ph-detail">東南特惠專案</div>
+      <div class="ph-feature">
+       
+      </div>
+                  <em class="price">$<span>
+      3,000
+      </span><i>起</i></em>
+                </a>
+  </div>
+    <div class="ph">
+      <a href="https://hotel.settour.com.tw/product/HDP0000020365">
+      <div class="ph-img">
+        			<img src="https://photo.settour.com.tw/300x200/https://www.settour.com.tw/ss_img/HDP/0000/0203/65/ori_2270090.jpg" alt="alt" onError="this.src ='/st_ec/img/sys/300x200.gif'"/>
+	      </div>
+      <div class="ph-title">德立莊酒店-西門館</div>
+      <div class="ph-detail">東南特惠專案</div>
+      <div class="ph-feature">
+       
+      </div>
+                  <em class="price">$<span>
+      1,800
+      </span><i>起</i></em>
+                </a>
+  </div>
+    <div class="ph">
+      <a href="https://hotel.settour.com.tw/product/HDP0000020963">
+      <div class="ph-img">
+        			<img src="https://photo.settour.com.tw/300x200/https://www.settour.com.tw/ss_img/HDP/0000/0209/63/ori_26173415.jpg" alt="alt" onError="this.src ='/st_ec/img/sys/300x200.gif'"/>
+	      </div>
+      <div class="ph-title">淡水將捷金鬱金香酒店</div>
+      <div class="ph-detail">東南特惠專案</div>
+      <div class="ph-feature">
+       
+      </div>
+                  <em class="price">$<span>
+      4,950
+      </span><i>起</i></em>
+                </a>
+  </div>
+  </div>
+
+<script>
+    $(function(){
+		$('.ph', '.group-type-ph').hover(function(){
+					$(this).siblings('.ph').addClass('masked');
+				}, function(){
+					$(this).siblings('.ph').removeClass('masked');
+			});
+			
+    });
+</script>

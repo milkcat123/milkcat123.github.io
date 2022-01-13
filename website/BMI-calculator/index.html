@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW"> <!--語言為繁體中文-->
+    <head>
+        <meta charset="UTF-8"> <!--編碼-->
+        <title>YUKI's BMI計算紀錄器</title>
+        <link rel="stylesheet" href="../../css/reset.css" type="text/css">
+        <link rel="stylesheet" href="./css/style.css" type="text/css">
+        <!--寬度符合裝置的寬度-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;">
+    </head>
+    <body>
+        <div class="calculate-wrap">
+            <div id="logo"></div>
+            <div class="calculate-area">
+                <div class="height-area">
+                    身高 cm
+                    <input id="height-input" type="text" placeholder="請輸入身高" >
+                </div>
+                <div class="weight-area">
+                    體重 kg
+                    <input id="weight-input" type="text" placeholder="請輸入體重" >
+                </div>
+            </div><!--calculate-area-->
+            <button id="calculate-button">
+                看結果
+            </button><!--calculate-button-->
+            <div id="calculate-button-clicked">
+                 <span>BMI</span>
+                <div id="clicked-result"></div>
+                <div id="calculate-button-clicked-loop"></div>
+            </div><!--calculate-button-clicked-->
+            
+        </div><!--calculate-wrap-->
+        <div class="result-wrap">
+            <h2>BMI紀錄</h2>
+            <ul id="result-list">
+            </ul>
+        </div><!--result-wrap-->
+        <button id="cleanUp">清除所有紀錄</button>
+        <footer></footer>
+        <script type="text/javascript" src="./js/main.js"></script>
+    </body>
+</html>

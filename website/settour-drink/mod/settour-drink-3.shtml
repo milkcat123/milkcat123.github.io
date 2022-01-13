@@ -1,0 +1,607 @@
+<!-- settour-drink-3 MODULE -->
+<article class="ph">
+    <nav class="ph-menu has-banner">
+        <ul class="slidecontain">
+            <li>
+                <a class="anchorLink" href="#9736">
+                    <img src="https://www.settour.com.tw/st_dist/img/amp/poi-icon-01.png" alt="訂房住宿" />
+                    <div>訂房住宿 </div>
+                </a>
+            </li>
+            <li>
+                <a class="anchorLink" href="#9740">
+                    <img src="https://www.settour.com.tw/st_dist/img/amp/poi-icon-01.png" alt="當地體驗、票券" />
+                    <div>當地體驗、票券 </div>
+                </a>
+            </li>
+            <li>
+                <a class="anchorLink" href="#9738">
+                    <img src="https://www.settour.com.tw/st_dist/img/amp/poi-icon-01.png" alt="遊輪" />
+                    <div>遊輪 </div>
+                </a>
+            </li>
+        </ul>
+        
+    </nav>
+    <!--錨點選單結束-->
+
+    <section class="ph-group type-3-normal">
+        <!--ph-group-content-->
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://hotel.settour.com.tw/product/HDP0000020391">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/cms/20210504/ce1b622a-d49b-4246-8f34-3e51ffe19efc.jpg"
+                        alt="
+                                                                                                        澎湖元泰大飯店
+                                                                                                        "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://hotel.settour.com.tw/product/HDP0000020391" class="ph-group-content-text-name">
+                    澎湖元泰大飯店
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    鄰近澎湖生活博物館
+                </p>
+                <a href="https://hotel.settour.com.tw/product/HDP0000020391" class="ph-group-content-text-price">
+                    <span></span>
+                    $2,500 <span>起</span>
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://hotel.settour.com.tw/product/HDP0000026068">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/HDP/0000/0260/68/HDP0000026068_s.jpg"
+                        alt="
+                                                                                                        安泊旅店
+                                                                                                        "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://hotel.settour.com.tw/product/HDP0000026068" class="ph-group-content-text-name">
+                    安泊旅店
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    鄰近澎湖生活博物館
+                </p>
+                <a href="https://hotel.settour.com.tw/product/HDP0000026068" class="ph-group-content-text-price">
+                    <span></span>
+                    請洽客服
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://hotel.settour.com.tw/product/HDP0000020498">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/HDP/0000/0204/98/HDP0000020498_s.jpg"
+                        alt="
+                                                                                                        澎湖福朋喜來登酒店
+                                                                                                        "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://hotel.settour.com.tw/product/HDP0000020498" class="ph-group-content-text-name">
+                    澎湖福朋喜來登酒店
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    位於馬公中心地帶
+                </p>
+                <a href="https://hotel.settour.com.tw/product/HDP0000020498" class="ph-group-content-text-price">
+                    <span></span>
+                    $4,450 <span>起</span>
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://hotel.settour.com.tw/product/HDP0000000458">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/HDP/0000/0004/58/HDP0000000458_s.jpg"
+                        alt="
+                                                                                                        澎湖和田大飯店
+                                                                                                        "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://hotel.settour.com.tw/product/HDP0000000458" class="ph-group-content-text-name">
+                    澎湖和田大飯店
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    鄰近馬公港和中央老街
+                </p>
+                <a href="https://hotel.settour.com.tw/product/HDP0000000458" class="ph-group-content-text-price">
+                    <span></span>
+                    $4,000 <span>起</span>
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://hotel.settour.com.tw/product/HDP0000024980">
+                    <img src="https://photo.settour.com.tw/900x600/https://i.travelapi.com/hotels/25000000/24180000/24178300/24178275/8e6bbbe9_z.jpg"
+                        alt="
+                                                                                                        加利利海民宿
+                                                                                                        "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://hotel.settour.com.tw/product/HDP0000024980" class="ph-group-content-text-name">
+                    加利利海民宿
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    鄰近海洋資源館
+                </p>
+                <a href="https://hotel.settour.com.tw/product/HDP0000024980" class="ph-group-content-text-price">
+                    <span></span>
+                    $2,750 <span>起</span>
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://hotel.settour.com.tw/product/HDP0000023091">
+                    <img src="https://photo.settour.com.tw/900x600/https://i.travelapi.com/hotels/39000000/38700000/38690900/38690802/3a4c242b_z.jpg"
+                        alt="
+                                                                                                        北極星民宿
+                                                                                                        "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://hotel.settour.com.tw/product/HDP0000023091" class="ph-group-content-text-name">
+                    北極星民宿
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    鄰近澎湖開拓館和海洋資源館
+                </p>
+                <a href="https://hotel.settour.com.tw/product/HDP0000023091" class="ph-group-content-text-price">
+                    <span></span>
+                    $3,450 <span>起</span>
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://hotel.settour.com.tw/product/HDP0000024173">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/HDP/0000/0241/73/HDP0000024173_s.jpg"
+                        alt="
+                                                                                                        澎湖夏綠第民宿
+                                                                                                        "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://hotel.settour.com.tw/product/HDP0000024173" class="ph-group-content-text-name">
+                    澎湖夏綠第民宿
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    鄰近東衛石雕公園和海洋資源館
+                </p>
+                <a href="https://hotel.settour.com.tw/product/HDP0000024173" class="ph-group-content-text-price">
+                    <span></span>
+                    $1,900 <span>起</span>
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://hotel.settour.com.tw/product/HDP0000022797">
+                    <img src="https://photo.settour.com.tw/900x600/https://i.travelapi.com/hotels/32000000/31200000/31192600/31192588/e21ae798_z.jpg"
+                        alt="
+                                                                                                        宸楓民宿
+                                                                                                        "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://hotel.settour.com.tw/product/HDP0000022797" class="ph-group-content-text-name">
+                    宸楓民宿
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    開車5分鐘即可抵達海洋資源館
+                </p>
+                <a href="https://hotel.settour.com.tw/product/HDP0000022797" class="ph-group-content-text-price">
+                    <span></span>
+                    $3,250 <span>起</span>
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+        <!-- end of foreach -->
+    </section>
+    <!-- 看更多連結 -->
+    <header class="ph-group-title" id="9740">
+        <img src="https://www.settour.com.tw/st_dist/img/amp/poi-icon-01.png" alt="當地體驗、票券" onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';" />
+        <span>當地體驗、票券</span>
+
+    </header>
+
+    <section class="ph-group type-3-normal">
+        <!--ph-group-content-->
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://ticket.settour.com.tw/product/TKT0000007387">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/TKT/0000/0073/87/ori_30537904.jpg"
+                        alt="
+                                                                                                        【澎湖出發】澎湖七美望安跳島體驗 一日遊
+                                                                                                        "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://ticket.settour.com.tw/product/TKT0000007387" class="ph-group-content-text-name">
+                    【澎湖出發】澎湖七美望安跳島體驗 一日遊
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    七美望安跳島體驗包含馬公至七美、望安島全程船票，帶你輕鬆悠遊小島風光<br />
+                </p>
+                <a href="https://ticket.settour.com.tw/product/TKT0000007387" class="ph-group-content-text-price">
+                    <span></span>
+                    請洽客服
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://ticket.settour.com.tw/product/TKT0000007988">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/TKT/0000/0079/88/ori_31849759.jpg"
+                        alt="
+                                                                                                        【澎湖】 | 吉貝一日遊 | 來回船票&島上機車&水上活動
+                                                                                                        "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://ticket.settour.com.tw/product/TKT0000007988" class="ph-group-content-text-name">
+                    【澎湖】 | 吉貝一日遊 | 來回船票&島上機車&水上活動
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    吉貝船票、機車+ 潮間帶抱墩活動體驗
+                </p>
+                <a href="https://ticket.settour.com.tw/product/TKT0000007988" class="ph-group-content-text-price">
+                    <span></span>
+                    請洽客服
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://ticket.settour.com.tw/product/TKT0000007981">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/TKT/0000/0079/81/ori_31849702.jpg"
+                        alt="
+                                                                                                        【澎湖】租車自駕遊，多點接客取車，1-3日任選
+                                                                                                        "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://ticket.settour.com.tw/product/TKT0000007981" class="ph-group-content-text-name">
+                    【澎湖】租車自駕遊，多點接客取車，1-3日任選
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    澎湖租車自駕輕鬆方便、多點接客取車，還可以至住宿地點接送至取還車點。<br />
+                </p>
+                <a href="https://ticket.settour.com.tw/product/TKT0000007981" class="ph-group-content-text-price">
+                    <span></span>
+                    請洽客服
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://ticket.settour.com.tw/product/TKT0000008003">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/TKT/0000/0080/03/ori_31872740.jpg"
+                        alt="
+                                                                                                        【澎湖組合優惠】澎湖潛水+夜釣小管
+                                                                                                        "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://ticket.settour.com.tw/product/TKT0000008003" class="ph-group-content-text-name">
+                    【澎湖組合優惠】澎湖潛水+夜釣小管
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    專業教練帶領，體驗精彩的潛水假期；澎湖熱門夜間活動，夜釣小管。
+                </p>
+                <a href="https://ticket.settour.com.tw/product/TKT0000008003" class="ph-group-content-text-price">
+                    <span></span>
+                    請洽客服
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://ticket.settour.com.tw/product/TKT0000007987">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/TKT/0000/0079/87/ori_31849766.jpg"
+                        alt="
+                                                                                                        【澎湖】｜水上活動推薦｜海洋拖曳傘高空飛行體驗
+                                                                                                        "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://ticket.settour.com.tw/product/TKT0000007987" class="ph-group-content-text-name">
+                    【澎湖】｜水上活動推薦｜海洋拖曳傘高空飛行體驗
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    飛上將近 50 公尺高空，感受被騰空拉起的衝鋒快感。
+                </p>
+                <a href="https://ticket.settour.com.tw/product/TKT0000007987" class="ph-group-content-text-price">
+                    <span></span>
+                    請洽客服
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://ticket.settour.com.tw/search?ctp=1&cp=&nt=&p1p=6&p2p=&kp=%E6%BE%8E%E6%B9%96&st=SD">
+                    <img src="" alt="
+                                                                                                        更多【澎湖】一日遊方案、票券購買 / 自訂個人化澎湖行程的好幫手
+                                                                                                        "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://ticket.settour.com.tw/search?ctp=1&cp=&nt=&p1p=6&p2p=&kp=%E6%BE%8E%E6%B9%96&st=SD"
+                    class="ph-group-content-text-name">
+                    更多【澎湖】一日遊方案、票券購買 / 自訂個人化澎湖行程的好幫手
+                </a>
+                <p class="ph-group-content-text-sale">
+
+                </p>
+                <p class="ph-group-content-text-detail">
+                    七美島浮潛、海灣露營車、海底郵筒、當地租車、 SUP立槳、高空拖曳傘、透明獨木舟、跳島體驗、機車船票組合...等。
+                </p>
+                <a href="https://ticket.settour.com.tw/search?ctp=1&cp=&nt=&p1p=6&p2p=&kp=%E6%BE%8E%E6%B9%96&st=SD"
+                    class="ph-group-content-text-price">
+                    請點我
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+        <!-- end of foreach -->
+    </section>
+    <!-- 看更多連結 -->
+
+
+
+    <header class="ph-group-title" id="9738">
+        <img src="https://www.settour.com.tw/st_dist/img/amp/poi-icon-01.png" alt="遊輪" onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';" />
+        <span>遊輪</span>
+
+    </header>
+
+    <section class="ph-group type-3-normal">
+        <!--ph-group-content-->
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://tour.settour.com.tw/product/GFG0000021659">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GFG/0000/0216/59/ori_30991869.jpg"
+                        alt="
+                                                                                                        【星夢遊輪-探索夢號】澎湖自由行三日（海景二人房．含稅）
+                                                                                                        "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://tour.settour.com.tw/product/GFG0000021659" class="ph-group-content-text-name">
+                    【星夢遊輪-探索夢號】澎湖自由行三日（海景二人房．含稅）
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+
+                </p>
+                <a href="https://tour.settour.com.tw/product/GFG0000021659" class="ph-group-content-text-price">
+                    <span>3天</span>
+                    請洽客服
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://tour.settour.com.tw/product/GFG0000021662">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GFG/0000/0216/62/ori_30995667.jpg"
+                        alt="
+                                                                                                        【星夢遊輪-探索夢號】澎湖自由行三日（露臺二人房．含稅）
+                                                                                                        "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://tour.settour.com.tw/product/GFG0000021662" class="ph-group-content-text-name">
+                    【星夢遊輪-探索夢號】澎湖自由行三日（露臺二人房．含稅）
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+
+                </p>
+                <a href="https://tour.settour.com.tw/product/GFG0000021662" class="ph-group-content-text-price">
+                    <span>3天</span>
+                    請洽客服
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://tour.settour.com.tw/product/GFG0000021665">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GFG/0000/0216/65/ori_30995671.jpg"
+                        alt="【星夢遊輪-探索夢號】澎湖自由行三日（皇宮套房二人房．含稅）"
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://tour.settour.com.tw/product/GFG0000021665" class="ph-group-content-text-name">
+                    【星夢遊輪-探索夢號】澎湖自由行三日（皇宮套房二人房．含稅）
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+
+                </p>
+                <a href="https://tour.settour.com.tw/product/GFG0000021665" class="ph-group-content-text-price">
+                    <span>3天</span>
+                    請洽客服
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://tour.settour.com.tw/product/GFG0000021650">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GFG/0000/0216/50/ori_30993275.jpg"
+                        alt="
+                                                                                                        【星夢遊輪-探索夢號】澎湖、金門自由行四日（露臺二人房‧含稅）
+                                                                                                        "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://tour.settour.com.tw/product/GFG0000021650" class="ph-group-content-text-name">
+                    【星夢遊輪-探索夢號】澎湖、金門自由行四日（露臺二人房‧含稅）
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+
+                </p>
+                <a href="https://tour.settour.com.tw/product/GFG0000021650" class="ph-group-content-text-price">
+                    <span>4天</span>
+                    請洽客服
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+        <!-- end of foreach -->
+    </section>
+    <!-- 看更多連結 -->
+
+
+
+</article>

@@ -1,0 +1,74 @@
+
+<div class="group-type-ph">
+   <div class="ph">
+      <a href="https://hotel.settour.com.tw/product/HDP0000000729">
+      <div class="ph-img">
+        			<img src="https://photo.settour.com.tw/300x200/https://www.settour.com.tw/ss_img/HDP/0000/0007/29/ori_2180920.jpg" alt="alt" onError="this.src ='/st_ec/img/sys/300x200.gif'"/>
+	      </div>
+      <div class="ph-title">長榮桂冠酒店(基隆)</div>
+      <div class="ph-detail">東南優惠專案</div>
+      <div class="ph-feature">
+       
+      </div>
+                  <em class="price">$<span>
+      3,800
+      </span><i>起</i></em>
+                </a>
+  </div>
+    <div class="ph">
+      <a href="https://hotel.settour.com.tw/product/HDP0000000697">
+      <div class="ph-img">
+        			<img src="https://photo.settour.com.tw/300x200/https://www.settour.com.tw/ss_img/HDP/0000/0006/97/ori_154273.jpg" alt="alt" onError="this.src ='/st_ec/img/sys/300x200.gif'"/>
+	      </div>
+      <div class="ph-title">華帥海景飯店</div>
+      <div class="ph-detail"> 2分鐘車程即可抵達基隆廟口</div>
+      <div class="ph-feature">
+       
+      </div>
+                  <em class="price">$<span>
+      1,950
+      </span><i>起</i></em>
+                </a>
+  </div>
+    <div class="ph">
+      <a href="https://hotel.settour.com.tw/product/HDP0000020747">
+      <div class="ph-img">
+        			<img src="https://photo.settour.com.tw/300x200/https://www.settour.com.tw/ss_img/HDP/0000/0207/47/ori_5815180.jpg" alt="alt" onError="this.src ='/st_ec/img/sys/300x200.gif'"/>
+	      </div>
+      <div class="ph-title">集好旅店</div>
+      <div class="ph-detail"> 2分鐘車程即可抵達基隆廟口</div>
+      <div class="ph-feature">
+       
+      </div>
+                  <em class="price">$<span>
+      2,500
+      </span><i>起</i></em>
+                </a>
+  </div>
+    <div class="ph">
+      <a href="https://hotel.settour.com.tw/product/HDP0000000543">
+      <div class="ph-img">
+        			<img src="https://photo.settour.com.tw/300x200/https://www.settour.com.tw/ss_img/HDP/0000/0005/43/ori_154256.jpg" alt="alt" onError="this.src ='/st_ec/img/sys/300x200.gif'"/>
+	      </div>
+      <div class="ph-title">萊茵商旅</div>
+      <div class="ph-detail">距基隆港和基隆廟口5分鐘車程</div>
+      <div class="ph-feature">
+       
+      </div>
+                  <em class="price">$<span>
+      2,000
+      </span><i>起</i></em>
+                </a>
+  </div>
+  </div>
+
+<script>
+    $(function(){
+		$('.ph', '.group-type-ph').hover(function(){
+					$(this).siblings('.ph').addClass('masked');
+				}, function(){
+					$(this).siblings('.ph').removeClass('masked');
+			});
+			
+    });
+</script>

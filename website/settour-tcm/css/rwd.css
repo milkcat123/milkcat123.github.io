@@ -1,0 +1,120 @@
+/*手機板*/
+@media (any-hover: hover) {
+    nav ul li:hover .dot{ width: calc(100% - 76px); }
+    #mktContent ul.sub-nav li a:hover{color: var(--main-color);}
+    #mktContent.gold ul.sub-nav li a:hover{color: var(--light-color);}
+
+    .hover-y#goTop:hover,
+    .hover-y li:hover,
+    .hover-y .ph:hover,
+    .hover-y .ph-group-content:hover{ transform: translateY(-4px);}
+}
+
+@media screen and (max-width:1199px){
+    .gold .intro{padding: 0 15px;}
+    main>section{padding: 30px 15px;}
+    main{margin: 30px 15px;}
+}
+@media screen and (max-width:1024px){
+    :root{
+        --goTop:45px;
+    }
+    #goTop{bottom: 10px; right: 10px; font-size: 16px;}
+    #mktContent header.header h1{height: auto;}
+    #mktContent header.header h1 img{display: block; width: 100%;}
+    #mktContent header.header h1::before{display: none;}
+    #mktContent nav ul li a{font-size:24px; padding: 4px 12px;}
+    ul.sub-nav li{width: 250px;}
+    .gold .intro p{font-size:20px; padding: 60px 0;}
+    .gold .intro p::before{left: 15px;}
+    .gold .intro p::after{right: 15px;}
+    main.group .ph-group-content-text-price{margin: 0;}
+    .ph .ph-group:nth-of-type(1) .ph-group-content{display: inline-flex; flex-wrap: wrap;}
+    .ph .ph-group:nth-of-type(1) .ph-group-content-photo{position: relative; width: 100%;}
+    .ph .ph-group:nth-of-type(1) .ph-group-content-text{width: 100%;;}
+    .ph .ph-group:nth-of-type(1) .ph-group-content-tag{left: 0; bottom:-46px; top: auto;}
+    .ph .ph-group:nth-of-type(1) .ph-group-content-text-name{font-size:24px;}
+    .ph .ph-group:nth-of-type(1) .ph-group-content-text-detail{font-size:16px;}
+    #mktContent .ph .ph-group:nth-of-type(1) .ph-group-content-text-price{font-size:28px;}
+    .ph-group-content-text-sale{font-size: 15px;}
+    .ph-group-content-text-name{font-size:20px;}
+    section.tao-2 ul,
+    section.miao-2 ul{justify-content: space-between; }
+    section.tao-2 ul li, 
+    section.miao-2 ul li{width: 49%; margin:10px 0}
+
+
+}
+@media screen and (max-width:768px){
+    #goTop{bottom: 20px;right: 20px;}
+    #mktContent nav ul li a{font-size:20px;}
+    #mktContent nav ul li a span{font-size:26px}
+    nav ul li .dot{height: 10px; width: 10px;left: 32px;bottom: 10px;}
+    nav ul li.on .dot{ width: calc(100% - 64px);}
+    ul.sub-nav li{width: 180px;}
+    ul.sub-nav li a{font-size:20px;}
+    
+    main h2{height:70px;margin: 10px 0 30px 0;}
+    main>section{padding: 0;}
+    main.group>section{padding: 30px 10px 0 10px;}
+    .gold .intro p{font-size:16px; padding: 60px 40px;}
+    .gold .intro p::before,
+    .gold .intro p::after{width: 45px; height: 45px;}
+    .gold .intro{margin: 50px auto 30px auto;}
+    .gold .intro p br{display: none;}
+    .carrier ul, 
+    main.group .content{padding: 0 10px;}
+    .group-type-ph .ph{width: 49%;}
+    .carrier ul, 
+    main.group .content{margin-bottom: 30px;}
+    #mktContent .ph-group-content-text-name{font-size: 18px;}
+    .carrier ul li a strong, 
+    main.group .ph-group-content-text-name{font-size:20px;}
+    .carrier ul li a em, 
+    main.group .ph-group-content-text-price{margin-top: 0;}
+    main.group h2{font-size:18px;}
+    main.group .ph-group-content-text-price{font-size:22px;}
+    .ph .ph-group:nth-of-type(1) .ph-group-content-text{padding-bottom: 40px;}
+    #mktContent .ph .ph-group:nth-of-type(1) .ph-group-content-text-name{font-size: 22px;}
+    
+}
+@media screen and (max-width:425px){
+    nav ul{display: block; overflow-x:scroll; white-space: nowrap; text-align: center;}
+    nav ul li{margin: 0 4px;}
+    #mktContent nav ul li a{font-size:16px;padding: 4px; letter-spacing: unset;}
+    #mktContent nav ul li a span{font-size:22px; margin: 0;}
+    nav ul li .dot{ left: 8px;}
+    nav ul li.on .dot{width: calc(100% - 16px);}
+    .tao ul.sub-nav{display: block; white-space: nowrap; overflow-x:scroll; }
+    main{padding: 0 ; margin: 10px;}
+    main>section{padding: 25px 8px;}
+    main h2{margin: 20px 0 10px 0;}
+    main.group h2::before, 
+    main.group h2::after{width: 38%;}
+    main.group h2{margin: 0 0 20px 0;}
+    .gold .intro{padding: 0;}
+    .gold .intro p{padding: 50px 15px; font-size: 14px;}
+    .gold .intro p::before, 
+    .gold .intro p::after{width: 35px; height: 35px;}
+    section .content{padding: 4px;}
+    .ph .ph-group:nth-of-type(1) .ph-group-content::before{width: 60px; height: 90px;}
+    .ph .ph-group:nth-of-type(1) .ph-group-content::after{left: 62px; top:26px;}
+    .ph .ph-group:nth-of-type(1) .ph-group-content-text-name{font-size:20px;}
+    #mktContent .ph .ph-group:nth-of-type(1) .ph-group-content-text-price{font-size:24px;}
+    #mktContent .ph .ph-group:nth-of-type(1) .ph-group-content-text-price span{font-size:16px;}
+    .ph .ph-group:nth-of-type(1) .ph-group-content-text-detail{font-size: 16px; font-weight: 300;}
+    .ph-group-content{padding: 4px;}
+    .ph-group-content-text-name{font-size:16px; }
+    .ph-group-content-text-detail{font-size: 15px;}
+    .ph-group-content-text-price{font-size:20px;}
+    .ph-group-content-text-price span{font-size:16px;}
+    section.tao-2 ul li,
+    section.miao-2 ul li{width: 100%;}
+    .group-type-ph .ph{width: 100%;}
+    .carrier ul li a,
+    main.group .ph-group-content-text{padding: 0 0 6px 0;}
+    .carrier ul,
+    main.group .content{padding: 0;}
+    .content h3{padding: 0 4px;}
+    .carrier h4{margin-bottom: 12px;}
+}

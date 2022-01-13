@@ -1,0 +1,113 @@
+* { box-sizing: border-box; font-family: Arial, Helvetica, sans-serif, '思源黑體', '微軟正黑體'; transition: 0.3s;}
+body{display:block; overflow-x: hidden; text-align: center;}
+#goTop{ display:none;z-index:10; position: fixed; right: 28px; bottom: 40px; width: 24px; height: 24px; background:center top / contain no-repeat url(../images/btn_goTop.png); cursor: pointer;}
+
+section#header{height: 380px; width: 100%; text-align: center; background:url(../images/Hero.jpg)no-repeat fixed ; background-size:contain;}
+#header h1{display:inline-block;width: 100%;font-weight:500; font-size :46px;word-spacing: 4px; color: #ffffff; margin: 104px 0 76px 0; }
+#choose-district{width: 452px; height:48px;font-size:21px; font-weight:600;color: black; padding: 0 10px; border: #ffffff 3px solid; border-radius: 3px;
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    background:url('../images/icons_down.png') no-repeat 98% center,rgba(255, 255, 255, 0.7);}
+
+#wrap-content{width: 100%; background-color: #f7f7f7; text-align: center;}
+.pop-district{display: inline-block; width:80%;max-width: 960px; text-align:left; background-color: #fff; padding:20px 26px;margin-top: -30px; border-radius:5px; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);}
+.pop-district p{width:100%;  font-size: 18px; font-weight:500; color: black; margin-bottom:14px ; }
+ul#pop{display:flex;flex-wrap:wrap;}
+li.pop-district-single{display: inline-block;width: 135px; font-size:18px; text-align: center; color: #ffffff;padding: 10px 0; margin: 8px 4px; border-radius:5px; cursor: pointer;}
+li.pop-district-single:hover{transform: scale(1.05);}
+li.pop-district-single:nth-child(1){ background: #9173c0;}
+li.pop-district-single:nth-child(2){ background: #e46e8b;}
+li.pop-district-single:nth-child(3){ background: #6f96eb;}
+li.pop-district-single:nth-child(4){ background: #5dc5d3;}
+li.pop-district-single:nth-child(5){ background: #6cd39a;}
+li.pop-district-single:nth-child(6){ background: #b8ca4e;}
+
+.seperate-line{position:relative;max-width: 1024px; height:24px;background: url(../images/icons_down_blue.png) center center no-repeat; padding: 0 24px; margin: 36px auto;}
+.seperate-line::before,
+.seperate-line::after{content:"";position:absolute; width: calc(50% - 12px); top: calc(50% - 1px); border-top: 2px dashed #559AC8; }
+.seperate-line::before{left: 0;}
+.seperate-line::after{right: 0;}
+
+.district-info{max-width:1024px; padding:0 32px; margin: 0 auto;}
+h2#district-name{font-size:34px ; font-weight: 500; color: #559AC8; padding: 24px 0;}
+#district-info-content{display: inline-flex; flex-wrap:wrap;}
+.district-info-content-single{display: inline-block; width: 48%; padding-bottom:8px; margin:18px 8px ;text-align: left; background:#ffffff; box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);}
+.district-info-content-single-img{position:relative;height: 200px;text-align:center;background-color: #ffffff; margin-bottom: 10px; overflow: hidden;}
+.district-info-content-single-img img{width: 100%;transform: translate(0,-20px);}
+.district-info-content-single:hover .district-info-content-single-img img{transform: scale(1.2); transition:2.3s;}
+.district-info-content-single-title{position:absolute; width: 100%; bottom: 0px; left: 0px;font-size:24px; font-weight:300;color: #fff;line-height:1.2;text-align: left; padding: 18px 17% 8px 22px; background: linear-gradient(to top,rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0));}
+.district-info-content-single-district{position: absolute; bottom: 11px; right: 24px; color: #fff; font-size: 16px;}
+.district-info-content-single-time,.district-info-content-single-address,.district-info-content-single-phone,.district-info-content-single-tag{display:inline-block;width:93%;padding-left: 27px;margin: 6px 0 6px 16px; color: #000; font-size: 16px;line-height: 20px; text-align: left;}
+.district-info-content-single-time{background: url(../images/icons_clock.png)left top no-repeat;}
+.district-info-content-single-address{background: url(../images/icons_pin.png)left top no-repeat;}
+.district-info-content-single-phone{background: url(../images/icons_phone.png)left top no-repeat;}
+.district-info-content-single-tag{background: url(../images/icons_tag.png)left top no-repeat;}
+
+#wrap-page-num-list{text-align: center; padding: 40px 0;}
+#list-prev,#list-next{display: inline-block; color: #4a4a4a40; line-height: 24px; }
+#list-prev.active,#list-next.active{color:#559AC8;cursor: pointer;}
+#page-num-list{display: inline-block; margin: 0 22px;}
+#page-num-list li{display: inline-block;width: 24px; height: 24px; font-size: 14px; line-height: 24px; color: #000; margin: 0 4px; cursor: pointer;}
+#page-num-list li.on{color: #559AC8;}
+
+footer{text-align:center;background: #559AC8; padding: 24px 0;}
+.footer-page-name{font-size: 14px; color: #ffffff;}
+.footer-page-source{color: #FFD366; font-size: 14px; margin-top: 15px;}
+
+
+
+/*手機板*/
+@media screen and (max-width:1460px){
+    section#header{background-size: auto 380px;}
+}
+@media screen and (max-width:1024px){
+    section#header{height: 300px;}
+    #header h1{margin: 60px 0 40px 0;}
+    #wrap-content{padding: 0 30px;}
+    .pop-district{max-width: 1000px; width: 100%;}
+    .district-info{padding: 0;}
+}
+@media screen and (max-width:768px){
+    #choose-district{width: 100%; font-size: 18px;}
+    section#header{padding: 0 30px;}
+    #header h1{margin: 60px 0;}
+    h2#district-name{font-size: 30px;padding: 8px 0 16px 0;}
+    #district-info-content{justify-content: space-between;}
+    .district-info-content-single{width: 47%;}
+    .district-info-content-single-title{font-size:20px;}
+    .district-info-content-single-district{font-size: 15px;}
+}
+@media screen and (max-width:650px){
+    .district-info-content-single{width: 100%;}
+    ul#pop{justify-content: space-between;}
+    li.pop-district-single{width: 30%; margin:5px 0;}
+    #page-num-list{margin: 0 16px;}
+    #page-num-list li{margin: 0 2px;}
+}
+@media screen and (max-width:425px){
+    #goTop{width: 40px; height: 40px; bottom: 8px; right: 8px;}
+    section#header{height: 250px; padding: 0 10px;}
+    #header h1{font-size: 32px;}
+    #wrap-content{padding: 0;}
+    .pop-district{ border-radius: 0 0 5px 5px; padding: 15px 10px; margin-top: -10px; }
+    .pop-district p{font-size: 14px; text-align: center; margin-bottom: 8px;}
+    li.pop-district-single{width: 31.5%;} 
+    .seperate-line{margin: 24px auto;}
+    .district-info-content-single{margin: 10px 8px;}
+    .district-info-content-single-img img{transform: translate(0,0px);}
+    .district-info-content-single-time, .district-info-content-single-address, .district-info-content-single-phone, .district-info-content-single-tag
+    {font-size: 14px; line-height: 18px; margin: 5px 0 5px 16px;}
+    .district-info-content-single-district{ top: 16px; right: 0px; bottom: auto; background: rgb(255, 143, 78); padding: 4px 6px;}
+    .district-info-content-single-title{padding: 18px 12px 8px 12px;}
+    #page-num-list{margin: 0 10px;}
+    #page-num-list li{margin: 0;}
+    
+    #wrap-page-num-list{position: relative;}
+    #list-prev{position: absolute; left: 15px; bottom: 20px;}
+    #list-next{position: absolute; right: 15px; bottom: 20px;}
+}
+@media screen and (max-width:320px){
+    #page-num-list{width:100%; padding: 0 15px; margin: 8px 0px; text-align: left;}
+    #page-num-list li{width: 10%; text-align: center;}
+}

@@ -1,0 +1,101 @@
+* { box-sizing: border-box;}
+#mktContent { position: relative;}
+a{text-decoration: none;}
+/*線上訂房*/
+/*版頭*/
+header.header{position: relative; height: 711px; background: url(../images/hotel-header.jpg) top center no-repeat;}
+header.header h1{display: none;}
+header.header::after{position: absolute; content:""; height: 711px; background: url(../images/header-fog.png) bottom center no-repeat; bottom: -30px; left:0; width: 100%;}
+/*共用*/
+h2{ font: 600 42px/1 '思源黑體','微軟正黑體'; padding: 20px 0 50px 0;}
+.page1{width: 100%; text-align: center;}
+/*menubar*/
+.menu-bar{z-index: 10; position: sticky; width: 100%; max-width: 1200px; top:0px; text-align: center; margin: 0 auto; }
+.menu-bar ul{position: absolute; width: 100%; top:0px; border-radius: 0 0 30px 30px;}
+.menu-bar ul li{display: inline-block; width: 22%; padding: 15px 0 15px 33px; transition: 0.4s;}
+.menu-bar ul li a{position: relative; width: 100%; font: 400 28px/1 '思源黑體','微軟正黑體'; color: #ffffff; }
+.menu-bar ul li a::before{position: absolute; left: -50px; top:calc(50% - 18px); transform: scale(0.9);}
+.menu-bar ul li:nth-child(1) a::before{content: url(../images/menu1.png); }
+.menu-bar ul li:nth-child(2) a::before{content: url(../images/menu2.png);top:calc(50% - 20px);}
+.menu-bar ul li:nth-child(3) a::before{content: url(../images/menu3.png);}
+.menu-bar ul li:nth-child(4) a::before{content: url(../images/menu4.png);}
+.menu-bar ul{background: #d4c200; transition: 0.4s;}
+.menu-bar ul li:hover{background: #aa9c06; transition: 0.4s;}
+.menu-bar ul li a br{display: none;}
+ /*page1-休閒飯店*/
+.page1{background: url(../images/page1-bg.png) bottom center no-repeat ,linear-gradient(#ffffff,#e9e38b); padding: 30px 0 80px 0;}
+.page1 .leisure-hotel{width: 100%; max-width: 1200px; margin: 40px auto 0 auto; padding: 30px 0;}
+.page1 .luxury-hotel{width: 100%; max-width: 1200px; margin: 40px auto 0 auto; }
+.page1 .leisure-hotel h2{color: #c9b700; background: url(../images/hotel-h2-1.png) bottom center no-repeat;}
+.page1 .luxury-hotel h2{color: #6a25ba; background: url(../images/hotel-h2-2.png) bottom center no-repeat;}
+.page1 .group-type-ph{display: inline-flex; flex-direction: row; flex-wrap: wrap; justify-content: center; padding: 30px 0;}
+.page1 .group-type-ph .ph{display: inline-block;  width: 24%; padding: 0 0 16px 0; margin: 20px 6px ; background: #b99a5e; text-align: center; transition: 0.4s;}
+.page1 .group-type-ph .ph:hover{background: #6b3ba3; transition: 0.4s; transform: scale(1.03); }
+.page1 .group-type-ph .ph .ph-img img{width: 100%;}
+.page1 .group-type-ph .ph .ph-title{font: 400 20px/1 '思源黑體','微軟正黑體'; color: #ffffff; padding: 14px 0 5px 0;}
+.page1 .group-type-ph .ph .ph-detail{font: 200 14px/1 '思源黑體','微軟正黑體'; color: #ffffff; padding: 5px 0 8px 0;}
+.page1 .group-type-ph .ph em.price{font: 600 21px/1 'century gothic','arial'; color: #fff82e;}
+.page1 .group-type-ph .ph em.price span{font-size: 24px;}
+.page1 .group-type-ph .ph em.price i{font: 300 16px/1 '思源黑體','微軟正黑體'; vertical-align: bottom;}
+
+.set-footer-alert{display: none;}
+
+/*手機板*/
+@media screen and (max-width:1024px){
+    header.header{height: auto; background: none;}
+    header.header h1{display: block;}
+    header.header h1 img{width: 100%;}
+    header.header::after{position: absolute; content:""; height: 176px; background: url(../images/header-fog-m.png) bottom center no-repeat; bottom: -16px; left:0; width: 100%;}
+    .menu-bar ul li a{font-size: 24px;}
+    .menu-bar ul li a::before{transform: scale(0.85);}
+    h2{font-size: 38px; background-size: 80%;}
+    .page1 .leisure-hotel h2{background-size: 400px auto;}
+    .page1 .luxury-hotel h2{background-size: 400px auto;}
+
+    .page1{background-size: 110% auto;}
+    .page1 .group-type-ph .ph{width: 30%;}
+}
+@media screen and (max-width:780px){
+    .menu-bar ul{border-radius: 0 0 20px 20px;}
+    .menu-bar ul li a{font-size: 20px;}
+    .menu-bar ul li{padding: 12px 0 12px 30px;}
+    .menu-bar ul li a::before{transform: scale(0.75);}
+
+    .page1 .leisure-hotel{padding: 10px 0 0 0;}
+}
+@media screen and (max-width:680px){
+    .menu-bar ul{overflow: hidden;}
+    .menu-bar ul li{width: 24.2%;}
+
+    .page1{padding: 5px 0 80px 0;}
+}
+@media screen and (max-width:585px){
+    header.header{margin-top: 45px;}
+    h2{font-size: 34px; padding: 20px 0 42px 0;}
+    .page1 .leisure-hotel h2{background-size: 350px auto;}
+    .page1 .luxury-hotel h2{background-size: 350px auto;}
+    .menu-bar ul li a{font: 400 20px/1.2 '思源黑體','微軟正黑體';}
+    .menu-bar ul li a br{display: block;}
+    .menu-bar ul li a::before{transform: scale(0.8);}
+    .page1 .group-type-ph .ph{width: 47%; margin: 6px;}
+}
+@media screen and (max-width:540px){
+    .menu-bar ul{border-radius: 0 0 10px 10px;}
+}
+@media screen and (max-width:425px){
+    header.header{margin-top: 41px;}
+    header.header::after{bottom: -2px; background-size: 100% auto;}
+    h2{font-size: 30px;}
+    .page1 .leisure-hotel h2{background-size: 320px auto;}
+    .page1 .luxury-hotel h2{background-size: 320px auto;}
+    .menu-bar ul li{padding: 8px 0;}
+    .menu-bar ul li a{font-size: 18px;}
+    .menu-bar ul li a::before{display: none;}
+
+    .page1 .group-type-ph .ph{width: 90%;}
+    .page1 .leisure-hotel{margin: 10px auto 0 auto;}
+}
+@media screen and (max-width:320px){
+    header.header{margin-top: 51px;}
+    .menu-bar ul li{width: 24%;}
+}

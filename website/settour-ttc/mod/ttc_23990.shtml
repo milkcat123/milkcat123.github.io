@@ -1,0 +1,25 @@
+<div class="intro-anchors">
+	<a href="#anc_1">台北、新北</a>
+</div>
+<div class="carrier">
+	<a id="anc_1" name="anc_1"></a>
+	<h4>台北、新北</h4>
+	<ul>
+		<li class="box-head">
+			<a href="#">
+				<img src="/st_ec/img/sys/210x140.gif" width="210" height="140" alt="alt" />
+				<p><strong>#</strong><q>#</q><span>更多»</span></p>
+			</a>
+		</li>
+		<li>
+			<a href="https://trip.settour.com.tw/taiwan/product/GRT0000002807">
+				<strong>穿越時空.風華再現～ 揭開圓山神秘面紗、探索東西雙秘道＆獨享天際客房景緻＆飯店自助饗宴二日</strong>
+				美食饗宴：圓山飯店松鶴廳自助晚餐 <br>特別安排：圓山東西雙秘道＆升等圓山飯店天際客房
+				<em class="price">$<span>4,099起</span></em></a></li>
+		<li>
+			<a href="https://trip.settour.com.tw/taiwan/product/GRT0000002533">
+				<strong>雙北山海戀芋見你～國境之北-富貴角燈塔-老梅綠石槽 ＆ 陽明山竹子湖賞花趣 ＆ 絶美碧潭水岸 三天</strong>
+				∎陽明山竹子湖賞海芋及繡球花 ∎西門町散策～西門紅樓+日本最夯-唐吉訶德 ∎連泊兩晚南港老爺行旅
+			</a></li>
+	</ul>
+</div>

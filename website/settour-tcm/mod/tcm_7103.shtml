@@ -1,0 +1,35 @@
+<div class="intro-anchors">
+	<a href="#anc_1">苗栗訂房</a>
+</div>
+<div class="carrier">
+	<a id="anc_1" name="anc_1"></a>
+	<h4>苗栗訂房</h4>
+	<ul>
+		<li class="box-head">
+			<a href="#">
+				<img src="/st_ec/img/sys/210x140.gif" width="210" height="140" alt="alt" />
+				<p><strong>#</strong><q>#</q><span>更多»</span></p>
+			</a>
+		</li>
+		<li>
+			<a href="https://hotel.settour.com.tw/product/HDP0000010421">
+				<strong>【苗栗】米南山妍精品旅館</strong>
+				多種風格的房型，優雅精緻的裝潢
+				<em class="price">$<span>1,880起</span></em></a></li>
+		<li>
+			<a href="https://hotel.settour.com.tw/product/HDP0000020174">
+				<strong>【苗栗】F HOTEL 三義館</strong>
+				座落於純樸的三義小鎮，純真自然的風土人情，保有著客家傳統的樸實民風
+				<em class="price">$<span>2,400起</span></em></a></li>
+		<li>
+			<a href="https://hotel.settour.com.tw/product/HDP0000010356">
+				<strong>【苗栗】兆品酒店</strong>
+				巴洛克式的建築，還有完整的休閒中心提供游泳池、三溫暖、健身房等設施
+				<em class="price">$<span>4,560起</span></em></a></li>
+		<li>
+			<a href="https://hotel.settour.com.tw/product/HDP0000000410">
+				<strong>【苗栗】泰安觀止溫泉會館</strong>
+				全館大量採用台灣獨有的肖楠原木
+				<em class="price">$<span>6,000起</span></em></a></li>
+	</ul>
+</div>

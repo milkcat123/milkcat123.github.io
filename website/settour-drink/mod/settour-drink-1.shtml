@@ -1,0 +1,105 @@
+<!-- settour-drink-1 MODULE -->
+<article class="ph">
+    <!-- 直式 三個一排 累加模組 V113 -->
+    <section class="ph-group type-3-normal">
+        <!--ph-group-content-->
+        <article class="ph-group-content">
+            <div class="ph-group-content-text">
+                <a href="https://trip.settour.com.tw/kinmen/product/GDG0000001651" class="ph-group-content-text-name">
+                    夜釣小管、東海巡航、BBQ吃到飽、元泰大飯店 3日_台北出發
+                </a>
+                <p class="ph-group-content-text-sale">
+
+                </p>
+                <p class="ph-group-content-text-detail">
+                    【玉山銀行卡友優惠】每人折300元，滿額6000元加碼送「國賓電影票乙張」。
+                </p>
+                <a href="https://trip.settour.com.tw/kinmen/product/GDG0000001651" class="ph-group-content-text-price">
+                    <span>3天</span>
+                    $11,100 <span>起</span>
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-text">
+                <a href="https://trip.settour.com.tw/kinmen/product/GDG0000001597" class="ph-group-content-text-name">
+                    海上花火船、東海巡航、元泰大飯店 3日_台北出發
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    搭花火船海上賞煙火 / 八合一水上活動、激浪無限玩 / 潮間生態旅 送石滬浮潛 / 澎湖BBQ吃到飽
+                </p>
+                <a href="https://trip.settour.com.tw/kinmen/product/GDG0000001597" class="ph-group-content-text-price">
+                    <span>3天</span>
+                    $12,500 <span>起</span>
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-text">
+                <a href="https://trip.settour.com.tw/kinmen/product/GDG0000001713" class="ph-group-content-text-name">
+                    菊島采風、七美浮潛、 海洋牧場、元泰大飯店 3日_台北出發
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    菊島采風環島遊 / 夜釣小管 / 浪漫七美遊 浮潛、獨木舟二選一 / 海洋牧場 碳烤鮮蚵吃到飽
+                </p>
+                <a href="https://trip.settour.com.tw/kinmen/product/GDG0000001713" class="ph-group-content-text-price">
+                    <span>3天</span>
+                    $11,400 <span>起</span>
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-text">
+                <a href="https://trip.settour.com.tw/kinmen/product/GDG0000001723" class="ph-group-content-text-name">
+                    【龍蝦島】抓龍蝦、帆船 SUP、透明獨木舟 3日_台北出發
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    MINI TOUR 兩人成行 全程一車一導遊 / 澎澎灘 激浪無限玩 / 抓龍蝦體驗 (抓不到送您一隻)
+                </p>
+                <a href="https://trip.settour.com.tw/kinmen/product/GDG0000001723" class="ph-group-content-text-price">
+                    <span>3天</span>
+                    $28,800 <span>起</span>
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-text">
+                <a href="https://www.settour.com.tw/act/gdg/islands/index2.html#mkttab=01" class="ph-group-content-text-name">
+                    更多精彩旅遊
+                </a>
+                <p class="ph-group-content-text-sale">
+
+                </p>
+                <p class="ph-group-content-text-detail">
+                    台北、台中、高雄出發 / 2021國際海上花火節 / 激浪水上活動無限玩
+                </p>
+                <a href="https://www.settour.com.tw/act/gdg/islands/index2.html#mkttab=01" class="ph-group-content-text-price">
+                    請點我
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+        <!-- end of foreach -->
+    </section>
+    <!-- 看更多連結 -->
+</article>

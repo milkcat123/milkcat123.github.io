@@ -3,207 +3,390 @@
     <head>
         <meta charset="UTF-8"> <!--編碼-->
         <title>YUKI HIEW's resume</title>
+        <!--#include virtual="./inc/seo.shtml"-->
         <!--寬度符合裝置的寬度-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;">
+        <!-- reset.css -->
+        <link rel="stylesheet" href="./css/reset.css" type="text/css">
+        <!--google font-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./css/reset.css" type="text/css">
-        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Yellowtail&display=swap" rel="stylesheet">
+        <!-- style.css -->
         <link rel="stylesheet" href="./css/style.css" type="text/css">
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
     </head>
     <body>
+        <a class="contact" href="mailto:123milkcat@gmail.com" title="contact me by mail!">mail</a>
         <div id="goTop">TOP</div>
-        <aside>
-            <div class="progress-bar">
-                <div class="running"></div>
+        <nav class="nav-height"><!--導覽列-->
+            <div class="nav-wrap">
+                <div class="nav-logo main-font">Yuki Hiew</div>
+                <div class="nav-menu-wrap">
+                    <ul class="scroll-tag">
+                        <li><a>關於我</a></li>
+                        <li><a>經歷</a></li>
+                        <li><a>技能</a></li>
+                        <li><a>作品集</a></li>
+                        <li><a>未來期許</a></li>
+                    </ul>
+                    <div class="social">
+                        <a href="https://www.cakeresume.com/s--Ih1zkGv-UFrugwx6o0saXQ--/123milkcat" target="_blank"><img src="./images/C.png" alt="cake resume" title="cake resume"></a>
+                        <a href="https://codepen.io/yukiyin" target="_blank"><img src="./images/codepen_logo_light.png" alt="codepen" title="codepen"></a>
+                    </div>
+                </div>
             </div>
-        </aside>
-        <main>
-            <header>
-                <nav>
-                    <h1><a href="#">yuki's resume</a></h1>
-                    <ul>
-                        <li><a href="">關於YUKI<span>about yuki</span></a></li>
-                        <li><a href="">作品合輯<span>portfolio</span></a></li>
-                        <li class="space"></li>
-                        <li><a href="">技能自評<span>skill level</span></a></li>
-                        <li><a href="" class="contact">contact me</a></li>
-                    </ul>
-                </nav>
-                <div class="header-pic"></div>
-                <div class="scroll-icon"><div class="circle"></div></div>
-            </header>
+        </nav>
+        <header><!--頁首-->
+            <div class="header-wrap">
+                <h1 class="header-title main-font">This is Yuki Hiew,<br>
+                    <span class="main-font">nice to see you here.</span>
+                </h1>
+                <div class="header-photo">
+                    <img src="./images/me.png" alt="yuki hiew" title="It's me!">
+                </div>
+            </div>
+            <div class="header-arrow"></div>
+        </header>
+        <main class="scroll-target"><!--介紹區-->
+            <section class="about"><!--關於我-->
+                <h2 class="main-font">About Me</h2>
+                <p>喜歡各種風格的設計，喜歡嘗鮮，喜歡特別。<br>
+                    學習設計的過程中意外認識了網頁與前端，萌生了設計品牌或活動網頁視覺的興趣。</p>
+                <p>自學網頁基礎後幸運踏入網頁撰寫與設計的工作，<br>
+                    接觸到如何與企劃溝通視覺、修正程式撰寫的概念、利用線上課程進修Javascript，<br>
+                    工作之餘熱衷於學習更多網頁與前端的相關技能：git版控、Sass、boostrap...<br>
+                    深知網站製作的路很廣，期望求職與學習的路上不停精進與完善各式作品，<br>
+                    一如工藝系追求作品完美的精神。</p>
+            </section>
 
-                <!--主要區塊-->
-                <section class="about">
-                    <div class="content">
-                        <div class="intro">
-                            <h2>#關於YUKI<br><span>about this girl</span></h2>
-                            <p>我是YUKI，一位熱愛學習、事事好奇<br>
-                                並期望成為設計與程式雙修的網頁前端工程師的女子。</p>
-                            <p>畢業於工設相關學系，<br>
-                                靠著網路尋找教學資源、查看相關書籍以自學設計、<br>
-                                HTML和CSS成為初階網頁設計師，<br>
-                                2019年9月開始於東南旅遊行銷企劃部設計組任職。</p>
-                            <a href="" class="expBtn">我的經歷</a>
+            <section class="exp">
+                <h2 class="main-font">Experience</h2>
+                <div class="job-exp">
+                    <div class="single">
+                        <div class="name">
+                            <div class="date">2015.9<br><span>|</span><br>2019.6</div>
+                            <div class="title"><span>畢業於</span><br>臺灣師範大學科技應用系</div>
                         </div>
-                        <div class="pic">
-                            <div class="myPic"><div class="picBorder"></div></div>
+                        <div class="detail">
+                            <div class="icon"></div>
+                            <ul class="text-wrap">
+                                <li>-基本設計</li>
+                                <li>-木工技術</li>
+                                <li>-塑膠工技術</li>
+                                <li>-雷射切割設計</li>
+                                <li>-3D建模與列印</li>
+                            </ul>
                         </div>
                     </div>
-                
-                </section><!--about-->
-                
-                <section class="experience">
-                    <div class="content">
-                        <h2>#我的經歷<br><span>experience</span></h2>
-                        <ul class="exp-line">
-                            <li>進入師大就讀</li>
-                            <li>師大科技系畢業</li>
-                            <li class="on">入職東南旅遊</li>
-                            <li class="space"></li>
-                            <li class="right">to be continue...</li>
+                    <div class="single">
+                        <div class="name">
+                            <div class="date">2015.3<br><span>|</span><br>2019.7</div>
+                            <div class="title"><span>實習於</span><br>富銘文創</div>
+                        </div>
+                        <div class="detail">
+                            <div class="icon"></div>
+                            <ul class="text-wrap">
+                                <li>-產品流程控管</li>
+                                <li>-3D 建模與打樣</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="single">
+                        <div class="name">
+                            <div class="date">2019.9<br><span>|</span><br>至今</div>
+                            <div class="title"><span>任職於</span><br>東南旅遊 行銷部設計組</div>
+                        </div>
+                        <div class="detail">
+                            <div class="icon"></div>
+                            <ul class="text-wrap">
+                                <li>-廣告 banner 設計</li>
+                                <li>-行銷頁視覺設計</li>
+                                <li>-行銷頁切版/上線</li>
+                                <li>-DM排版設計</li>
+                                <li>-插畫繪製</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="learn-exp">
+                    <div class="wrap">
+                        <p class="title">自學<br>歷程</p>
+                        <p class="status">就職前</p>
+                        <ul>
+                            <li># Illustrator</li>
+                            <li># Photoshop</li>
+                            <li># 平面設計練習</li>
+                            <li># 網頁視覺練習</li>
+                            <li># HTML / CSS基礎</li>
                         </ul>
-                        <div class="intro">
-                            <div class="pic"></div>
-                            <p class="text">
-                                任職期間，學習了排版設計實務、照片編修等，因應工作上需要，繪製吉祥物、插畫、設計行銷活動用頁面，
-                                同時練習與企劃溝通視覺呈現與行銷誘導之間的平衡與妥協，試著將行銷元素自然的融合進設計之中，
-                                並熟悉行銷文案的常見用語，應用在自我練習的網頁設計文案。</p>
-                        </div>
                     </div>
-                </section><!--experience-->
+                    <div class="wrap">
+                        <p class="status">就職中</p>
+                        <ul>
+                            <li># 精進 HTML / CSS</li>
+                            <li># Javascript</li>
+                            <li># Sass</li>
+                            <li># Boostrap練習</li>
+                            <li># git / GitHub</li>
+                            <li>Vue3 學習中</li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </section>
 
-                <section class="portfolio">
+            <section class="skill">
+                <div class="wrap">
+                    <h2 class="main-font">Skills</h2>
                     <div class="content">
-                        <h2>#作品合輯<br><span>portfolio</span></h2>
-                        <ul class="portfolio-list">
-                            <li class="portfolio-single">
-                                <a href="javascript:void(0)">
-                                    <p>Banner<br><span>design</span></p>
-                                    <div class="portfolio-single-wrap">
-                                        <!--#include virtual=/shtml/bannerContainer.shtml -->
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="portfolio-single">
-                                <a href="javascript:void(0)">
-                                    <p>web<br><span>design</span></p>
-                                    <div class="portfolio-single-wrap">
-                                        <!--#include virtual=/shtml/webContainer.shtml -->
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="portfolio-single">
-                                <a href="javascript:void(0)">
-                                    <p>programing<br><span>practice</span></p>
-                                </a>
-                            </li>
-                        </ul>
+                        <div class="row">
+                            <div class="single">
+                                <div class="img">
+                                    <img src="./images/ps.png" alt="Photoshop" title="Photoshop">
+                                </div>
+                                <div class="detail">
+                                    <p class="title">Photoshop</p>
+                                    <ul>
+                                        <li>- 照片編修</li>
+                                        <li>- 網頁設計視覺稿</li>
+                                        <li>- 插圖繪製、gif動畫製作</li>
+                                        <li>- banner製作</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="single">
+                                <div class="img">
+                                    <img src="./images/ai.png" alt="Illustrator" title="Illustrator">
+                                </div>
+                                <div class="detail">
+                                    <p class="title">Illustrator</p>
+                                    <ul>
+                                        <li>- 插圖繪製</li>
+                                        <li>- DM設計稿</li>
+                                        <li>- 印刷輸出設計</li>
+                                        <li>- 雷射切割圖稿</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="single">
+                                <div class="img">
+                                    <img src="./images/git.png" alt="git" title="git">
+                                </div>
+                                <div class="detail">
+                                    <p class="title">git</p>
+                                    <ul>
+                                        <li>- 基本操作指令</li>
+                                        <li>- 分支建立、合併</li>
+                                        <li>- status、add、commit</li>
+                                        <li>- 遠端設定、GitHub使用</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="row">
+                            <div class="single">
+                                <div class="img">
+                                    <img src="./images/html.png" alt="html" title="html">
+                                </div>
+                                <div class="detail">
+                                    <p class="title">HTML</p>
+                                    <ul>
+                                        <li>- 語法撰寫</li>
+                                        <li>- 語意化標籤</li>
+                                        <li>- meta 標籤(SEO)</li>
+                                        <li>- shtml 應用</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="single">
+                                <div class="img">
+                                    <img src="./images/css.png" alt="css" title="css">
+                                </div>
+                                <div class="detail">
+                                    <p class="title">CSS</p>
+                                    <ul>
+                                        <li>- 語法撰寫</li>
+                                        <li>- 變數與算式應用</li>
+                                        <li>- 插圖繪製、gif動畫製作</li>
+                                        <li>- 使用者互動設計(:hover、:active...)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="single">
+                                <div class="img">
+                                    <img src="./images/js.png" alt="Javascript" title="Javascript">
+                                </div>
+                                <div class="detail">
+                                    <p class="title">Javascript</p>
+                                    <ul>
+                                        <li>- 語法撰寫</li>
+                                        <li>- ES5為主，ES6+搭配</li>
+                                        <li>- 串接api獲取資料</li>
+                                        <li>- 搭配JQuery使用</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="row">
+                            <div class="single">
+                                <div class="img">
+                                    <img src="./images/bt.png" alt="Bootstrap 5" title="Bootstrap 5">
+                                </div>
+                                <div class="detail">
+                                    <p class="title">Bootstrap 5</p>
+                                    <ul>
+                                        <li>- grid 排版 (row、col)</li>
+                                        <li>- flex 排版</li>
+                                        <li>- icon 應用</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="single">
+                                <div class="img">
+                                    <img src="./images/jq.png" alt="JQuery" title="JQuery">
+                                </div>
+                                <div class="detail">
+                                    <p class="title">JQuery</p>
+                                    <ul>
+                                        <li>- 語法撰寫</li>
+                                        <li>- 網頁元素互動效果</li>
+                                        <li>- 區塊頁籤製作</li>
+                                        <li>- 網頁滑動製作</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="single">
+                                <div class="img">
+                                    <img src="./images/sass.png" alt="Sass" title="Sass">
+                                </div>
+                                <div class="detail">
+                                    <p class="title">Sass</p>
+                                    <ul>
+                                        <li>- scss寫法</li>
+                                        <li>- 變數、map使用</li>
+                                        <li>- 導入scss檔案、mixin</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="row">
+                            <div class="single">
+                                <div class="img">
+                                    <img src="./images/vue.png" alt="Vue3" title="Vue3">
+                                </div>
+                                <div class="detail">
+                                    <p class="title">Vue3</p>
+                                    <ul>
+                                        <li>- Vue實體掛勾dom</li>
+                                        <li>- data、methods...</li>
+                                        <li># 學習中</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="single">
+                                <div class="img">
+                                    <img src="./images/wp.png" alt="Wordpress" title="Wordpress">
+                                </div>
+                                <div class="detail">
+                                    <p class="title">Wordpress</p>
+                                    <ul>
+                                        <li>- google search console驗證</li>
+                                        <li>- 文章撰寫、版面佈置</li>
+                                        <li>- 後臺設定</li>
+                                    </ul>
+                                </div>
+                            </div>                                      
+                        </div>
                     </div>
-                </section><!--portfolio-->
-                <section class="skill">
-                    <h2>#運用技能<br><span>work skill</span></h2>
-                    <ul class="skill-list-1">
-                        <li class="skill-ps">
-                            <img src='./images/ps.jpg' alt="ps" title="Photoshop">
-                            <div>
-                                <p><span>90</span>%<br>Photoshop</p>
-                            </div>
-                        </li>
-                        <li class="skill-ai">
-                            <img src="./images/ai.jpg" alt="ai" title="Illustrator">
-                            <div>
-                                <p><span>80</span>%<br>Illustrator</p>
-                            </div>
-                        </li>
-                        <li class="skill-html">
-                            <img src="./images/html.jpg" alt="html5" title="HTML5">
-                            <div>
-                                <p><span>90</span>%<br>HTML5</p>
-                            </div>
-                        </li>
-                        <li class="skill-css">
-                            <img src="./images/css.jpg" alt="css3" title="css3">
-                            <div>
-                                <p><span>90</span>%<br>CSS3</p>
-                            </div>
-                        </li>
-                        <li class="skill-js">
-                            <img src="./images/js.jpg" alt="js" title="javascript">
-                            <div>
-                                <p><span>65</span>%<br>Javascript</p>
-                            </div>
-                        </li>
-                    </ul>
-                    <ul class="skill-list-2">
-                        <li class="skill-git">
-                            <img src="./images/git.jpg" alt="git" title="git">
-                            <p><span></span></p>
-                        </li>
-                        <li class="skill-github">
-                            <img src="./images/github.jpg" alt="github" title="GitHub">
-                            <p><span></span></p>
-                        </li>
-                        <li class="skill-sass">
-                            <img src="./images/sass.jpg" alt="sass" title="SASS">
-                            <p><span></span></p>
-                        </li>
-                        <li class="skill-vue">
-                            <img src="./images/vue.jpg" alt="vue" title="Vue.js">
-                            <p><span></span></p>
-                        </li>
-                    </ul>
-                    <p class="skill-detail">仍有許多可進步空間，會繼續努力...</p>
-                </section>
-                <section class="future">
+                </div>
+            </section>
+
+            <section class="portfolio">
+                <div class="single">
+                    <a href="./portfolio_banner.html" class="img">
+                        <div class="filter">
+                            <img src="./images/banner_shot.png" alt="banner design" >
+                        </div>
+                        <div class="arrow"></div>
+                    </a>
                     <div class="content">
-                        <h2>#未來期許<br><span>future wish</span></h2>
-                        <p>
-                            從一開始的自行上網搜索免費的影音課程、教學文章等，<br>
-                            資料要過自己的彙整或是評斷是否有符合需要的資訊和吸收的難易，<br>
-                            到後來開始投資在線上課程學習，<br>
-                            不僅能縮短尋找資料與比對真實性的時間，也統整一路零散學習下來的知識。<br>
-                            <br>
-                            希望在接下來的工作中能實際應用目前自學的能力，<br>
-                            例如git版本控制、SCSS、前端框架等，<br>
-                            繼續學習更多網頁設計與前端的知識與實作，不僅為了工作上的順暢，<br>
-                            也希望自己往後能設計並實作出更加精緻完善且符合業界標準的網站。
+                        <h3>視覺設計</h3>
+                        <p class="note">廣告banner / 插圖 / 平面印刷物</p>
+                        <div class="line">////////////////////////////</div>
+                        <p class="detail">
+                            因應旅遊業，banner 設計風格多為明亮清晰為基礎，<br>
+                            搭配主題夾雜跳 tone、文青、活潑、促銷、高級等風格。<br>
+                            插圖繪製多為公司吉祥物及相關，或圖庫苦尋未果的插圖。<br>
+                            平面印刷物包含名片、價目表、食物攝影看板等等。
                         </p>
                     </div>
-                </section>
-     
-                <footer>
-                    <h2>#謝謝觀看<br><span>thank for exploring</span></h2>
-                    <p>可以在這些地方看到我的身影...</p>
-                    <ul>
-                        <li><a href="#" title="YUKI's GitHub"></a></li>
-                        <li><a href="#" title="YUKI's e-mail"></a></li>
-                        <li><a href="#" title="YUKI's CodePen"></a></li>
-                    </ul>
-                </footer>
+                </div>
+                <div class="single even">
+                    <a href="./portfolio_web.html" class="img">
+                        <div class="filter">
+                            <img src="./images/web_shot.png" alt="web design" >
+                        </div>
+                        <div class="arrow"></div>
+                    </a>
+                    <div class="content">
+                        <h3>網頁設計</h3>
+                        <p class="note">行銷活動頁面 / 自我練習 / 功能型網頁</p>
+                        <div class="line">////////////////////////////</div>
+                        <p class="detail">
+                            主要是旅遊相關的頁面設計，根據活動所要求的風格<br>
+                            及主題而做的視覺，審核後切版並皆具有RWD。<br>
+                            些許 Landing page 設計為練習作品，<br>
+                            嘗試不同領域的視覺呈現。
+                        </p>
+                    </div>
+                </div>
+                <div class="single">
+                    <a href="https://codepen.io/yukiyin" class="img" target="_blank">
+                        <div class="filter">
+                            <img src="./images/codepen_shot.png" alt="codepen" >
+                        </div>
+                        <div class="arrow"></div>
+                    </a>
+                    <div class="content">
+                        <h3>程式應用</h3>
+                        <p class="note">side project / 程式練習</p>
+                        <div class="line">////////////////////////////</div>
+                        <p class="detail">
+                            一些自己練習和頁面製作上需要用到的小功能，<br>
+                            舉凡頁籤切換、對應區塊滑動、進度條等等，<br>
+                            side project：串接高雄觀光局api製作的高雄景點查詢；<br>
+                            可供local storage紀錄的BMI計算器等等。
+                        </p>
+                    </div>
+                </div>
+                <a class="other" href="https://www.cakeresume.com/portfolios/4f3499" title="other works" target="_blank">
+                    <h3 class="main-font">Other Project</h3>
+                    <div class="arrow"></div>
+                </a>
+            </section>
+
+            <section class="future">
+                <h2 class="main-font">
+                    Future Expectation
+                </h2>
+                <p>
+                    想以專業的網站設計或是Junior前端為現在的目標，<br>
+                    不管是哪一項先有機會遇上，還是會自己同時進修另一項，<br>
+                    希望能將設計與前端並進，學習更多網站設計的視覺美感與UI/UX規劃，<br>
+                    程式方面希望能學習更多程式邏輯、功能設計等等，<br>
+                    盡力將工作上的專案發揮到最好。
+
+                </p>
+            </section>
         </main>
         
-                
-        <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-        <script src="./js/progress-bar.js" type="text/javascript"></script>
-        <!-- goTop -->
-        <script src="./js/slideTop.js" type="text/javascript" ></script>
-        <script type="text/javascript">
-            $(document).ready(function(){
-                $('.slick-container').slick({
-                    dots: true,
-                    infinite: true,
-                    autoplay:true,
-                    lazyLoad: 'ondemand'
-                        
-                });
-                
-            
-            });
-        </script>
+        <!--#include file="shtml/footer.shtml"-->
+        <script src="./js/slideTop.js" type="text/javascript"></script>
     </body>
 </html>
 

@@ -1,0 +1,126 @@
+* { box-sizing: border-box; font-family: "思源黑體","微軟正黑體","arial"; transition: 0.3s;}
+#mktContent {background: #f2f2ff; padding-bottom: 40px;}
+a{text-decoration: none; display: block;}
+/*版頭*/
+header.header{position: relative; height: 600px; background: url(../images/header.jpg) top center no-repeat;}
+header.header h1{display: none;}
+/* 按鈕 */
+.wrap-menu{position: absolute; width: 100%; bottom: 0; left: 0; background: rgba(53, 59, 179, 0.9); text-align: center;}
+.wrap-menu ul.menu-bar{max-width: 1200px; width: 100%; margin: 0 auto;}
+.wrap-menu ul.menu-bar li{display: inline-block; width: 30%; margin: 12px 15px;}
+.wrap-menu ul.menu-bar li a{font-size: 28px; font-weight: 350; line-height: 1.5; color: #ffffff; border: 2px solid #ffffff; }
+
+.wrap-menu ul.menu-bar li.on a::after,
+.wrap-menu ul.menu-bar li:hover a::after
+{content: ""; position: absolute; width: 100%; height: 100%; background: #ffffff6e; bottom: -5px; right: -5px; z-index: -1;}
+.wrap-menu ul.menu-bar li.on a,
+.wrap-menu ul.menu-bar li:hover a
+{position: relative; color: #353bb3; background: #ffffff; z-index: 5;}
+
+/* 內容區塊 */
+    /* 頁籤 */
+section.wrap-content{max-width: 1200px; width: 100%; margin: 0 auto;}
+.wrap-tags-bar{width: 100%; text-align: center; margin: 40px 0 20px 0;}
+ul.tags-bar li{display: inline-block; width: 20%; margin: 0 3%;  border-radius: 5px 5px 0 0; }
+ul.tags-bar li a{position: relative;font-size: 26px; font-weight: 400; line-height: 1.5; color: #353bb3; z-index:5;}
+ul.tags-bar li.on{background: #353bb3;}
+ul.tags-bar li.on a{color:#f2f2ff;}
+.deco-bar{position: relative; width: 100%; height: 2px; background: #353bb3;}
+.deco-bar::before,
+.deco-bar::after{content:""; position: absolute; width: 9px; height: 9px; top: -4px; background: #353bb3; border-radius:99rem; }
+.deco-bar::before{left: 0;}
+.deco-bar::after{right: 0;}
+
+ul.tags-bar li a::after{position: absolute; content:""; width: 100%; height: 0%;left: 0px; bottom: 0; background: #353bb3; border-radius: 5px 5px 0 0; transition: 0.3s; z-index: -1;}
+ul.tags-bar li:hover a::after{height: 100%; transition: 0.3s;}
+ul.tags-bar li:hover a{color: #f2f2ff; transition: 0.3s;}
+
+    /* 內容 */
+.standard-content{width: 100%; padding: 0 0 30px 0; text-align: center;}
+
+/*特色飯店*/
+#hotels.standard-content{padding: 0;}
+#hotels ul.archor-list, #free .intro-anchors,
+ul.city-list{width: 100%; text-align: center; margin: 20px 0;}
+#hotels ul.archor-list li, #free .intro-anchors a,
+ul.city-list li{display: inline-block; font-size: 20px; line-height: 1.5; color: #e2423a; border: #e2423a solid 1px; border-radius: 99em; padding: 0px 15px; margin: 0 15px; cursor: pointer;}
+.archor-content{text-align: center; margin: 25px 0;}
+.hotel-title,
+.carrier h4{position: relative; display: inline-block; text-align: center; font-size: 24px; font-weight: 500; color: #353bb3; padding: 15px 0;}
+.hotel-title::before, .hotel-title::after,
+.carrier h4::before, .carrier h4::after{position: absolute; content:""; width: 24px; height: 24px; top: calc(50% - 12px); background: url('../images/hotel-title-deco.png') center top no-repeat; background-size: contain;}
+.hotel-title::before,
+.carrier h4::before{left: -34px;}
+.hotel-title::after,
+.carrier h4::after{right: -34px;}
+
+/* 景點介紹 */
+#hotspots{max-width: 1400px;}
+.flex-stretch{display: inline-flex;  justify-content: space-between; margin: 15px 0;}
+.single{display: inline-block; width: 24%; text-align: center; background: #ffffff; border: #353bb3 solid 2px;}
+.single-img{width: 100%;}
+.single-img img{width: 100%;}
+.single-title{position: relative; display: inline-block; font-size: 20px; line-height: 1.5; color: #353bb3; margin: 5px 10px;}
+.single:nth-child(2n) .single-title{color: #e2423a;}
+.single-title::before,
+.single-title::after{content: ""; position: absolute; width: 16px; height: 16px; top: calc(50% - 8px); background: url('../images/hotel-title-deco.png') center center no-repeat; background-size: contain; }
+.single-title::before{left: -31px;}
+.single-title::after{right: -31px;}
+.single:nth-child(2n) .single-title::before,
+.single:nth-child(2n) .single-title::after{background-image: url('../images/hotel-title-deco-hover.png');}
+.single p{ font-size: 16px; line-height: 1.4; padding: 0 8px 8px 8px;}
+
+/*團體旅遊*/
+#group .city{display: none; width: 100%;}
+#group .city.on{display: block;}
+#group ul.city-list li.off{display: none;}
+
+/*手機板*/
+@media screen and (max-width:1200px){
+    .flex-stretch{width: 1200px;}
+    #hotspots .wrap-single,
+    #hotels .group-type-ph{display: block; width:100%; padding-bottom: 10px; margin: 10px 0; border-bottom: 1px dashed #353bb3; overflow-x: scroll; white-space: nowrap; }
+    #hotspots .wrap-single::-webkit-scrollbar,
+    #hotels .group-type-ph::-webkit-scrollbar{height: 10px;}
+    #hotspots .wrap-single::-webkit-scrollbar-track,
+    #hotels .group-type-ph::-webkit-scrollbar-track{-webkit-border-radius:99em;border-radius:99em; background: #ffffff83;}
+    #hotspots .wrap-single::-webkit-scrollbar-thumb,
+    #hotels .group-type-ph::-webkit-scrollbar-thumb{ -webkit-border-radius:99em; border-radius: 99em; background: #353bb3;}
+    #hotspots .wrap-single:last-child{border: none; padding:0;}
+    #hotspots .single{width: 290px; box-shadow: 3px 4px 6px #00000023;}
+    #hotspots .single p{ font-size: 14px; white-space: normal;}
+}
+@media screen and (max-width:1024px){
+    header.header{height: auto; background: none;}
+    header.header h1{display: block;}
+    header.header h1 img{width: 100%;}
+}
+@media screen and (max-width:768px){
+    section.wrap-content{padding: 0 10px;}
+    .wrap-menu ul.menu-bar li a{font-size: 22px;}
+    ul.tags-bar li a{font-size: 22px;}
+    #hotspots .wrap-single::-webkit-scrollbar,
+    #hotels .group-type-ph::-webkit-scrollbar{height: 6px;}
+}
+@media screen and (max-width:550px){
+    .wrap-menu ul.menu-bar li a{font-size: 20px;}
+    .wrap-menu ul.menu-bar li{width: 38%; margin: 8px 10px;}
+    ul.tags-bar li{width: 26%; margin: 0 1%;}
+    ul.tags-bar li a{font-size: 20px;}
+    .standard-content{padding: 0;}
+    
+    #free .intro-anchors a,
+    #hotels ul.archor-list li{font-size: 18px;}
+}
+@media screen and (max-width:425px){
+    ul.tags-bar li a{font-size: 18px;}
+    
+    #free .intro-anchors a,
+    #hotels ul.archor-list li{margin: 0 2%;}
+}
+@media screen and (max-width:325px){
+    ul.tags-bar li{width: 28%;}
+    
+    #free .intro-anchors a,
+    #hotels ul.archor-list li{font-size: 16px;}
+}

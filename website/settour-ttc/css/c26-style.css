@@ -1,0 +1,41 @@
+/* 格式調整 */
+.group-type-ph{ display: inline-flex; width: 100%; justify-content: center; flex-wrap: wrap; margin: 20px 0; overflow-x: auto;}
+.group-type-ph .ph{display: inline-block; width:23%; margin: 6px 1% 40px 1%; z-index: 5;}
+.group-type-ph .ph a .ph-img{text-align: center;}
+.group-type-ph .ph a .ph-img img{width: 100%;}
+
+.group-type-ph .ph a{position: relative; height: 100%; background:#ffffff;  padding: 10px; padding-bottom: 40px;}
+.group-type-ph .ph a .ph-title{position: relative; font-size: 20px; line-height: 2; font-weight: 400; color: #353bb3; text-align: left; margin-left: 22px;}
+.group-type-ph .ph a .ph-title::before{position: absolute; content:""; width: 16px; height: 16px; left: -18px; top: calc(50% - 8px); background: url('../images/hotel-title-deco.png') center top no-repeat; background-size: contain; transition: 0.3s;}
+.group-type-ph .ph a .ph-detail{font-size: 14px; line-height: 1.5; color: #4a4949; text-align: left; margin-left: 4px;}
+.group-type-ph .ph a em.price{position: absolute; font-size: 20px; color: #e2423a; bottom: 10px; right: 8px; }
+.group-type-ph .ph a em.price span{font-size: 22px;}
+.group-type-ph .ph a em.price i{font-size: 14px; vertical-align: bottom;}
+
+/*樣式*/
+.group-type-ph .ph{position: relative; box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.09);}
+.group-type-ph .ph::before, .group-type-ph .ph::after{
+    content:""; position: absolute; width: 30px; height: 30px; background: #353bb3; z-index: -1;
+}
+.group-type-ph .ph::before{top:-6px; left: -6px; transition: 0.3s; }
+.group-type-ph .ph::after{bottom: -6px; right: -6px; transition: 0.3s;}
+
+.group-type-ph .ph:hover::before, .group-type-ph .ph:hover::after{background: #e2423a; transition: 0.3s;}
+.group-type-ph .ph:hover a .ph-title{color: #e2423a;}
+.group-type-ph .ph:hover a .ph-title::before{background-image: url('../images/hotel-title-deco-hover.png'); transition: 0.3s;}
+.group-type-ph .ph:hover a em.price{color: #ff8a00;}
+
+
+
+@media screen and (max-width:768px){
+    .group-type-ph{ display: block; width: 100%; white-space: nowrap; padding: 0 20px; margin: 6px 0px 30px 0px; overflow-x: scroll;}
+    .group-type-ph .ph{width: 250px;}
+}
+@media screen and (max-width:425px){
+    .group-type-ph .ph{margin: 6px 12px 30px 12px;}
+    .group-type-ph .ph a .ph-title{font-size: 18px;}
+    .group-type-ph .ph a .ph-title::before{width: 14px; height: 14px; left: -16px; top: calc(50% - 7px); }
+    .group-type-ph .ph a .ph-detail{font-size: 13px;}
+    .group-type-ph .ph a em.price{font-size: 20px;bottom: 10px; right: 12px; }
+
+}

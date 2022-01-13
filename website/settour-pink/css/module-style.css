@@ -1,0 +1,57 @@
+/*模組調整*/
+*{ transition: 0.5s;}
+/*變數*/
+:root{
+    --ph-tt:20px;
+}
+/*一份模組*/
+article.ph{display: block;}
+
+/*系統預設生成*/
+nav.ph-menu.has-banner,
+header.ph-group-title{display: none;}
+
+/*一排商品的群組*/
+section.ph-group.type-3-normal{display: flex; justify-content: flex-start; align-content: stretch; flex-wrap: wrap;}
+article.ph-group-content:nth-last-child(1){margin-right: 0;}
+article.ph-group-content:hover{border-color: var(--deep-pink); border-radius: 0px;}
+
+/*單項商品*/
+article.ph-group-content{position: relative; display: inline-block; width: 24%; border: var(--pink) solid 2px; padding: 0px 0px 48px 0px; margin: 15px 0.5% 0 0.5%; border-radius: 12px; overflow: hidden;}
+
+/*商品文字內容*/
+.ph-group-content-text{ text-align: left; padding: 6px;}
+
+    /*商品標題*/
+.ph-group-content-text-name{
+    font-size: var(--ph-tt); color: var(--title-color); font-weight: 500; line-height: 1.4; letter-spacing: 1px; 
+    display: block; padding-bottom: 6px; border-bottom: 3px dotted var(--title-color); margin-bottom: 14px;}
+
+    /*商品標籤*/
+span.ph-group-content-tag{position: absolute; display: inline-block; top: 10px; left: 0; font-size: 16px; color: #ffffff; line-height: 1.6; background: var(--deep-pink); padding: 0 4px 0 6px; }
+span.ph-group-content-tag::after{position: absolute; content: ""; height: 100%; width: 13px; right: -13px; top: 0; background: url('../images/ribbon-head.png') center center no-repeat; transform: rotate(180deg);}
+
+    /*商品內容*/
+.ph-group-content-text-detail{font-size: 15px; color: var(--p-color); line-height: 1.6; letter-spacing: 0.8px;}
+
+    /*商品圖片*/
+.ph-group-content-photo a img{width: 100%;}
+
+    /*商品價格*/
+a.ph-group-content-text-price{position: absolute; display:block;bottom: 10px; right: 10px; font-size: 24px; font-weight: 550; color: var(--deep-pink);}
+a.ph-group-content-text-price span{font-size: 18px; vertical-align: bottom; font-weight: 300;}
+
+@media screen and (max-width:768px){
+    article.ph-group-content{width: 48%;}
+}
+@media screen and (max-width:550px){
+    article.ph-group-content{width: 50%; margin: 15px 0 0 0;}
+}
+@media screen and (max-width:425px){
+    article.ph-group-content{width: 100%;}
+    :root{
+        --ph-tt:18px;
+    }
+    .ph-group-content-text-detail{font-size: 14px;}
+}
+

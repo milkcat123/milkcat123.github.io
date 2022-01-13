@@ -1,0 +1,77 @@
+<div class="group-type-ph">
+  <div class="ph">
+    <a href="https://hotel.settour.com.tw/product/HDP0000010421">
+      <div class="ph-img">
+        <img src="https://photo.settour.com.tw/300x200/https://www.settour.com.tw/ss_img/HDP/0000/0104/21/ori_4620.jpg"
+          alt="alt" onError="this.src ='/st_ec/img/sys/300x200.gif'" />
+      </div>
+      <div class="ph-title">米南山妍精品旅館</div>
+      <div class="ph-detail">開車約2分鐘可抵達貓狸山公園</div>
+      <div class="ph-feature">
+
+      </div>
+      <em class="price">$<span>
+          1,880
+        </span><i>起</i></em>
+    </a>
+  </div>
+  <div class="ph">
+    <a href="https://hotel.settour.com.tw/product/HDP0000020174">
+      <div class="ph-img">
+        <img src="https://photo.settour.com.tw/300x200/https://www.settour.com.tw/ss_img/HDP/0000/0201/74/ori_3584315.jpg"
+          alt="alt" onError="this.src ='/st_ec/img/sys/300x200.gif'" />
+      </div>
+      <div class="ph-title">F Hotel 三義館</div>
+      <div class="ph-detail">開車約7分鐘抵達三義木雕博物館</div>
+      <div class="ph-feature">
+
+      </div>
+      <em class="price">$<span>
+          2,640
+        </span><i>起</i></em>
+    </a>
+  </div>
+  <div class="ph">
+    <a href="https://hotel.settour.com.tw/product/HDP0000000710">
+      <div class="ph-img">
+        <img src="https://photo.settour.com.tw/300x200/https://www.settour.com.tw/ss_img/HDP/0000/0007/10/ori_2213257.jpg"
+          alt="alt" onError="this.src ='/st_ec/img/sys/300x200.gif'" />
+      </div>
+      <div class="ph-title">苗栗巧克力雲莊</div>
+      <div class="ph-detail">開車10分鐘可抵達客家民居</div>
+      <div class="ph-feature">
+
+      </div>
+      <em class="price">$<span>
+          3,900
+        </span><i>起</i></em>
+    </a>
+  </div>
+  <div class="ph">
+    <a href="https://hotel.settour.com.tw/product/HDP0000000412">
+      <div class="ph-img">
+        <img src="https://photo.settour.com.tw/300x200/https://www.settour.com.tw/ss_img/HDP/0000/0004/12/ori_5802050.jpg"
+          alt="alt" onError="this.src ='/st_ec/img/sys/300x200.gif'" />
+      </div>
+      <div class="ph-title">湯悅溫泉會館</div>
+      <div class="ph-detail">開車約6分鐘可抵達虎山吊橋</div>
+      <div class="ph-feature">
+
+      </div>
+      <em class="price">$<span>
+          5,625
+        </span><i>起</i></em>
+    </a>
+  </div>
+</div>
+
+<script>
+  $(function () {
+    $('.ph', '.group-type-ph').hover(function () {
+      $(this).siblings('.ph').addClass('masked');
+    }, function () {
+      $(this).siblings('.ph').removeClass('masked');
+    });
+
+  });
+</script>

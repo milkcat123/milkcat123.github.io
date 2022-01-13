@@ -1,0 +1,521 @@
+* { box-sizing: border-box; font-family: Arial, Helvetica, sans-serif, '思源黑體', '微軟正黑體'; transition: 0.3s;}
+body{display:block; overflow-x: hidden;}
+a{text-decoration: none; color:#ffffff;}
+#goTop{position: fixed;width: 50px; height: 50px; bottom: 10px; right: 50px;font-size: 22px;line-height: 50px; color: #ffffff; text-align:center; background: #005890; z-index: 10; cursor:pointer;}
+#set-footer-base .set-footer-alert{display: none;}
+
+/*導覽列*/
+nav.menuBar{display: block;z-index:20;position:sticky; position:-webkit-sticky; top: 0px; text-align: center; background:#f3e124; padding: 10px 0; margin: 0; }
+nav ul{display: inline-block; max-width:1400px; width: 100%; }
+nav ul li{position: relative; display: inline-block; width: 18%; font-size: 26px; font-weight: 400; color: #ffffff; background: #cbba00; padding: 10px 0; margin: 0 5px; overflow: hidden;}
+nav ul li a{color: #ffffff;}
+nav ul li.on,
+nav ul li:hover{background: #005890; }
+
+.drinkList.aaa{display: none; position: sticky;position:-webkit-sticky; top:66px; text-align: center; z-index: 5;}
+.drinkList.aaa ul{width: 100%; margin: 0 auto; background: #ffffffec;}
+.drinkList.aaa ul li{display: inline-block; font-size: 22px; color: #005890; font-weight: 300; padding: 0 16px; margin: 10px 0; border-right: #005890 1px solid; cursor: pointer; }
+.drinkList.aaa ul li:last-child{border: none;}
+/*版頭*/
+header.header{position: relative; height: 618px; background: url(../images/header.jpg) top center no-repeat;}
+header.header h1{display: none;}
+header.header::before{position: absolute; content: ""; width: 153px; height: 179px; bottom: -50px; left: 20%;background: url('../images/leaf.png')center no-repeat; background-size: 100% auto;}
+/*離島冰茶選單*/
+.teaMenu{position: relative; width: 100%; padding: 40px 0 160px 0; background: url('../images/menuContentBGL.png') center 39% no-repeat, url('../images/menuContentBGR.png') center 31% no-repeat;}
+.teaMenu::before{content:""; position: absolute; height: 155px; width: 100%; bottom: 0px; left: 0; background: url('../images/drink1Top.png') bottom center no-repeat;}
+.teaMenu .wrap{max-width: 1200px; width: 100%; text-align: center; padding: 60px 0 40px 0; margin: 0 auto;}
+.teaMenu .drinkList{position: relative; padding: 3px; margin: 25px 0; border: #005890 4px solid; border-radius: 14px; background: #ffffff;}
+.teaMenu .drinkList::before,
+.teaMenu .drinkList::after{position: absolute; content: ''; width: 99px; height: 19px;left: calc(50% - 49.5px); background: url('../images/menuListDeco.png') center top no-repeat; }
+.teaMenu .drinkList::before{top: -22px;}
+.teaMenu .drinkList::after{bottom: -22px;transform: rotate(180deg);}
+.teaMenu ul{width: 100%; padding: 10px 0;border: #005890 1px solid; border-radius: 8px; background: #ffffff;}
+.teaMenu ul li{display: inline-block; font-size: 24px; color: #005890; font-weight: 300; padding: 0 16px; margin: 10px 0; border-right: #005890 1px solid; cursor: pointer; }
+.teaMenu ul li:last-child{border: none;}
+.teaMenu .content{position:relative; display: inline-block; width: 68%; color: #005890; font-size: 22px; line-height: 1.5; margin: 40px 0;}
+.teaMenu .content::before,
+.teaMenu .content::after{content: ''; position: absolute; width: 36px; height: 144px; top: calc(50% - 72px); background: url('../images/menuContentDeco.png') center top no-repeat; background-size: auto 100% ;}
+.teaMenu .content::before{left: -45px;}
+.teaMenu .content::after{right: -45px; transform: rotate(180deg);}
+/*花王合作BN*/
+.teaMenu .co-banner{max-width:1200px; width:100%; margin: 15px auto; overflow: hidden;}
+.teaMenu .co-banner img{width: 100%; border-radius:10px;}
+
+/*冰茶項目區*/
+.wrapAllDrinks .wrap{width: 100%; padding: 0 0 120px 0; text-align: center;}
+.moveWrap{padding-bottom: 80px; transform:translate(0, -30px); overflow: hidden;}
+.drink1 .moveWrap{transform: translate(0, -170px);}
+.drink1{background: url('../images/bgdeco1-1.png') center 23% no-repeat,url('../images/bgdeco1-2.png') center 8% no-repeat,url('../images/bgdeco1-3.png') center 40% no-repeat,url('../images/bgdeco1-4.png') center 68% no-repeat,url('../images/bgdeco1-5.png') center 85% no-repeat,#ffd5d4;}
+.drinkContent{display: inline-block; max-width: 1400px;width: 100%; margin: 0px auto 20px auto; text-align: center; }
+    /*左邊介紹與百分比*/
+.leftIntro{display: inline-block; width: 30%;  }
+.leftTT{width: 100%;}
+.leftTT img{ width: 107%; margin-left: -37px;}
+.leftPer{width: 100%; display: inline-flex; justify-content: space-between;}
+.perSingle{display: inline-block; width: 30%; text-align: center;}
+.perSingle p{display: inline-block; font-size: 20px; font-weight: 400; margin-top: 8px;}
+
+.perSingle .perBG{position: relative; display: inline-block; width: 120px; height: 120px; background: #ffffff; border-radius: 99rem;}
+.perSingle .perLine{position: absolute; width: 60px; height: 120px; top: 0px; right: 0px; overflow:hidden;}
+.perSingle .perLine::before,.perSingle .perLine::after
+{position: absolute; content:""; width: 120px; height: 60px; top: 0; right: 0; background: #f04c3c; border-radius: 60px 60px 0 0;  transform-origin: 60px 60px; transition: 1.5s ease;}
+.perSingle .perLine::before{transform: rotate(-90deg);}
+.perSingle .perLine::after{display: none; transform: rotate(90deg);}
+.perSingle .perNum{position: absolute;width: 110px;height: 110px;border-radius: 99rem;font-size: 44px;color: #f04c3c;vertical-align: baseline;font-weight: 500;background: white;padding: 30% 0;margin: 5px;}
+.perSingle .perNum span{font-size: 20px; vertical-align: baseline;}
+    /*右邊商品區*/
+.rightProd{display: inline-block; width: 68%; margin-top: 50px; margin-left: 1.5%;}
+.drink1 .rightProd{margin-top: 9%;}
+
+article.ph-group-content{ border: #ffc1c0 2px solid;}
+.rightProd ul.slidecontain{display: none;}
+.rightProd .ph-group-content-photo{display: none;}
+.rightProd article.ph-group-content{position: relative; display: inline-block; width: 100%; background: #ffffff;margin: 0 0 5px 0;}
+.rightProd .ph-group-content-text{width:82%; text-align: left; padding: 10px;}
+.rightProd a.ph-group-content-text-name{font-size: 20px; font-weight: 500; line-height: 1.3;}
+.rightProd p.ph-group-content-text-detail{color: #6c6c6c; font-size: 16px; line-height: 1.5;}
+.rightProd a.ph-group-content-text-price{position: absolute;width: 18%; height: 100%; font-size: 24px;text-align: left; font-weight: 500; right: 0; top: 0; padding: 15px 6px;}
+.rightProd a.ph-group-content-text-price span{font-size: 20px; vertical-align: baseline;}
+.rightProd a.ph-group-content-text-price span:nth-child(1){display: block;}
+    /*ig+商品區*/
+.igContent{display: inline-block; max-width: 1400px;width: 100%; margin: 30px auto; text-align: center; }
+.igPostWrap{display: inline-block; width: 30%; }
+
+.igPostTT{display: inline-block; width: 100%; font-size: 28px; color: #ffffff; font-weight: 300; letter-spacing:2.5px; text-align: center; background: #f15748; padding: 10px 0; margin-bottom: 10px; }
+.igPost{background: #ffffff;}
+.igPostTop{ text-align: left;  padding: 10px 15px;}
+.igPostTop .logo{display: inline-block; vertical-align: middle;}
+.igPostTop .logo img{width: 100%;}
+.igPostTop .wrapTopTT{display: inline-block; vertical-align: middle;margin-left: 4px;}
+.igPostTop .topTT{font-size: 22px; line-height: 1.2; font-weight: 500;}
+.igPostTop .wrapTopTT p{font-size: 18px; font-weight: 300;}
+
+.igPostMid{position:relative; width: 100%; overflow-x: hidden; }
+ul.igPostPoint{position: absolute; width: 100%; text-align: center; bottom: 10px; z-index: 5; }
+ul.igPostPoint li{display: inline-block; width: 10px; height: 10px; border-radius: 99rem; background: rgba(255, 255, 255, 0.6); cursor:pointer; margin: 0 2px;}
+
+.igSlide{position: relative; height: 400px;}
+.igPostPic{ position: absolute; top: 0px; left: 0px;
+    white-space: nowrap;
+    letter-spacing: -0.31em;
+    *letter-spacing: normal;
+    *word-spacing: -0.43em;
+    text-rendering: optimizespeed;
+}
+.igPostPicSingle{display: inline-block;}
+.igPostPicSingle img{width: 100%;}
+.igPostBottom ul{ position: relative; width: 100%; padding: 10px 15px; text-align: left;}
+.igPostBottom ul li{display: inline-block; margin: 0 5px; vertical-align: bottom;}
+.igPostBottom ul li img{width: 100%;}
+.igPostBottom ul li:last-child{position: absolute; right: 15px;}
+
+    /*ig商品區*/
+.igProd{display: inline-block; width: 68%; margin-left: 1.5%;}
+.igProd ul.slidecontain{display: none;}
+.igProd section.ph-group{display: flex; flex-direction: row; flex-flow: wrap; justify-content: space-between;}
+.igProd article.ph-group-content{position: relative;display: inline-block; width: 24.5%; background: #ffffff; margin: 0 0 0.5% 0;}
+.igProd article.ph-group-content:nth-child(4n){margin-right: 0;}
+.igProd .ph-group-content-photo a img{width: 100%;}
+.igProd .ph-group-content-text{ text-align: left; padding: 6px 6px 40px 6px ;}
+.igProd a.ph-group-content-text-name{color: #576e00; font-size: 20px; font-weight: 500; line-height: 1.3;}
+.igProd p.ph-group-content-text-detail{font-size: 14px; color: #6c6c6c; line-height: 1.5;}
+.igProd a.ph-group-content-text-price{position: absolute;width: 100%; font-size: 24px;text-align: right; font-weight: 500; left: 0; bottom: 0; padding: 5px; }
+.igProd a.ph-group-content-text-price span{font-size: 20px; vertical-align: baseline;}
+
+    /*商品頁籤區*/
+header.ph-group-title,
+.ph-menu-arrow-left,
+.ph-menu-arrow-right{display: none;}
+
+.prodContent{display: inline-block; max-width: 1400px;width: 100%; margin: 20px auto; text-align: center;}
+.prodContent .pannel{width:100%; position: relative;}
+.prodContent .pannel::before{position: absolute; content: ""; }
+.prodContent ul.slidecontain{display: inline-block; text-align: left; width: auto;}
+.prodContent nav.ph-menu{text-align: left;}
+.prodContent ul.slidecontain li{position:relative; display: inline-block; font-size: 20px; width: 200px; color:#6b6b6b;letter-spacing: normal; text-align: center; background: #ffffff; padding: 10px 0; margin: 0; }
+.prodContent ul.slidecontain li a{color: #6b6b6b; font-weight: 300;}
+.prodContent ul.slidecontain li.on a{color: #ffffff;}
+.prodContent ul.slidecontain li a img{display: none;}
+.prodContent nav.ph-menu a.planeBtn{display: inline-block; font-size: 20px; width: 200px;letter-spacing: normal; color: #6b6b6b;background: #ffffff; text-align: center; padding: 10px 0; margin: 0;  }
+
+.prodContent section.ph-group.on{display:inline-flex; align-content: stretch;flex-wrap: wrap; text-align: center; justify-content: space-between; border-width: 2px; border-style: solid;}
+.prodContent section.ph-group{display: none; width: 100%; padding: 10px;background: #ffffff;}
+.prodContent section.ph-group article.ph-group-content{position: relative; display: inline-block; width: 24.5%; text-align: left; background: #ffffff; margin: 0 0 0.5% 0;}
+.prodContent section.ph-group article.ph-group-content:last-child{margin-right:0;}
+.prodContent section.ph-group .ph-group-content-photo{position: relative;}
+.prodContent section.ph-group .ph-group-content-photo a img{width: 100%;}
+.prodContent section.ph-group .ph-group-content-photo span.ph-group-content-tag{position: absolute; display: inline-block; top:15px; left:0px; color:#ffffff; font-weight: 300;background: #576e00; padding: 5px;}
+.prodContent section.ph-group .ph-group-content-text{text-align: left; padding: 6px 6px 40px 6px ;}
+.prodContent section.ph-group a.ph-group-content-text-name{font-size: 20px; font-weight: 500; line-height: 1.3;}
+.prodContent section.ph-group p.ph-group-content-text-detail{font-size: 16px; color: #6c6c6c; line-height: 1.5;}
+.prodContent section.ph-group a.ph-group-content-text-price{position: absolute;width: 100%;height: auto; font-size: 24px; font-weight: 500; left: 0;right: auto; top: auto; bottom: 0; padding: 5px;text-align: right;}
+.prodContent section.ph-group a.ph-group-content-text-price span{font-size: 20px; vertical-align: baseline;}
+
+.prodContent section.ph-group.ticket.on{display: block; white-space: normal;}
+.prodContent section.ph-group.ticket article.ph-group-content{position: relative; display: inline-block; width: 100%; background: #ffffff;margin:0 0 5px 0; }
+.prodContent section.ph-group.ticket .ph-group-content-text{position: static; width: 80%; text-align: left; padding: 12px; }
+.prodContent section.ph-group.ticket article.ph-group-content:last-child{margin-bottom:0;}
+.prodContent section.ph-group.ticket .ph-group-content-photo{display: none;}
+.prodContent section.ph-group.ticket a.ph-group-content-text-name{font-size: 22px; font-weight: 500; line-height: 1.3;}
+.prodContent section.ph-group.ticket p.ph-group-content-text-detail{font-size: 16px; color: #6c6c6c; line-height: 1.5;}
+.prodContent section.ph-group.ticket a.ph-group-content-text-price{display: inline-block;position: absolute;width: 160px; height: 100%; font-size: 26px; font-weight: 500;text-align: left; right: 0; left: auto; top: 0; padding: 19px 5px;}
+.prodContent section.ph-group.ticket a.ph-group-content-text-price span{font-size: 20px; vertical-align: baseline;}
+.prodContent section.ph-group.ticket a.ph-group-content-text-price span:nth-child(1){display: block;}
+
+/*澎湖冰茶*/
+.drink1 .prodContent .pannel::before{width: 150px; height: 300px; bottom:-150px; right: -120px; background: url('../images/drink1tea.png')top center no-repeat;background-size: 100% auto; z-index: 10;}
+.drink1 a.ph-group-content-text-name{color: #576e00;}
+.drink1 .prodContent ul.slidecontain li.on,
+.drink1 a.ph-group-content-text-price{background: #f04c3c;}
+.drink1 .prodContent section.ph-group.on{border-color: #f04c3c;}
+.drink1 article.ph-group-content{border-color: #ffc1c0;}
+.wrapAllDrinks .wrap.drink1{padding-bottom: 0;}
+.drink1 .perSingle:nth-child(1) .perLine,
+.drink1 .perSingle:nth-child(3) .perLine{overflow: visible;}
+.drink1 .perSingle:nth-child(1) .perLine::before{transform: rotate(90deg);}
+.drink1 .perSingle:nth-child(1) .perLine::after{transform: rotate(216deg); display: block;}
+.drink1 .perSingle:nth-child(2) .perLine::before{transform: rotate(18deg);}
+.drink1 .perSingle:nth-child(3) .perLine::before{transform: rotate(90deg);}
+.drink1 .perSingle:nth-child(3) .perLine::after{transform: rotate(270deg); display: block;}
+
+/*金高冰茶區*/
+.drink2{position: relative; background: url('../images/bgdeco2-1.png') center 23% no-repeat,url('../images/bgdeco1-2.png') center 8% no-repeat,url('../images/bgdeco2-3.png') center 40% no-repeat,url('../images/bgdeco2-4.png') center 68% no-repeat,url('../images/bgdeco2-5.png') center 85% no-repeat, #f9e9c9;}
+.drink2::before{content:""; position: absolute; height: 190px; width: 100%; top: -190px; left: 0; background: url('../images/drink2Top.png') bottom center no-repeat;}
+.drink2 .prodContent .pannel::before{width: 180px; height: 235px; bottom:-83px; right: -161px; background: url('../images/drink2tea.png')top center no-repeat;background-size: 100% auto; z-index: 10;}
+.drink2 a.ph-group-content-text-name{color: #6e3c00;}
+.drink2 .perSingle .perLine{border-color: #ff9518; color: #ff9518;}
+.drink2 .prodContent ul.list li:last-child{background: #ff9518;color: #ffffff; border-radius: 8px 8px 0 0;}
+.drink2 .igPostTT,
+.drink2 .perSingle .perLine::before,
+.drink2 .perSingle .perLine::after,
+.drink2 a.ph-group-content-text-price,
+.drink2 .prodContent ul.slidecontain li.on{background: #ff9518;}
+.drink2 .prodContent section.ph-group.on{border-color: #ff9518;}
+
+.drink2 .perSingle .perNum,
+.drink2 .prodContent ul.list li.on{color: #ff9518;}
+.drink2 article.ph-group-content{border-color: #f5cfa6;}
+
+.drink2 .perSingle:nth-child(2) .perLine,
+.drink2 .perSingle:nth-child(3) .perLine{overflow: visible;}
+.drink2 .perSingle:nth-child(1) .perLine::before{transform: rotate(72deg);}
+.drink2 .perSingle:nth-child(2) .perLine::before{transform: rotate(90deg);}
+.drink2 .perSingle:nth-child(2) .perLine::after{transform: rotate(144deg); display: block;}
+.drink2 .perSingle:nth-child(3) .perLine::before{transform: rotate(90deg);}
+.drink2 .perSingle:nth-child(3) .perLine::after{transform: rotate(270deg); display: block;}
+
+/*馬祖冰茶*/
+.drink3{position: relative; background: url('../images/bgdeco3-1.png') center 23% no-repeat,url('../images/bgdeco1-2.png') center 8% no-repeat,url('../images/bgdeco3-3.png') center 40% no-repeat,url('../images/bgdeco3-4.png') center 68% no-repeat,url('../images/bgdeco3-5.png') center 85% no-repeat,#d4eec7;}
+.drink3::before{content:""; position: absolute; height: 190px; width: 100%; top: -190px; left: 0; background: url('../images/drink3Top.png') bottom center no-repeat;}
+.drink3 .prodContent .pannel::before{width: 127px; height: 202px; bottom:-86px; right: -99px; background: url('../images/drink3tea.png')top center no-repeat;background-size: 100% auto; z-index: 10;}
+.drink3 a.ph-group-content-text-name{color: #9d8500;}
+.drink3 .perSingle .perLine{border-color: #67a522; color: #67a522;}
+.drink3 .prodContent ul.list li:last-child{background: #67a522; color: #ffffff; border-radius: 8px 8px 0 0;}
+.drink3 .igPostTT,
+.drink3 .perSingle .perLine::before,
+.drink3 .perSingle .perLine::after,
+.drink3 a.ph-group-content-text-price,
+.drink3 .prodContent ul.slidecontain li.on{background: #67a522;}
+.drink3 .prodContent section.ph-group.on{border-color: #67a522;}
+.drink3 .perSingle .perNum,
+.drink3 .prodContent ul.list li.on{color: #67a522;}
+.drink3 article.ph-group-content{border-color: #a9d891;}
+
+.drink3 .perSingle:nth-child(1) .perLine{overflow: visible;}
+.drink3 .perSingle:nth-child(3) .perLine{overflow: visible;}
+.drink3 .perSingle:nth-child(1) .perLine::before{transform: rotate(90deg);}
+.drink3 .perSingle:nth-child(1) .perLine::after{transform: rotate(144deg); display: block;}
+.drink3 .perSingle:nth-child(2) .perLine::before{transform: rotate(54deg);}
+.drink3 .perSingle:nth-child(3) .perLine::before{transform: rotate(90deg);}
+.drink3 .perSingle:nth-child(3) .perLine::after{transform: rotate(198deg); display: block;}
+
+
+/*綠島冰茶*/
+.drink4{position: relative; background:url('../images/bgdeco4-1.png') center 23% no-repeat,url('../images/bgdeco1-2.png') center 8% no-repeat,url('../images/bgdeco4-3.png') center 55% no-repeat,url('../images/bgdeco4-4.png') center 80% no-repeat, #c7ebee;}
+.drink4::before{content:""; position: absolute; height: 190px; width: 100%; top: -190px; left: 0; background: url('../images/drink4Top.png') bottom center no-repeat;}
+.drink4 .prodContent .pannel::before{width: 150px; height: 300px; bottom:-150px; right: -120px; background: url('../images/drink4tea.png')top center no-repeat;background-size: 100% auto; z-index: 10;}
+.drink4 .leftTT{margin-bottom:15px;}
+.drink4 a.ph-group-content-text-name{color: #47aa98;}
+.drink4 .perSingle .perLine{border-color: #58bce1; color: #58bce1;}
+.drink4 .igPostTT,
+.drink4 .perSingle .perLine::before,
+.drink4 .perSingle .perLine::after,
+.drink4 a.ph-group-content-text-price{background: #58bce1;}
+.drink4 .perSingle .perNum,
+.drink4 .prodContent ul.list li.on{color: #58bce1;}
+.drink4 article.ph-group-content{border-color: #b0e4e8;}
+
+.drink4 .perSingle:nth-child(1) .perLine,
+.drink4 .perSingle:nth-child(3) .perLine{overflow: visible;}
+.drink4 .perSingle:nth-child(1) .perLine::before{transform: rotate(90deg);}
+.drink4 .perSingle:nth-child(1) .perLine::after{transform: rotate(234deg); display: block;}
+.drink4 .perSingle:nth-child(2) .perLine::before{transform: rotate(-18deg);}
+.drink4 .perSingle:nth-child(3) .perLine::before{transform: rotate(90deg);}
+.drink4 .perSingle:nth-child(3) .perLine::after{transform: rotate(270deg); display: block;}
+
+/*蘭嶼冰茶*/
+.drink5{position: relative; background: url('../images/bgdeco5-1.png') center 70% no-repeat,url('../images/bgdeco5-3.png') center 39% no-repeat,url('../images/bgdeco5-4.png') center 15% no-repeat,#cddaee;}
+.drink5::before{content:""; position: absolute; height: 190px; width: 100%; top: -190px; left: 0; background: url('../images/drink5Top.png') bottom center no-repeat;}
+.drink5 .prodContent .pannel::before{width: 150px; height: 300px; bottom:-150px; right: -120px; background: url('../images/drink5tea.png')top center no-repeat;background-size: 100% auto; z-index: 10;}
+
+.drink5 a.ph-group-content-text-name{color: #47aa98;}
+.drink5 .perSingle .perLine{border-color: #5d92e3; color: #5d92e3;}
+.drink5 .igPostTT,
+.drink5 .perSingle .perLine::before,
+.drink5 .perSingle .perLine::after,
+.drink5 a.ph-group-content-text-price{background: #5d92e3;}
+.drink5 .perSingle .perNum,
+.drink5 .prodContent ul.list li.on{color: #5d92e3;}
+.drink5 article.ph-group-content{border-color: #a9c2e6;}
+
+.drink5 .leftTT{margin-bottom:20px;}
+.drink5 .perSingle:nth-child(1) .perLine,
+.drink5 .perSingle:nth-child(3) .perLine{overflow: visible;}
+.drink5 .perSingle:nth-child(1) .perLine::before{transform: rotate(90deg);}
+.drink5 .perSingle:nth-child(1) .perLine::after{transform: rotate(234deg); display: block;}
+.drink5 .perSingle:nth-child(2) .perLine::before{transform: rotate(18deg);}
+.drink5 .perSingle:nth-child(3) .perLine::before{transform: rotate(90deg);}
+.drink5 .perSingle:nth-child(3) .perLine::after{transform: rotate(270deg); display: block;}
+
+/*龜山島*/
+.drink6{position: relative; background: url('../images/bgdeco1-2.png') center 15% no-repeat,url('../images/bgdeco6-3.png') center 62% no-repeat, #c7f1e7;}
+.drink6::before{content:""; position: absolute; height: 190px; width: 100%; top: -190px; left: 0; background: url('../images/drink6Top.png') bottom center no-repeat;}
+
+.drink6 a.ph-group-content-text-name{color: #efa930;}
+.drink6 .perSingle .perLine{border-color: #62cac1; color: #62cac1;}
+.drink6 .igPostTT,
+.drink6 .perSingle .perLine::before,
+.drink6 .perSingle .perLine::after,
+.drink6 a.ph-group-content-text-price,
+.drink6 .prodContent ul.slidecontain li.on{background: #62cac1;}
+.drink6 .prodContent section.ph-group.on{border-color: #62cac1;}
+.drink6 .perSingle .perNum,
+.drink6 .prodContent ul.list li.on{color: #62cac1;}
+.drink6 article.ph-group-content{border-color: #a2e4d4;}
+
+.drink6 .perSingle:nth-child(1) .perLine,
+.drink6 .perSingle:nth-child(3) .perLine{overflow: visible;}
+.drink6 .perSingle:nth-child(1) .perLine::before{transform: rotate(90deg);}
+.drink6 .perSingle:nth-child(1) .perLine::after{transform: rotate(162deg); display: block;}
+.drink6 .perSingle:nth-child(2) .perLine::before{transform: rotate(-54deg);}
+.drink6 .perSingle:nth-child(3) .perLine::before{transform: rotate(90deg);}
+.drink6 .perSingle:nth-child(3) .perLine::after{transform: rotate(270deg); display: block;}
+
+/*小琉球*/
+.drink7{position: relative; background:url('../images/bgdeco7-1.png') center 52% no-repeat,url('../images/bgdeco7-3.png') center 85% no-repeat,url('../images/bgdeco7-4.png') center 85% no-repeat, #ffd4d0;}
+.drink7::before{content:""; position: absolute; height: 190px; width: 100%; top: -190px; left: 0; background: url('../images/drink7Top.png') bottom center no-repeat;}
+
+.drink7 a.ph-group-content-text-name{color: #ff7639;}
+.drink7 .perSingle .perLine{border-color: #f54379; color: #f54379;}
+.drink7 .igPostTT,
+.drink7 .perSingle .perLine::before,
+.drink7 .perSingle .perLine::after,
+.drink7 a.ph-group-content-text-price,
+.drink7 .prodContent ul.slidecontain li.on{background: #f54379;}
+.drink7 .prodContent section.ph-group.on{border-color: #f54379;}
+.drink7 .perSingle .perNum,
+.drink7 .prodContent ul.list li.on{color: #f54379;}
+.drink7 article.ph-group-content{border-color: #ffc2bc;}
+
+.wrapAllDrinks .drink7.wrap{padding: 0 0 20px 0;}
+.drink7 .leftTT{margin-bottom: 20px;}
+.drink7 .perSingle:nth-child(1) .perLine,
+.drink7 .perSingle:nth-child(3) .perLine{overflow: visible;}
+.drink7 .perSingle:nth-child(1) .perLine::before{transform: rotate(90deg);}
+.drink7 .perSingle:nth-child(1) .perLine::after{transform: rotate(216deg); display: block;}
+.drink7 .perSingle:nth-child(2) .perLine::before{transform: rotate(-54deg);}
+.drink7 .perSingle:nth-child(3) .perLine::before{transform: rotate(90deg);}
+.drink7 .perSingle:nth-child(3) .perLine::after{transform: rotate(270deg); display: block;}
+
+.drink7 .rightProd .ph-group-content-text{width: 100%;}
+.drink7 .rightProd .ph-group-content-photo{display: block;}
+
+/*手機板*/
+@media screen and (max-width:1200px){
+    header.header::before{width: 120px; left: 8%;}
+    .wrapAllDrinks .drink7.wrap{padding: 0 10px;}
+    .wrapAllDrinks .wrap{padding: 0 10px 120px 10px;}
+    .teaMenu .drinkList{width: 90%; margin: 25px auto;}
+    .teaMenu ul li{font-size: 20px; padding: 0 10px;margin: 5px 0;}
+    .drinkList.aaa ul li{font-size: 20px; }
+    .teaMenu .content{font-size: 18px; width: 60%;}
+    .teaMenu .title img{width: 40%;}
+    .teaMenu .co-banner{width: 90%;}
+
+    .perSingle .perBG{width: 100px; height: 100px;}
+    .perSingle .perLine{width: 50px; height: 100px;}
+    .perSingle .perLine::before,.perSingle .perLine::after
+    {width: 100px; height: 50px; border-radius: 50px 50px 0 0;  transform-origin: 50px 50px;}
+    .perSingle .perNum{width: 90px;height: 90px;font-size: 37px;padding: 28% 0;margin: 5px;}
+    .perSingle .perNum span{font-size: 20px;}
+    .perSingle p{font-size: 16px;}
+    .leftTT img{width: 100%; margin-left: 0;}
+    .drink1 .rightProd{margin-top: 7%;}
+    .rightProd a.ph-group-content-text-name{font-size: 20px;}
+    .rightProd p.ph-group-content-text-detail{font-size: 16px;}
+    .rightProd .ph-group-content-text{width: 80%;}
+    .rightProd a.ph-group-content-text-price{width: 20%;}
+    .prodContent .pannel::before{display: none;}
+    .igProd a.ph-group-content-text-name{font-size: 18px;}
+    .igProd p.ph-group-content-text-detail{font-size: 14px;}
+    #goTop{right: 10px;}
+}
+@media screen and (max-width:1024px){
+    header.header{height: auto; background: none;}
+    header.header h1{display: block;}
+    header.header h1 img{width: 100%;}
+    .teaMenu .drinkList{width: 100%;}
+    .teaMenu .wrap{padding: 60px 10px 40px 10px;}
+    .teaMenu .content{width: 80%;}
+    .leftIntro{display: inline-block; width: 90%;}
+    .leftTT{display: inline-block; width: 45%; vertical-align: middle;}
+    .leftPer{width: 54%; vertical-align: middle; padding: 20px 10px 0 10px;}
+    .perSingle .perBG{width: 130px; height: 130px;}
+    .perSingle .perLine{width: 65px; height: 130px;}
+    .perSingle .perLine::before,.perSingle .perLine::after
+    {width: 130px; height: 65px; border-radius: 65px 65px 0 0;  transform-origin: 65px 65px;}
+    .perSingle .perNum{width: 118px;height: 118px;font-size: 44px;padding: 28% 0;margin: 6px;}
+    .perSingle .perNum span{font-size: 26px;}
+    .perSingle p{font-size: 18px;}
+    .rightProd{width: 100%; margin: 0;}
+    .drink1 .rightProd{margin-top: 2%;}
+    .igPostWrap{width: 29%; margin-bottom: 15px;}
+    .igPostTop .topTT{font-size: 20px;}
+    .igPostTop .wrapTopTT p{font-size: 16px;}
+    .igPostTT{font-size: 22px;}
+    .igPostPicSingle{width: 100%;}
+    .igPostPicSingle img{width: 100%;}
+    .igProd{width: 70%;margin-left: 0;}
+    .igProd article.ph-group-content{width: 32.5%;}
+    .prodContent{margin: 0 auto;}
+    .prodContent section.ph-group.on{display: block; white-space: nowrap; overflow-x: scroll; text-align:left;}
+    .prodContent section.ph-group article.ph-group-content{width: 35%; white-space: normal;}
+    .prodContent section.ph-group a.ph-group-content-text-name,
+    .prodContent section.ph-group.ticket a.ph-group-content-text-name{font-size: 18px;}
+    .prodContent section.ph-group.ticket .ph-group-content-text{width: 85%;}
+    .prodContent section.ph-group.ticket a.ph-group-content-text-price{width: 15%; font-size: 25px;}
+    
+}
+@media screen and (max-width:880px){
+    header.header::before{width: 90px;}
+    .leftIntro{width: 100%;}
+    nav ul li{width: 190px; font-size: 22px;}
+    .teaMenu .title img{width: 55%;}
+    .teaMenu .content{width: 85%; font-size: 16px;}
+    .teaMenu ul li{font-size: 19px;}
+    .drinkList.aaa{top: 62px;}
+    .drinkList.aaa ul li{font-size: 19px; padding: 0 8px; margin: 8px 0;}
+    .perSingle .perBG{width: 110px; height: 110px;}
+    .perSingle .perLine{width: 55px; height: 110px;}
+    .perSingle .perLine::before,.perSingle .perLine::after
+    {width: 110px; height: 55px; border-radius: 55px 55px 0 0;  transform-origin: 55px 55px;}
+    .perSingle .perNum{width: 102px;height: 102px;font-size: 38px;padding: 28% 0;margin: 4px;}
+    .perSingle .perNum span{font-size: 24px;}
+    .perSingle p{font-size: 16px;}
+    .leftTT{width: 49%;}
+    .leftTT img{width: 100%; margin-left: -20px;}
+    .leftPer{width: 50%; padding: 10px 0 0 0;}
+    .prodContent nav.ph-menu a.planeBtn,
+    .prodContent ul.slidecontain li{width: 160px; font-size: 18px;}
+    .prodContent section.ph-group.ticket p.ph-group-content-text-detail{font-size: 14px;}
+    .igProd article.ph-group-content{width: 49%;}
+    .igPostWrap{width: 100%;}
+    .igProd{width: 100%}
+    .igProd section.ph-group{display: block; text-align: left; white-space: nowrap; overflow-x: scroll;}
+    .igProd .ph-group-content-text{white-space: normal;}
+}
+@media screen and (max-width:768px){
+    .teaMenu .co-banner{margin: 0 auto 10px auto;}
+    .teaMenu .co-banner img{border-radius:5px;}
+    .drinkList.aaa ul{white-space: nowrap; overflow: scroll;}
+    .drinkList.aaa ul li{font-size: 17px;}
+    .drink1::before{top: -154px;}
+    .teaMenu::before,.drink2::before,.drink3::before,.drink4::before,.drink5::before,.drink6::before,.drink7::before{background-size: 180% auto;}
+    .prodContent section.ph-group article.ph-group-content{width: 49%;margin: 0.5%;}
+    
+    .prodContent section.ph-group.ticket a.ph-group-content-text-price{font-size: 22px; padding: 1%;}
+    .rightProd a.ph-group-content-text-name,
+    .prodContent section.ph-group.ticket a.ph-group-content-text-price span{font-size: 18px;}
+    .drink6 .prodContent section.ph-group.ticket a.ph-group-content-text-price,
+    .drink7 .prodContent section.ph-group.ticket a.ph-group-content-text-price
+    {width: 20%; padding:1%;}
+    .rightProd a.ph-group-content-text-price{font-size: 22px;}
+    .rightProd a.ph-group-content-text-price span{font-size: 18px;}
+    .perSingle .perBG{width: 90px; height: 90px;}
+    .perSingle .perLine{width: 45px; height: 90px;}
+    .perSingle .perLine::before,.perSingle .perLine::after
+    {width: 90px; height: 45px; border-radius: 45px 45px 0 0;  transform-origin: 45px 45px;}
+    .perSingle .perNum{width: 84px;height: 84px;font-size: 32px;padding: 28% 0;margin: 3px;}
+    .perSingle .perNum span{font-size: 22px;}
+    .perSingle p{font-size: 14px;}
+    .leftPer{padding: 32px 0 0 0 ;}
+    .teaMenu .content::before, .teaMenu .content::after{height: 120px; width: 31px;}
+    .prodContent nav.ph-menu a.planeBtn, .prodContent ul.slidecontain li{width: 150px; font-size: 16px; padding: 8px 0;}
+}
+@media screen and (max-width:642px){
+    .teaMenu .content br{display:none;}
+    .prodContent nav.ph-menu a.planeBtn, .prodContent ul.slidecontain li{width: 120px;}
+}
+@media screen and (max-width:624px){
+    header.header::before{display: none;}
+    nav ul li{padding: 8px 0; font-size: 20px;}
+    nav.menuBar{padding: 5px 0;}
+    .drinkList.aaa{top: 46px;}
+    .teaMenu{padding: 15px 0 100px 0;}
+    .teaMenu .wrap{padding: 10px 10px 0 10px;}
+    .teaMenu .title img{width: 70%;}
+    .drink1::before{height: 90px; top:-89px;}
+    .drink1 .moveWrap{transform: translate(0, -120px);}
+    .leftIntro{margin-bottom: 5px;}
+    .prodContent nav.ph-menu{white-space: nowrap; overflow-x: scroll;}
+    .wrapAllDrinks .wrap{padding: 0 10px 40px 10px;}
+    .wrapAllDrinks .drink7.wrap{padding-bottom: 25px;}
+    .drink7.wrap .moveWrap{padding-bottom: 0;}
+}
+@media screen and (max-width:560px){
+    .teaMenu .drinkList{display: none;}
+    .teaMenu .wrap{padding: 10px 10px 20px 10px;}
+    .teaMenu .title{margin-bottom: 10px;}
+    .teaMenu .content{margin: 30px 0;}
+    .teaMenu .content::before, .teaMenu .content::after{top: calc(50% - 60px);}
+    .leftTT,.leftPer{width: 100%; padding: 0 15%;}
+    .igContent{margin: 10px auto 30px auto;}
+    .perSingle .perBG{width: 110px; height: 110px;}
+    .perSingle .perLine{width: 55px; height: 110px;}
+    .perSingle .perLine::before,.perSingle .perLine::after
+    {width: 110px; height: 55px; border-radius: 55px 55px 0 0;  transform-origin: 55px 55px;}
+    .perSingle .perNum{width: 102px;height: 102px;font-size: 38px;padding: 28% 0;margin: 4px;}
+    .perSingle .perNum span{font-size: 24px;}
+    .perSingle p{font-size: 16px;}
+    .rightProd a.ph-group-content-text-name,
+    .prodContent section.ph-group.ticket a.ph-group-content-text-price span{font-size: 16px;}
+    .prodContent section.ph-group.ticket .ph-group-content-text,
+    .rightProd .ph-group-content-text{width: 100%;padding: 10px 10px 32px 10px;}
+    .prodContent section.ph-group.ticket a.ph-group-content-text-price,
+    .rightProd a.ph-group-content-text-price{width: auto;height: auto; bottom: 0; top: auto; padding: 3px 8px;}
+    .rightProd a.ph-group-content-text-price span:nth-child(1){display: inline-block;}
+    .prodContent section.ph-group p.ph-group-content-text-detail,
+    .rightProd p.ph-group-content-text-detail{font-size: 14px;}
+    .drink4 .rightProd, .drink5 .rightProd, .drink6 .rightProd, .drink7 .rightProd{margin-top: 20px;}
+}
+@media screen and (max-width:485px){
+    .teaMenu .wrap{padding-bottom: 0;}
+    .leftTT, .leftPer{padding: 0;}
+    .igProd section.ph-group,
+    .prodContent section.ph-group.on{display: block;white-space: nowrap; overflow: scroll; text-align: left;}
+    .igProd article.ph-group-content,
+    .prodContent section.ph-group article.ph-group-content{width: 60%;white-space: normal; margin-right: 4px;}
+    .drink6 .prodContent section.ph-group.ticket a.ph-group-content-text-price,
+    .drink7 .prodContent section.ph-group.ticket a.ph-group-content-text-price{width: auto;}
+    .prodContent section.ph-group.ticket a.ph-group-content-text-price span:nth-child(1){display: inline-block;}
+    .prodContent section.ph-group.ticket a.ph-group-content-text-price{font-size: 18px;}
+}
+@media screen and (max-width:425px){
+    .teaMenu .title img{width: 90%;}
+    .teaMenu .content{font-size: 14px; width: 95%; margin-top: 15px;}
+    .teaMenu .content::before, .teaMenu .content::after{display: none;}
+    .perSingle .perNum{font-size: 36px; padding: 32% 0;}
+    .leftIntro{margin-bottom: 15px;}
+    igPostTT {font-size: 20px; padding: 7px 0;}
+    nav ul li{width: 150px;  margin: 0;}
+}

@@ -18,14 +18,16 @@ $(document).ready(function(){
 	//滾動偵測
 
 	let scrollItem = $('.scroll-target').children('section');//改children
+	let menuHeight = $('.nav-height').outerHeight();
+	console.log(`nav高: ${menuHeight}px`);
 
 	scrollItem.each(function(){
 		let _this = $(this);
 		$(window).on('scroll resize reload', function(){
 			let scrollItemH = _this.offset().top,
 				windowH = $(window).scrollTop(),
-				thisIndex = _this.index(),
-				menuHeight = $('.nav-height').outerHeight();
+				thisIndex = _this.index();
+				
 			// console.log(`第${thisIndex}個距頂${scrollItemH - windowH}px`);
 			if( scrollItemH - windowH <= menuHeight ){
 				$('.scroll-tag').find('li').removeClass('on');
@@ -47,7 +49,7 @@ $(document).ready(function(){
 
 		//找相對應的區塊
 		console.log(`nav高度${menuHeight}`);
-		$('html,body').stop().animate({scrollTop: targets.eq(clickNum).offset().top} , 800);
+		$('html,body').stop().animate({scrollTop: targets.eq(clickNum).offset().top - menuHeight} , 800);
   
 	})}
   );

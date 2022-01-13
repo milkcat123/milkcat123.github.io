@@ -1,0 +1,34 @@
+/* 隱藏 */
+.carrier ul li.box-head{display: none;} 
+.standard-content .intro-anchors{display: none;}
+/* 格式調整 */
+.carrier ul li{ border-bottom: #353bb3 1px dotted; margin: 0 8px; text-align: left;}
+.carrier ul li:last-child{border: none;}
+.carrier ul li a{position: relative; font-size:16px; line-height: 1.5; color: #3c3c3c; padding: 15px 5px;}
+.carrier ul li a strong{display: block; font-size: 22px; line-height: 1.5;color: #353bb3;}
+/* 價格 */
+.carrier ul li a em.price{ position: absolute; font-size: 24px; font-weight: 600; color: #e2423a; right: 20px; bottom: 10px;}
+.carrier ul li a em.price span{font-size: 26px; vertical-align: baseline;}
+
+/*hover*/
+.carrier ul li:hover{ background: #ffffff;}
+.carrier ul li:hover a strong{color: #e2423a;}
+
+/*配合調整*/
+#group .carrier{text-align: center; margin-bottom: 30px;}
+#group .carrier ul li:last-child{border-bottom: #353bb3 1px dotted; margin: 0 8px; }
+#free .intro-anchors{display: block;}
+#free .intro-anchors a{display: inline-block;}
+
+@media screen and (max-width:768px){
+    .carrier ul li a{padding: 15px 5px 35px 5px;}
+    .carrier ul li a strong{font-size:20px;}
+    .carrier ul li a em.price{font-size: 22px;bottom:0; right: 5px;}
+    .carrier ul li a em.price span{font-size: 24px;}
+}
+@media screen and (max-width:425px){
+    .carrier ul li a strong{font-size:18px;}
+    .carrier ul li a em.price{font-size: 20px;}
+    .carrier ul li a em.price span{font-size: 22px;}
+    .carrier ul li a{font-size:14px;}
+}

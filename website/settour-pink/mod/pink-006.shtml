@@ -1,0 +1,100 @@
+<!-- 006 MODULE -->
+<article class="ph">
+    <section class="ph-group type-3-normal">
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://trip.settour.com.tw/kinmen/product/GDG0000001714">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GDG/0000/0017/14/ori_31919925.jpg"
+                        alt="
+                                                                                                        【澎湖玩一夏】東海巡航龍蝦島、海洋牧場、元泰大飯店三日_台北出發
+                                                                                                        "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/kinmen/product/GDG0000001714" class="ph-group-content-text-name">
+                    【澎湖玩一夏】東海巡航龍蝦島、海洋牧場、元泰大飯店三日_台北出發
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    巡航龍蝦島、海洋牧場、元泰大飯店
+                </p>
+                <a href="https://trip.settour.com.tw/kinmen/product/GDG0000001714" class="ph-group-content-text-price">
+                    <span>3天</span>
+                    $13,200 <span>起</span>
+                </a>
+            </div>
+        </article>
+
+    </section>
+    <!-- 看更多連結 -->
+
+    <!-- 直式 三個一排 累加模組 V113 -->
+    <section class="ph-group type-3-normal">
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://trip.settour.com.tw/kinmen/product/GDG0000001614">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GDG/0000/0016/14/ori_31575989.jpg"
+                        alt="
+                                                                                                        【金享受】水頭聚落、彩繪風獅爺、品酒、博餅樂、昇恆昌3日(高雄出發)
+                                                                                                        "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/kinmen/product/GDG0000001614" class="ph-group-content-text-name">
+                    【金享受】水頭聚落、彩繪風獅爺、品酒、博餅樂、昇恆昌3日(高雄出發)
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    水頭聚落、彩繪風獅爺、品酒、博餅樂
+                </p>
+                <a href="https://trip.settour.com.tw/kinmen/product/GDG0000001614" class="ph-group-content-text-price">
+                    <span>3天</span>
+                    $11,688 <span>起</span>
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+    </section>
+
+    <!-- 直式 三個一排 累加模組 V113 -->
+    <section class="ph-group type-3-normal">
+        <!--ph-group-content-->
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://trip.settour.com.tw/kinmen/product/GDG0000001614">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GDG/0000/0016/14/ori_31575989.jpg"
+                        alt="
+                                                                                                        【金享受】水頭聚落、彩繪風獅爺、品酒、博餅樂、昇恆昌3日(高雄出發)
+                                                                                                        "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/kinmen/product/GDG0000001614" class="ph-group-content-text-name">
+                    【金享受】水頭聚落、彩繪風獅爺、品酒、博餅樂、昇恆昌3日(高雄出發)
+                </a>
+                <p class="ph-group-content-text-detail">
+                    水頭聚落、彩繪風獅爺、品酒、博餅樂
+                </p>
+                <a href="https://trip.settour.com.tw/kinmen/product/GDG0000001614" class="ph-group-content-text-price">
+                    <span>3天</span>
+                    $11,688 <span>起</span>
+                </a>
+            </div>
+        </article>
+
+    </section>
+
+</article>

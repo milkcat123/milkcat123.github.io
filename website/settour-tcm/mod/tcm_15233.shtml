@@ -1,0 +1,77 @@
+<div class="group-type-ph">
+  <div class="ph">
+    <a href="https://hotel.settour.com.tw/product/HDP0000000158">
+      <div class="ph-img">
+        <img src="https://photo.settour.com.tw/300x200/https://www.settour.com.tw/ss_img/HDP/0000/0001/58/ori_6978484.jpg"
+          alt="alt" onError="this.src ='/st_ec/img/sys/300x200.gif'" />
+      </div>
+      <div class="ph-title">悅華大酒店</div>
+      <div class="ph-detail">車程12分鐘可達桃園客家文化館</div>
+      <div class="ph-feature">
+
+      </div>
+      <em class="price">$<span>
+          2,100
+        </span><i>起</i></em>
+    </a>
+  </div>
+  <div class="ph">
+    <a href="https://hotel.settour.com.tw/product/HDP0000020500">
+      <div class="ph-img">
+        <img src="https://photo.settour.com.tw/300x200/https://www.settour.com.tw/ss_img/HDP/0000/0205/00/ori_3781413.jpg"
+          alt="alt" onError="this.src ='/st_ec/img/sys/300x200.gif'" />
+      </div>
+      <div class="ph-title">福容大飯店桃園機場捷運A8</div>
+      <div class="ph-detail">位於機場捷運線A8站內</div>
+      <div class="ph-feature">
+
+      </div>
+      <em class="price">$<span>
+          5,130
+        </span><i>起</i></em>
+    </a>
+  </div>
+  <div class="ph">
+    <a href="https://hotel.settour.com.tw/product/HDP0000000402">
+      <div class="ph-img">
+        <img src="https://photo.settour.com.tw/300x200/https://www.settour.com.tw/ss_img/HDP/0000/0004/02/ori_2230005.jpg"
+          alt="alt" onError="this.src ='/st_ec/img/sys/300x200.gif'" />
+      </div>
+      <div class="ph-title">新竹國賓飯店</div>
+      <div class="ph-detail">數分鐘可達新竹火車站</div>
+      <div class="ph-feature">
+
+      </div>
+      <em class="price">$<span>
+          4,620
+        </span><i>起</i></em>
+    </a>
+  </div>
+  <div class="ph">
+    <a href="https://hotel.settour.com.tw/product/HDP0000010444">
+      <div class="ph-img">
+        <img src="https://photo.settour.com.tw/300x200/https://www.settour.com.tw/ss_img/HDP/0000/0104/44/ori_159489.jpg"
+          alt="alt" onError="this.src ='/st_ec/img/sys/300x200.gif'" />
+      </div>
+      <div class="ph-title">新竹豐邑喜來登大飯店</div>
+      <div class="ph-detail">開車10分鐘可抵達國立清華大學</div>
+      <div class="ph-feature">
+
+      </div>
+      <em class="price">$<span>
+          5,100
+        </span><i>起</i></em>
+    </a>
+  </div>
+</div>
+
+<script>
+  $(function () {
+    $('.ph', '.group-type-ph').hover(function () {
+      $(this).siblings('.ph').addClass('masked');
+    }, function () {
+      $(this).siblings('.ph').removeClass('masked');
+    });
+
+  });
+</script>

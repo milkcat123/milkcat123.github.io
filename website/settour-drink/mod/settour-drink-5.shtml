@@ -1,0 +1,247 @@
+<!-- 05 MODULE -->
+<article class="ph">
+    <!--錨點選單開始-->
+    <nav class="ph-menu has-banner">
+        <ul class="slidecontain">
+            <li>
+                <a class="anchorLink" href="#9837">
+                    <img src="https://www.settour.com.tw/st_dist/img/amp/poi-icon-01.png" alt="旅遊行程" />
+                    <div>旅遊行程 </div>
+                </a>
+            </li>
+            <li>
+                <a class="anchorLink" href="#9839">
+                    <img src="https://www.settour.com.tw/st_dist/img/amp/poi-icon-01.png" alt="當地體驗、票券" />
+                    <div>當地體驗、票券 </div>
+                </a>
+            </li>
+        </ul>
+        <div class="ph-menu-arrow-left disabled">
+            <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        </div>
+        <div class="ph-menu-arrow-right">
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+        </div>
+    </nav>
+    <!--錨點選單結束-->
+    <!--一個錨點內容商品開始-->
+    <header class="ph-group-title" id="9837">
+        <img src="https://www.settour.com.tw/st_dist/img/amp/poi-icon-01.png" alt="旅遊行程" onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';" />
+        <span>旅遊行程</span>
+    </header>
+    <!-- 直式 三個一排 累加模組 V113 -->
+    <section class="ph-group type-3-normal">
+        <!--ph-group-content-->
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://trip.settour.com.tw/taiwan/product/GDP0000000638">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GDP/0000/0006/38/ori_4829438.jpg"
+                        alt="【東南賓士車】出發牛奶湖、龜山島登島、賞鯨、壯圍沙丘 1日遊"
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/taiwan/product/GDP0000000638" class="ph-group-content-text-name">
+                    【東南賓士車】出發牛奶湖、龜山島登島、賞鯨、壯圍沙丘 1日遊
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    4人成行 / 龜山島登島、船遊龜山島 / 頭城車站商圈美食 / 壯圍沙丘風景及沙穴建築空間。
+                </p>
+                <a href="https://trip.settour.com.tw/taiwan/product/GDP0000000638" class="ph-group-content-text-price">
+                    <span>1天</span>
+                    請洽客服
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002602">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GRT/0000/0026/02/ori_31617456.jpg"
+                        alt="【宜蘭龜山島】夢幻牛奶海賞鯨豚、壯圍沙丘、DIY川燙海鮮摸魚 1日遊"
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002602" class="ph-group-content-text-name">
+                    【宜蘭龜山島】夢幻牛奶海賞鯨豚、壯圍沙丘、DIY川燙海鮮摸魚 1日遊
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    團體旅遊 / 搭船環繞龜山島 / 欣賞牛奶海與超萌鯨豚 / 甕窯雞午餐
+                </p>
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002602" class="ph-group-content-text-price">
+                    <span>1天</span>
+                    請洽客服
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000001434">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GRT/0000/0014/34/ori_30820208.jpg"
+                        alt="【宜蘭龜山島】牛奶海賞鯨豚、太平山見晴古道、香格里拉農場 2日遊"
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000001434" class="ph-group-content-text-name">
+                    【宜蘭龜山島】牛奶海賞鯨豚、太平山見晴古道、香格里拉農場 2日遊
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    出海賞鯨豚 / 搭船環繞龜山島 美翻牛奶海 / 太平山蹦蹦車、見晴古道
+                </p>
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000001434" class="ph-group-content-text-price">
+                    <span>2天</span>
+                    請洽客服
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002564">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GRT/0000/0025/64/ori_31605186.jpg"
+                        alt="【宜蘭龜山島】探索龜山島、太平山森呼吸、見晴懷古步道、鳩之澤夢幻藍 3日遊"
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002564" class="ph-group-content-text-name">
+                    【宜蘭龜山島】探索龜山島、太平山森呼吸、見晴懷古步道、鳩之澤夢幻藍 3日遊
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    台中出發 / 團體旅遊 / 探索龜山島奧妙 (登島+巡航) / 仁山植物園
+                </p>
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002564" class="ph-group-content-text-price">
+                    <span>3天</span>
+                    請洽客服
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+        <!-- end of foreach -->
+    </section>
+    <!-- 看更多連結 -->
+    <header class="ph-group-title" id="9839">
+        <img src="https://www.settour.com.tw/st_dist/img/amp/poi-icon-01.png" alt="當地體驗、票券" onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';" />
+        <span>當地體驗、票券</span>
+
+    </header>
+
+    <!-- 直式 三個一排 累加模組 V113 -->
+    <section class="ph-group type-3-normal">
+        <!--ph-group-content-->
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://ticket.settour.com.tw/product/TKT0000007530">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/TKT/0000/0075/30/ori_31672185.jpg"
+                        alt="【宜蘭】龜山島牛奶海遊艇＋SUP體驗"
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://ticket.settour.com.tw/product/TKT0000007530" class="ph-group-content-text-name">
+                    【宜蘭】龜山島牛奶海遊艇＋SUP體驗
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    龜山島矗立海上 牛奶海就像希臘愛琴海一樣美麗，遊艇享受海上風光，牛奶海 SUP 照片迷人萬千，全程活動紀錄，照片生動漂亮，專業教練＋專業配備，歡樂美好體驗 CP 值超高。
+                </p>
+                <a href="https://ticket.settour.com.tw/product/TKT0000007530" class="ph-group-content-text-price">
+                    <span></span>
+                    請洽客服
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://ticket.settour.com.tw/product/TKT0000007983">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/TKT/0000/0079/83/ori_31849711.jpg"
+                        alt="【宜蘭】龜山島登島半日遊｜登島・環島・賞鯨"
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://ticket.settour.com.tw/product/TKT0000007983" class="ph-group-content-text-name">
+                    【宜蘭】龜山島登島半日遊｜登島・環島・賞鯨
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    4 小時內搭船賞鯨、環島、登島！龜山島登島由專業嚮導帶領，帶你從烏石港搭船輕鬆出發，登上太平洋上的神秘仙島—龜山島，一覽龜山島八景！
+                </p>
+                <a href="https://ticket.settour.com.tw/product/TKT0000007983" class="ph-group-content-text-price">
+                    <span></span>
+                    請洽客服
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://ticket.settour.com.tw/product/TKT0000007874">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/TKT/0000/0078/74/ori_31726910.jpg"
+                        alt="【宜蘭】新福豐36號賞鯨 + 環龜山島"
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://ticket.settour.com.tw/product/TKT0000007874" class="ph-group-content-text-name">
+                    【宜蘭】新福豐36號賞鯨 + 環龜山島
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    擁抱龜山島海域的碧海藍天。
+                </p>
+                <a href="https://ticket.settour.com.tw/product/TKT0000007874" class="ph-group-content-text-price">
+                    <span></span>
+                    $899 <span>起</span>
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+        <!-- end of foreach -->
+    </section>
+</article>

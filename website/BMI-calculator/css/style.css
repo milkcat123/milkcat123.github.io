@@ -1,0 +1,87 @@
+* { box-sizing: border-box; font-family: Arial, Helvetica,'思源黑體', sans-serif; transition: 0.3s;}
+body{position:relative;background: #f5f5f5; text-align: center; min-height: 100vh;}
+
+.calculate-wrap{text-align: center; background: #424242; padding: 74px 0;}
+#logo{ display: inline-block; width: 160px; height: 160px; background: #FFD366;-webkit-mask: url(../images/icon.png) center center no-repeat; -webkit-mask-size:100% auto; mask: url(../images/icon.png) center center no-repeat; mask-size: 100% auto; }
+.calculate-area{display:inline-block;margin: 0 54px;}
+.height-area{margin-bottom: 16px;}
+.height-area,.weight-area{color: #FFD366; font-size: 18px; line-height:1.5; text-align: left;}
+input#height-input,
+input#weight-input{display: block;color:#ffffff; font-size: 24px; line-height: 36px; border: #FFD366 2px solid; border-radius: 10px; background: #ffffff18; } 
+input#height-input::placeholder,
+input#weight-input::placeholder{font-size: 24px; color: #ffffff50; font-weight: 300; padding-left: 10px;}
+/*計算按鈕*/
+button#calculate-button{display:inline-block;width: 120px; height: 120px;font-size: 24px; color:#424242; line-height: 120px; font-weight: 400; border-radius: 99rem; background: #FFD366; margin: 17px 0; border: none; cursor: pointer;}
+#calculate-button:hover{box-shadow: 0 1px 6px 3px rgba(255, 197, 50, 0.64);}
+#calculate-button:active{background: #DEA821; box-shadow: none;}
+/*結果按鈕*/
+#calculate-button-clicked{display: none; position: relative; width: 120px; height: 120px; font-size:32px; font-weight: 400; color: #ffffff; border: 6px solid #ffffff; border-radius: 99rem; padding: 35px 0 26px 0; margin: 17px 0;}
+#calculate-button-clicked span{display:block;font-size:14px;}
+#calculate-button-clicked.middle{border-color: #86D73F;color: #86D73F;}
+#calculate-button-clicked.underweight{border-color: #31BAF9;color: #31BAF9;}
+#calculate-button-clicked.overweight{border-color: #FF982D;color: #FF982D;}
+#calculate-button-clicked.s-fat,
+#calculate-button-clicked.m-fat{border-color: #FF6C03;color: #FF6C03;}
+#calculate-button-clicked.l-fat{border-color: #FF1200;color: #FF1200;}
+
+#clicked-result{position:absolute;width: 117%; right: -135%; top: 0; font-size:28px; line-height: 110px; font-weight: 300;text-align: left;}
+
+#calculate-button-clicked-loop{position: absolute; bottom:0px; right:0px; width: 30px; height: 30px; background: #ffffff; background:url('../images/icons_loop.png') center center no-repeat,#ffffff; border: #424242 solid 3px; border-radius: 99rem; cursor:pointer; }
+#calculate-button-clicked-loop:hover{transform: rotate(-180deg);transition: 0.5s}
+.middle #calculate-button-clicked-loop{background-color: #86D73F;}
+.underweight #calculate-button-clicked-loop{background-color: #31BAF9;}
+.overweight #calculate-button-clicked-loop{background-color: #FF982D;}
+.s-fat #calculate-button-clicked-loop,
+.m-fat #calculate-button-clicked-loop{background-color: #FF6C03;}
+.l-fat #calculate-button-clicked-loop{background-color: #FF1200;}
+
+.result-wrap{text-align: center; background: #f5f5f5;}
+.result-wrap h2{font-size: 24px; color: #424242; font-weight: 400; padding: 48px 0 36px 0;}
+
+ul#result-list{max-width: 1024px; width: 100%; padding-bottom: 30px; margin: 0 auto;}
+ul#result-list li{display: inline-block; width: 90%; padding: 20px 12px; background: #ffffff; margin-bottom: 16px; border-width: 0 0 0 6px; border-style: solid; }
+ul#result-list li.middle{border-left-color: #86D73F;}
+ul#result-list li.underweight{border-left-color: #31BAF9;}
+ul#result-list li.overweight{border-left-color: #FF982D;}
+ul#result-list li.s-fat,
+ul#result-list li.m-fat{border-left-color: #FF6C03;}
+ul#result-list li.l-fat{border-left-color: #FF1200;}
+
+.result-status,.result-BMI,.result-weight,.result-height,.result-time{display: inline-block; width: 19.5%; color: #424242; font-size: 20px; text-align: center;}
+.result-status{text-align: left;}
+.result-BMI span,
+.result-weight span,
+.result-height span{font-size: 12px; margin-right: 8px; vertical-align: middle;}
+.result-time{font-size: 12px;vertical-align: middle; line-height: 20px;}
+
+#cleanUp{display:inline-block; color: #424242; font-size: 18px; text-align: center; font-weight: 400; background: #FFD366; border-radius: 99rem; padding: 8px 15px; margin: 0 0 120px 0; cursor:pointer;}
+
+footer{ position:absolute; bottom:0; height: 90px; width: 100%; background: center center / auto 80% no-repeat url('../images/icon.png'),#FFD366;}
+
+@media screen and (max-width: 620px){
+    ul#result-list{padding: 0 15px 30px 15px;}
+    ul#result-list li{width: 100%; padding: 10px 0 0 0; border-width: 6px 0 0 0;text-align: center;}
+    ul#result-list li.middle{border-top-color: #86D73F;}
+    ul#result-list li.underweight{border-top-color: #31BAF9;}
+    ul#result-list li.overweight{border-top-color: #FF982D;}
+    ul#result-list li.s-fat,
+    ul#result-list li.m-fat{border-top-color: #FF6C03;}
+    ul#result-list li.l-fat{border-top-color: #FF1200;}
+    .result-status{width: 100%; text-align: center;}
+    .result-BMI, .result-weight, .result-height{width: 33%; margin: 16px 0;}
+    .result-time{width: 100%; background: #c9c9c9; color: #ffffff;}
+}
+@media screen and (max-width: 425px){
+    #logo{width: 100px; height: 100px;}
+    .calculate-wrap{padding: 20px 0;}
+    .calculate-area{width: 100%; padding: 0 20px; margin: 0;}
+    footer{height: 50px;}
+    #cleanUp{margin-bottom: 80px;}
+    input#height-input, input#weight-input{width: 100%;}
+    button#calculate-button{margin: 17px 0 0 0;}
+    .result-BMI span, .result-weight span, .result-height span{margin-right: 4px;}
+}
+@media screen and (max-width:320px){
+    .result-status, .result-BMI, .result-weight, .result-height{font-size: 18px;}
+    .result-time{font-size: 14px;}
+}

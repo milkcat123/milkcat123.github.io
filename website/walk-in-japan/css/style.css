@@ -1,0 +1,387 @@
+* { box-sizing: border-box;}
+
+#wrapper { background: url('../images/all-bg.png') top center repeat, #fdf8eb; padding-bottom: 80px;}
+a{text-decoration: none; color: #ffffff;}
+/*版頭*/
+header.header{
+    -webkit-clip-path: ellipse(1440px 100% at 50% 0%);
+    clip-path: ellipse(1440px 100% at 50% 0%);
+    height:958px;
+    background: url('../images/home-pc.jpg') top center no-repeat;
+    margin-bottom: 40px;
+}
+header.header h1{display: none;}
+/*共用*/
+.menubar,
+#hot-area,
+.osaka-subway,
+#osaka,
+.kyoto,
+.kobe-subway,
+.kobe,
+#JRbn,
+.icon-all,
+.more-btn{max-width: 1400px; margin: 0 auto;}
+.intro p br{display: none;}
+
+/*選單*/
+.menubar{position: sticky; top:0; padding:15px 0px; text-align: center; background: rgba(255, 249, 235, 0.8); z-index:100 ;}
+.menubar-content{position:relative; display: inline-block; width: 100%; padding: 0 50px;}
+.menubar-content a{display: inline-block; color: #585858;  transition: 0.3s;cursor: pointer;}
+.menubar-content-ch{position: relative ;display: inline-block; font: 700 28px/40px '思源黑體','微軟正黑體'; letter-spacing: 2.56px;}
+.menubar-content-en{display: inline-block; font: 700 20px/40px 'arial'; margin: 0 6px;}
+.menubar-content-square{display: inline-block; width: 3px; height: 40px; background:#ffc840; margin:0 4%;}
+
+.go-top-btn{position: fixed; display:none; z-index:100; bottom: 20px; right: 20px; width: 60px; height: 60px; font:500 20px/0.8 '微軟正黑體'; color: #fdf8eb; text-align: center; background: #d85d49; border-radius: 99em;cursor: pointer; padding: 12px 0; transition: 400ms;}
+.go-top-btn span{font-size: 16px;}
+.go-top-btn:hover{background:#ffb400; color:#c93a23; transition: 400ms;}
+
+/*熱門地區*/
+#hot-area{text-align: center; padding: 80px 20px 0 20px;
+    letter-spacing: -0.31em; 
+    *letter-spacing: normal; 
+    *word-spacing: -0.43em; 
+    text-rendering: optimizespeed;}
+
+.hot-area-left{display: inline-block; width: 50%;}
+.hot-area-left-pic{display: inline-block; width: 93%; max-height: 440px; overflow: hidden;}
+.hot-area-left-pic img{width: 100%;}
+.hot-area-left-word{display: inline-block; width:7%; font: 600 28px/1 '源流明朝 TTF','新細明體'; color: white; background: #d85d49; border-radius: 0px 15px 0px 0px; -webkit-writing-mode: vertical-lr; writing-mode: vertical-lr; padding: 2% 1.2%; letter-spacing: 5px;}
+
+.hot-area-right{display: inline-block; width: 50%; max-height:440px; padding: 2.2% 0 0 3%;}
+.hot-area-right-up{margin-bottom: 13%;}
+.hot-area-right-up h3{display: none; font:800 24px/1 '微軟正黑體'; color: #585858; text-align: left; letter-spacing: 2.4px; margin-bottom: 3%;}
+.hot-area-right-up h3.on{display: block;}
+.hot-area-right-up p{ display:none; font:500 18px/34px '微軟正黑體'; color: #585858; text-align: left; letter-spacing: 1.92px; }
+.hot-area-right-up p.on{ display:block;}
+
+.hot-area-right-pic{text-align: left;
+    letter-spacing: -0.31em; 
+    *letter-spacing: normal; 
+    *word-spacing: -0.43em; 
+    text-rendering: optimizespeed;}
+.hot-area-right-pic{display: flex; flex-flow: row nowrap; justify-content: space-between;}
+.hot-area-right-pic-single{-webkit-filter: brightness(0.65); width: 23%; max-height: 145px; background-color: #ffffff; overflow: hidden; cursor: pointer;}
+.hot-area-right-pic-single img{width: 100%; transition: 0.4s;}
+.hot-area-right-pic-single.bright{-webkit-filter: brightness(1.1); transition: 0.4s;}
+.hot-area-right-line{width: 100%; height: 5px; background: #d85d49; margin-top: 6%;}
+
+.hot-area-address{ text-align: left; margin-top: 42px;}
+.hot-area-address-square{display: inline-block; width: 22px; height: 22px; background: #d85d49; margin-right: 8px;}
+.hot-area-address-content{display: none; font: 500 16px/26px 'arial'; color: #585858; letter-spacing: 1.6px;}
+.hot-area-address-content.on{display: inline-block;}
+
+/*大阪到京都 京都到神戶*/
+.osaka-subway,
+.kobe-subway{text-align:center; background: #fffef8; padding: 5% 0; margin-top:40px; margin-bottom: 40px;}
+.osaka-subway img{width: 70%;}
+.kobe-subway img{width: 56%;}
+
+/*大阪區*/
+#osaka,
+.kyoto,
+.kobe{text-align: center; padding: 80px 20px 60px 20px;}
+
+#osaka h2 img,
+.kyoto h2 img,
+.kobe h2 img{width: 18%; margin-bottom: 20px;}
+
+.h2-sub{font: bold 26px/1 'century gothic'; margin-bottom: 36px; letter-spacing: 12px;}
+#osaka .h2-sub{color: #c93a23; }
+.kyoto .h2-sub{color: #ff9c00;}
+.kobe .h2-sub{color: #91ad31;}
+
+.all-pic{ letter-spacing: -0.31em; 
+    *letter-spacing: normal; 
+    *word-spacing: -0.43em; 
+    text-rendering: optimizespeed;}
+.all-pic>div{display: inline-block;}
+
+.pic-left,
+.pic-right
+    { width: 50%; max-height: 670px; overflow: hidden; transition: ease 0.5s;
+    letter-spacing: -0.31em; 
+    *letter-spacing: normal; 
+    *word-spacing: -0.43em; 
+    text-rendering: optimizespeed;}
+.pic-left img{height: auto; width: 100%;}
+
+.pic-right>div{display: inline-block;}
+.pic-right-up{width: 100%; max-height: 400px; overflow: hidden;}
+.pic-right-up img{height: auto; width: 100%;}
+
+.pic-right-down{width: 50%; max-height: 270px; overflow: hidden;}
+.pic-right-down img{width: 100%;}
+
+#osaka .intro h3,
+.kyoto .intro h3,
+.kobe .intro h3{font: 700 42px/1 '源流明朝 TTF','細明體'; letter-spacing: 4px; margin: 48px 0 28px 0;}
+#osaka .intro h3{color: #d85d49;}
+.kyoto .intro h3{color: #ffb400;}
+.kobe .intro h3{color: #91ad31;}
+
+#osaka .intro p,
+.kyoto .intro p,
+.kobe .intro p{font: 500 20px/40px '微軟正黑體'; color: #585858;}
+
+#osaka .btn,
+.kyoto .btn,
+.kobe .btn{display: inline-block; width: 350px; font: 800 25px/1 '微軟正黑體'; color: #ffffff; border-radius: 99em; padding: 14px 0; margin-top: 28px;}
+#osaka .btn{background: #d85d49;}
+.kyoto .btn{background: #ffb400;}
+.kobe .btn{background: #91ad31;}
+
+/*info-cover的部分*/
+.pic-left{position: relative;}
+.pic-left .info-cover{position: absolute;width: 100%; height: 100%; bottom: -100%; text-align: left; font:400 20px/1.6 '源泉圓體','arial','微軟正黑體' ; letter-spacing: 2px; color: #ffffff; background: rgba(0,0,0,0.6); padding:90px 80px; transition: ease 0.5s;}
+.pic-left .info-cover a.info-cover-more{position:absolute; bottom: 28px; right: 40px; font:300 18px/1; text-decoration: underline;}
+.pic-left .info-cover-address,
+.pic-left .info-cover-by{margin-bottom: 70px;}
+
+.pic-right-up{position: relative;}
+.pic-right-up .info-cover{position: absolute;width: 100%; height: 100%; bottom: -100%; text-align: left; font:400 18px/1.5 '源泉圓體','arial','微軟正黑體' ; letter-spacing: 2px; color: #ffffff; background: rgba(0,0,0,0.6); padding:60px 50px; transition: ease 0.5s;}
+.pic-right-up .info-cover a.info-cover-more{position:absolute; bottom: 18px; right: 25px; font:300 15px/1; text-decoration: underline;}
+.pic-right-up .info-cover-address,
+.pic-right-up .info-cover-by{margin-bottom: 35px;}
+
+.pic-right-down{position: relative;}
+.pic-right-down .info-cover{position: absolute;width: 100%; height: 100%; bottom: -100%; text-align: left; font:400 16px/1.5 '源泉圓體','arial','微軟正黑體' ; letter-spacing: 2px; color: #ffffff; background: rgba(0,0,0,0.6); padding:30px 25px; transition: ease 0.5s;}
+.pic-right-down .info-cover a.info-cover-more{position:absolute; bottom: 15px; right: 20px; font:300 14px/1; text-decoration: underline;}
+.pic-right-down .info-cover-address,
+.pic-right-down .info-cover-by{margin-bottom: 20px;}
+
+/*JR banner*/
+#JRbn {position: relative; width:100%; padding: 80px 20px 0 20px;}
+#JRbn img{width: 100%;}
+.JRbn-btn{position: absolute; bottom: 12%;right: 6%; font: 700 36px/1 '微軟正黑體'; color: #ffffff; text-align: center; background: #d85d49; border-radius: 10px; padding: 20px 7%;}
+#JRbn-mobile{display: none;}
+
+/*icon-all*/
+.icon-all{width: 100%; text-align: center; margin: 120px auto 100px auto;
+    text-align: center;
+    letter-spacing: -0.31em; 
+    *letter-spacing: normal; 
+    *word-spacing: -0.43em; 
+    text-rendering: optimizespeed;}
+
+.icon-all-circle{width: 100%; height: auto; border: 4px #b99516 solid; border-radius: 99em; padding: 10%;}
+.icon-all-circle img{width: 100%;}
+
+.icon-all-single p{font: 800 28px/1 '微軟正黑體'; color: #b99516; letter-spacing: 3.4px; margin-top: 12px;}
+.icon-all-single{display: inline-block; width: 16%; text-align: center; margin:0 4%;}
+
+
+/*更多*/
+.more-btn{text-align: center;}
+.more-btn a{display:inline-block;  width: 420px; background: #b99516; color: #ffffff; font: 700 28px/1 '微軟正黑體'; border-radius: 10px; padding: 20px 0;}
+
+/*動畫*/
+.menubar-content-ch:hover{color: #d85d49}
+.menubar-content-ch::before{position: absolute ;content: "";width: 0%; height: 3px; background: #d85d49; bottom: -4px; transition: 0.3s;}
+.menubar-content-ch:hover::before{width: 97%; transition: 0.3s;}
+
+.hot-area-left-pic{position: relative;}
+.hot-area-left-pic-cover{position: absolute; width: 100%; height: 100%; background: url('../images/imgcover.jpg') top center repeat; top: -102%; left: 0px; box-shadow: 5px 6px 8px rgba(0, 0, 0, 0.35);}
+
+
+/*手機板*/
+@media screen and (max-width:1300px){
+    .hot-area-right p{margin-bottom: 7%;}
+    .pic-right-down .info-cover{font:400 15px/1.5 '源泉圓體','arial','微軟正黑體' ; letter-spacing: 1.8px; padding:20px 20px;}
+    .hot-area-right-up {margin-bottom: 11%;}
+}
+@media screen and (max-width:1220px){
+    .hot-area-right p{margin-bottom: 5%;font: 500 18px/30px '微軟正黑體';}
+
+}
+@media screen and (max-width:1110px){
+    .menubar-content-square {margin: 0 4%; width: 5px; height: 40px;}
+    .menubar-content-ch{margin: 0; font: 700 26px/40px '思源黑體','微軟正黑體';}
+    .menubar-content-en{font: 700 20px/40px 'arial';margin: 0 4px;}
+    .hot-area-left-word {font-size: 24px;}
+}
+@media screen and (max-width:1024px){
+    .hot-area-right {padding: 1.3% 0 0 3%;}
+    .hot-area-right h3 {margin-bottom: 2%;}
+    .hot-area-right-up p{line-height: 30px;}
+    .hot-area-right-up{margin-bottom: 10%;}
+    .hot-area-left-word{padding: 2% 1%;}
+    .hot-area-address-content {font: 500 14px/22px 'arial';}
+    .osaka-subway,
+    .kobe-subway{margin-top: 60px; margin-bottom: 40px;}
+    #osaka .intro h3, .kyoto .intro h3, .kobe .intro h3 {font: 700 36px/1 '源流明朝 TTF','細明體';margin: 40px 0 20px 0;}
+    #osaka .btn, .kyoto .btn, .kobe .btn {font-size:22px; width: 325px; padding: 12px 0; margin-top: 30px;}
+    #osaka .intro p, .kyoto .intro p, .kobe .intro p {font: 500 18px/1.8 '微軟正黑體';}
+    #osaka h2 img, .kyoto h2 img, .kobe h2 img {width: 22%;}
+    .h2-sub {font-size:23px;}
+    .JRbn-btn {bottom: 12%;right: 7%; font-size: 30px; padding: 1.8% 5.5%;}
+
+    .pic-left .info-cover{font:400 18px/1.6 '源泉圓體','arial','微軟正黑體' ; letter-spacing: 1.8px; padding:60px 65px;}
+    .pic-left .info-cover-address,
+    .pic-left .info-cover-by{margin-bottom: 50px;}
+    .pic-right-up .info-cover{font:400 16px/1.5 '源泉圓體','arial','微軟正黑體' ; letter-spacing: 1.8px; padding:50px 40px;}
+    .pic-right-down .info-cover{font:400 14px/1.5 '源泉圓體','arial','微軟正黑體' ;padding:15px;}
+    .pic-right-down .info-cover-by{margin-bottom: 15px;}
+}
+@media screen and (max-width:1000px){
+    .menubar {padding: 15px 0px 15px 0;}
+    #hot-area{padding: 70px 45px 40px 45px;}
+    .hot-area-left{ width: 100%;}
+    .hot-area-left-word {display: none;}
+    .hot-area-left-pic {width: 100%;}
+    .hot-area-right{width: 100%;padding: 3% 0 0 0;}
+    .hot-area-right-up{margin-bottom: 0;}
+    .hot-area-right br{display: none;}
+    .hot-area-right p{width: 100%;}
+    .hot-area-right p.on{display: inline-block;}
+    .hot-area-address {margin-top: 36px;}
+    .hot-area-address-square {width: 16px;height: 16px;}
+    .hot-area-address-content {font: 500 14px/16px 'arial';}
+}
+@media screen and (max-width:980px){
+    .menubar-content-ch{width: 20%; font: 700 26px/30px '思源黑體','微軟正黑體';}
+    .menubar-content-en{font: 700 20px/30px 'arial';}
+    .menubar-content-square {margin: 9px 4%;}
+    .hot-area-right-line {margin-top: 3%;}
+    .icon-all{margin: 80px auto;}
+    .icon-all-single {width: 18%; margin: 0px 3%;}
+    .icon-all-single p {font-size: 25px; letter-spacing: 1.4px; margin-top: 10px;}
+
+    .pic-left .info-cover{font:400 16px/1.6 '源泉圓體','arial','微軟正黑體' ; letter-spacing: 1.5px; padding:50px 55px;}
+    .pic-right-up .info-cover{padding:35px 30px;}
+    .pic-right-up .info-cover-address{margin-bottom: 25px;}
+    .pic-right-up .info-cover-date,
+    .pic-right-down .info-cover-date{display: none;}
+    .pic-right-down .info-cover{font:400 12px/1.4 '源泉圓體','arial','微軟正黑體' ;padding:14px;}
+    .pic-right-down .info-cover-address{margin-bottom: 10px;}
+    
+}
+@media screen and (max-width:768px){
+    #wrapper{padding-bottom: 60px;}
+    header.header{background: none; height: auto;
+        -webkit-clip-path: ellipse(72% 100% at 50% 0%);
+        clip-path: ellipse(72% 100% at 50% 0%);}
+    header.header h1{display: block;}
+    header.header h1 img{width: 100%;}
+    .menubar {padding: 10px 0 0px 0;}
+    .menubar-content{padding: 0 2%;}
+    .menubar-content-ch{margin: 0; font: 700 22px/30px '思源黑體','微軟正黑體';}
+    .menubar-content-ch::before{bottom: 3px; left: 7%;}
+    .menubar-content-ch:hover::before{width: 85%}
+    .menubar-content-en{font: 700 17px/20px 'arial';margin: 0 4px;}
+    .menubar-content-square {margin: 6px 5%;}
+    .hot-area-right h3 {font: 800 22px/1 '微軟正黑體';}
+    .hot-area-right p {font: 500 16px/24px '微軟正黑體';}
+    .hot-area-address-square {width: 14px;height: 14px;}
+    .osaka-subway, .kobe-subway {margin-top: 50px;margin-bottom: 20px;}
+    .kobe-subway img {width: 70%;}
+    #osaka, .kyoto, .kobe {padding: 48px 40px 60px 40px;}
+    #osaka .intro p, .kyoto .intro p, .kobe .intro p {font-size: 16px;}
+    #JRbn{padding:0 40px; margin-top: 40px;}
+    .JRbn-btn {bottom: 11%; right: 8%; font-size: 24px; padding: 1.5% 5.5%;}
+    .icon-all-single p {font-size: 23px;}
+    .more-btn a{width: 50%; font-size: 26px; padding: 15px 0;}
+
+    .pic-left .info-cover{font:400 16px/1.6 '源泉圓體','arial','微軟正黑體' ;padding:45px 50px;}
+
+}
+@media screen and (max-width:580px){
+    #wrapper{padding-bottom: 50px;}
+    .menubar-content-ch{font: 700 18px/28px '思源黑體','微軟正黑體';}
+    .menubar-content-en{font: 700 14px/18px 'arial'}
+    .menubar-content-square {width:3px; margin: 5px 3%;}
+    .menubar-content-ch:hover::before{width: 84%;}
+    .menubar-content-ch::before{bottom: 5px; left: 9px;}
+    #hot-area {padding: 45px 30px 0 30px;}
+    .hot-area-right{width: 100%;padding: 24px 0 0 0;}
+    .hot-area-right h3{font-size: 21px;}
+    .hot-area-right p{font: 500 15px/22px '微軟正黑體';}
+    .osaka-subway img {width: 90%;}
+    #osaka, .kyoto, .kobe {padding: 48px 30px 20px 30px;}
+    #osaka h2 img, .kyoto h2 img, .kobe h2 img {width: 30%;}
+    .h2-sub {font: bold 20px/1 'century gothic'; margin-bottom: 20px;}
+    #osaka .intro h3, .kyoto .intro h3, .kobe .intro h3 {font-size: 30px; margin: 20px 0 10px 0;}
+    #osaka .intro p, .kyoto .intro p, .kobe .intro p {font: 500 14px/1.8 '微軟正黑體';}
+    #osaka .btn, .kyoto .btn, .kobe .btn {font-size: 20px; width: 260px; padding: 10px 0;}
+    .pic-left, .pic-right {width: 100%; max-height: 500px;}
+    .pic-right-up,
+    .pic-right-down{max-height: 250px;}
+    .pic-right-down img{position: static;}
+    .osaka-subway, .kobe-subway {margin-top: 30px; margin-bottom: 30px;}
+    .kobe-subway img {width: 85%;}
+    #JRbn{padding:0 30px;}
+    .JRbn-btn {font-size: 18px; padding: 1.5% 5.5%;}
+    .icon-all-single p {font-size: 20px;}
+    .icon-all-single {width: 20%; margin: 0px 2%;}
+    .icon-all-circle{border-width: 3px;}
+    .more-btn a{width: 70%; font-size: 24px; padding: 13px 0;}
+
+    .pic-left .info-cover{font:400 18px/1.6 '源泉圓體','arial','微軟正黑體' ; letter-spacing: 1.8px; padding:60px 65px;}
+    .pic-left .info-cover-address,
+    .pic-left .info-cover-by{margin-bottom: 50px;}
+    .pic-right-up .info-cover{font-size: 16px; letter-spacing: 1.8px; padding: 50px 40px;}
+    .pic-right-down .info-cover{font-size: 14px; padding: 15px;}
+    .pic-right-down .info-cover-by{margin-bottom: 15px;}
+
+}
+@media screen and (max-width:425px){
+    #wrapper{padding-bottom: 40px;}
+    .menubar-content-ch{width:24%;}
+    .menubar-content-ch::before{display: none;}
+    .hot-area-right br{display: block;}
+    .hot-area-address-content {font: 500 12px/15px 'arial';}
+    .hot-area-address-square{display: none;}
+    .hot-area-right p{margin-bottom: 25px;}
+    .hot-area-address {margin-top: 15px;}
+    #hot-area {padding: 0 15px;}
+    .hot-area-right h3 {font-size: 19px;}
+    .pic-left, .pic-right {width: 100%; max-height: 400px;}
+    .pic-right-up,
+    .pic-right-down{max-height: 200px;}
+    .pic-right-down img{position: static;}
+    #osaka, .kyoto, .kobe {padding: 48px 15px 20px 15px;}
+    .intro p br{display: block;}
+    #osaka h2 img, .kyoto h2 img, .kobe h2 img {width: 38%; margin-bottom: 10px;}
+    #osaka .btn, .kyoto .btn, .kobe .btn {width: 70%;}
+    .osaka-subway, .kobe-subway {margin-top: 40px; margin-bottom: 10px;}
+    #osaka .intro h3, 
+    .kyoto .intro h3, 
+    .kobe .intro h3 {font-size:24px; letter-spacing: 1px;}
+    #JRbn{display: none;}
+    #JRbn-mobile{display: block; text-align: center; padding:0 15px; margin-top:30px;}
+    #JRbn-mobile img{width: 100%;}
+    .JRbn-btn{position:static; display:inline-block; width: 70%; font-size: 18px; border-radius: 5px; padding: 10px 0; margin-top: 20px;}
+    .icon-all {margin: 35px auto;}
+    .icon-all-single {width: 34%; margin: 5%;}
+    .more-btn a{font-size: 22px; padding: 12px 0;}
+
+    .pic-right-up .info-cover{padding:30px 30px;}
+}
+@media screen and (max-width:375px){
+    #wrapper{padding-bottom: 25px;}
+    .hot-area-right p {font-size:14px;}
+    #osaka, .kyoto, .kobe {padding: 20px 20px 20px 20px;}
+    #osaka .intro h3, 
+    .kyoto .intro h3, 
+    .kobe .intro h3 {font-size: 22px;}
+    #osaka .intro p, 
+    .kyoto .intro p, 
+    .kobe .intro p {font-size: 12px;}
+
+    .pic-left .info-cover{font-size:16px; padding:40px 40px;}
+    .pic-left .info-cover-address,
+    .pic-left .info-cover-by{margin-bottom: 20px;}
+    .pic-right-down .info-cover-by{display: none;}
+}
+@media screen and (max-width:320px){
+    .menubar-content-ch{width:24%; font: 700 16px/28px '思源黑體','微軟正黑體';}
+    .menubar-content-en {font: 700 13px/10px 'arial';}
+    .menubar-content{padding: 0;}
+    #osaka .btn, .kyoto .btn, .kobe .btn {width: 75%;font-size: 18px;}
+    .more-btn a{font-size: 18px;}
+
+    .pic-right-up .info-cover{font-size: 15px; padding:40px 35px;}
+    .pic-right-up .info-cover-address{margin-bottom: 15px;}
+    .pic-right-down .info-cover-address{font-size: 13px;}
+    
+}

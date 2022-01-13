@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW"> <!--語言為繁體中文-->
+    <head>
+        <meta charset="UTF-8"> <!--編碼-->
+        <!--#include virtual="./inc/seo.shtml"-->
+        <link rel="stylesheet" href="../../css/reset.css" type="text/css">
+        <link rel="stylesheet" href="./css/style.css" type="text/css">
+        <!--寬度符合裝置的寬度-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <!--版頭-->
+            <header class="header">
+                <h1>
+                    <img src="./images/home-mobile.jpg" alt="日式漫步">
+                </h1>
+            </header>
+            <!--選單-->
+            <div class="menubar">
+                <div class="menubar-content">
+                    <a class="menubar-content-ch">熱門地區 <div class="menubar-content-en">HOT</div></a>
+                    
+                    <div class="menubar-content-square"></div>
+
+                    <a class="menubar-content-ch">特選秘境<div class="menubar-content-en">special</div></a>
+                    
+                    <div class="menubar-content-square"></div>
+
+                    <a class="menubar-content-ch">超值加購<div class="menubar-content-en">extra</div></a>
+                    
+                </div>
+            </div>
+            <div class="go-top-btn"><span>▲</span><br>TOP</div>
+            <!--熱門地區-->
+            <div id="hot-area">
+                <div class="hot-area-left">
+                    <div class="hot-area-left-pic">
+                        <div class="hot-area-left-pic-cover"></div>
+                        <img src="./images/hot-area-main.jpg" title="伏見稻荷大社">
+                    </div>
+                    <div class="hot-area-left-word">伏見稻荷大社</div>
+                </div>
+                <div class="hot-area-right">
+                    <div class="hot-area-right-up">
+                        <h3 class="on">#京都伏見稻荷大社</h3>
+                        <h3>#京都嵐山竹林</h3>
+                        <h3>#京都嵐山蹉峨車站</h3>
+                        <h3>#祇園町南側</h3>
+                        <p class="on">位於日本京都市伏見區內的神社，<br style="display:block">
+                            是遍及日本全國各地<br>約四萬多所的稻荷神社之總本社，<br style="display:block">
+                            以境內所擁有的「千本鳥居」聞名。
+                        </p>
+                        <p>位於京都右京區，嵐山車站附近的竹林，<br style="display:block">
+                            蜿蜒而鬱鬱蔥蔥，竹林裡有寺廟、墓園、穿插其間。<br style="display:block">
+                            穿著和服搭乘著人力車漫步於竹林間，<br style="display:block">
+                            是難得的旅遊體驗。
+                        </p>
+                        <p>先搭乘至JR嵯峨嵐山站，<br>再轉乘嵐山小火車前往山上，<br style="display:block">
+                            四季美麗的嵐山，<br>在秋冬賞楓之際更是一票難求。
+                        </p>
+                        <p>是日本少數還存有的花街，<br>不經意間還是能看見藝妓與舞妓路過的曼妙身影，<br style="display:block">
+                            寂靜的街道上卻彷彿瀰漫著一股大正時期的溫柔氣息，<br style="display:block">
+                            夜晚與白日都頗有一番風情。
+                        </p>
+                    </div>
+                    <div class="hot-area-right-down">
+                        <div class="hot-area-right-pic">
+                            <div class="hot-area-right-pic-single bright"><a href="javascript:void(0)" onclick="aa(0)"><img src="./images/hot-area-main.jpg" title="伏見稻荷大社"></a></div>
+                            <div class="hot-area-right-pic-single"><a href="javascript:void(0)" onclick="aa(1)"><img src="./images/hot-area-chu.jpg" title="京都嵐山竹林"></a></div>
+                            <div class="hot-area-right-pic-single"><a href="javascript:void(0)" onclick="aa(2)"><img src="./images/hot-area-train.jpg" title="京都嵐山蹉峨車站"></a></div>
+                            <div class="hot-area-right-pic-single"><a href="javascript:void(0)" onclick="aa(3)"><img src="./images/hot-area-kimono.jpg" title="祇園町南側"></a></div>
+                        </div>
+                        <div class="hot-area-right-line"></div>
+                    </div>
+                </div>                
+                <div class="hot-area-address">
+                    <div class="hot-area-address-square"></div>
+                    <div class="hot-area-address-content on">68 Fukakusa Yabunouchicho, Fushimi Ward, Kyoto, 612-0882日本</div>
+                    <div class="hot-area-address-content">Ukyo Ward, Kyoto, 616-0007日本</div>
+                    <div class="hot-area-address-content">11-1 Sagatenryuji Kurumamichicho, Ukyo Ward, Kyoto, 616-8373日本</div>
+                    <div class="hot-area-address-content">Gionmachi Minamigawa, Kyoto, 600-8340日本</div>
+                </div>
+            </div>
+            <!--大阪到京都-->
+            <div class="osaka-subway">
+                <img src="./images/osaka-subway.png" alt="大阪到京都交通">
+            </div>
+            <!--大阪區-->
+            <div id="osaka">
+                <h2><img src="./images/osaka-ch.png" alt="大阪"></h2>
+                <div class="h2-sub">-OSAKA-</div>
+                <div class="all-pic">
+                    <div class="pic-left cv">
+                        <img src="./images/osaka-left.jpg" alt="左主圖">
+                        <div class="info-cover">
+                            <div class="info-cover-address">Address.<br>大阪市港区海岸通1-1-10 天保山摩天輪</div>
+                            <div class="info-cover-by">Photo by.<br>Nanami Matsuto</div>
+                            <div class="info-cover-date">2018.09.11</div>
+                            <a class="info-cover-more" href="https://goo.gl/maps/2SdjBcjhynSaH5aV7">>>more</a>
+                        </div>
+                    </div>
+                    <div class="pic-right">
+                        <div class="pic-right-up cv"><img src="./images/osaka-right-up.jpg" alt="右上圖">
+                            <div class="info-cover">
+                                <div class="info-cover-address">Address.<br>大阪市中央區 道頓堀</div>
+                                <div class="info-cover-by">Photo by.<br>Roland Hung</div>
+                                <div class="info-cover-date">2019.11.11</div>
+                                <a class="info-cover-more" href="https://goo.gl/maps/A8S4Ya9RvZH3mAjP6">>>more</a>
+                            </div>
+                        </div>
+                        <div class="pic-right-down cv"><img src="./images/osaka-right-down-left.jpg" alt="右下圖左">
+                            <div class="info-cover">
+                                <div class="info-cover-address">Address.<br>大阪市中央區大阪城1番1號 大阪城</div>
+                                <div class="info-cover-by">Photo by.<br>Lilian Wisley</div>
+                                <div class="info-cover-date">2019.08.22</div>
+                                <a class="info-cover-more" href="https://goo.gl/maps/NgcUx1CerJg9H17A7">>>more</a>
+                            </div>
+                        </div>    
+                        <div class="pic-right-down cv"><img src="./images/osaka-right-down-right.jpg" alt="右下圖右">
+                            <div class="info-cover">
+                                <div class="info-cover-address">Address.<br>心斎橋OPAキレイ館 2階 wargo</div>
+                                <div class="info-cover-by">Photo by.<br>Queeny Mikato</div>
+                                <div class="info-cover-date">2019.10.09</div>
+                                <a class="info-cover-more" href="https://goo.gl/maps/rcbgzMk9yPyt3jiKA">>>more</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="intro">
+                    <h3>大阪在地人介紹的秘密景點!</h3>
+                    <p>大阪在地有名且獨特的古著小店街你知道嗎?<br>
+                        各式七零年代的流行復古小物應有盡有!<br style="display:block">
+                        那些在旅遊書中找不到的私藏小景點，<br>
+                        就讓在大阪工作生活了15年的資深部落客，<br style="display:block">
+                        帶著你一起來認識認識道地的大阪在地生活吧!
+                    </p>
+                </div>
+                <a class="btn" href="https://asiayo.com/event/osaka_fit.html">大阪私藏景點!GO!</a>
+            </div>
+            <!--京都區-->
+            <div class="kyoto">
+                <h2><img src="./images/kyoto-ch.png" alt="京都"></h2>
+                <div class="h2-sub">-KYOTO-</div>
+                <div class="all-pic">
+                    <div class="pic-left cv">
+                        <img src="./images/kyoto-left.jpg" alt="左主圖">
+                        <div class="info-cover">
+                            <div class="info-cover-address">Address.<br>京都府京都市伏見区深草藪之内町68</div>
+                            <div class="info-cover-by">Photo by.<br>Ayakashi Wang</div>
+                            <div class="info-cover-date">2020.01.03</div>
+                            <a class="info-cover-more" href="https://goo.gl/maps/n5TLDTS7kdvvdfSL8">>>more</a>
+                        </div>
+                    </div>
+                    <div class="pic-right">
+                        <div class="pic-right-up cv"><img src="./images/kyoto-right-up.jpg" alt="右上圖">
+                            <div class="info-cover">
+                                <div class="info-cover-address">Address.<br>伏見稻荷大社 千本鳥居</div>
+                                <div class="info-cover-by">Photo by.<br>Fluffy Hiew</div>
+                                <div class="info-cover-date">2018.07.24</div>
+                                <a class="info-cover-more" href="https://goo.gl/maps/LcuvaSJ9B4sSnajT6">>>more</a>
+                            </div>
+                        </div>
+                        <div class="pic-right-down cv"><img src="./images/kyoto-right-down-left.jpg" alt="右下圖左">
+                            <div class="info-cover">
+                                <div class="info-cover-address">Address.<br>京都市東南方伏見區 醍醐寺</div>
+                                <div class="info-cover-by">Photo by.<br>Kimiko Liao</div>
+                                <div class="info-cover-date">2019.11.09</div>
+                                <a class="info-cover-more" href="https://goo.gl/maps/MGJ8a9gvRBHk6EiN9">>>more</a>
+                            </div>
+                        </div>    
+                        <div class="pic-right-down cv"><img src="./images/kyoto-right-down-right.jpg" alt="右下圖右">
+                            <div class="info-cover">
+                                <div class="info-cover-address">Address.<br>奈良縣奈良市若草山麓 奈良公園</div>
+                                <div class="info-cover-by">Photo by.<br>Hikaru Yamanoto</div>
+                                <div class="info-cover-date">2020.01.13</div>
+                                <a class="info-cover-more" href="https://goo.gl/maps/ckCgUtWYXmu9eGTB8">>>more</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="intro">
+                    <h3>經典的日本文化古都，來京都吧!</h3>
+                    <p>漫步京都街道，濃濃的日本文化氛圍充滿四周，<br style="display:block">
+                        看著路過的一位位如花似蝶的和服姑娘，<br>
+                        想知道哪裡能穿著經典和服體驗一天嗎?<br style="display:block">
+                        讓關西在地留學生告訴你CP值最高的和服體驗與熱門拍攝地!
+                    </p>
+                </div>
+                <a class="btn" href="https://tw.bring-you.info/kyoto-attractions">京都私藏景點!GO!</a>
+            </div>
+            <!--京都到神戶-->
+            <div class="kobe-subway">
+                <img src="./images/kobe-subway.png" alt="京都到神戶交通">
+            </div>
+            <!--神戶區-->
+            <div class="kobe">
+                <h2><img src="./images/kobe-ch.png" alt="神戶"></h2>
+                <div class="h2-sub">-KOBE-</div>
+                <div class="all-pic">
+                    <div class="pic-left cv">
+                        <img src="./images/kobe-left.jpg" alt="左主圖">
+                        <div class="info-cover">
+                            <div class="info-cover-address">Address.<br>兵庫縣神戸市中央區波止場町2-2 神戶港塔</div>
+                            <div class="info-cover-by">Photo by.<br>Misao Kong</div>
+                            <div class="info-cover-date">2020.06.24</div>
+                            <a class="info-cover-more" href="https://goo.gl/maps/86SCvhxYHxBQpW1Z8">>>more</a>
+                        </div>
+                    </div>
+                    <div class="pic-right">
+                        <div class="pic-right-up cv"><img src="./images/kobe-right-up.jpg" alt="右上圖">
+                            <div class="info-cover">
+                                <div class="info-cover-address">Address.<br>兵庫縣神戶市中央區美利堅公園 神戶海洋博物館</div>
+                                <div class="info-cover-by">Photo by.<br>Kiki Tsunao</div>
+                                <div class="info-cover-date">2019.01.05</div>
+                                <a class="info-cover-more" href="https://goo.gl/maps/d3WWog6gKL4fg9po7">>>more</a>
+                            </div>
+                        </div>
+                        <div class="pic-right-down cv" ><img src="./images/kobe-right-down-left.jpg" alt="右下圖左">
+                            <div class="info-cover">
+                                <div class="info-cover-address">Address.<br>兵庫県神戸市中央区下山手通 神戸牛ステーキ 桜</div>
+                                <div class="info-cover-by">Photo by.<br>Lulumi Hajiyo</div>
+                                <div class="info-cover-date">2019.12.28</div>
+                                <a class="info-cover-more" href="https://g.page/steak-sakura?share">>>more</a>
+                            </div>
+                        </div>    
+                        <div class="pic-right-down cv"><img src="./images/kobe-right-down-right.jpg" alt="右下圖右">
+                            <div class="info-cover">
+                                <div class="info-cover-address">Address.<br>兵庫縣神戶市北野町地區</div>
+                                <div class="info-cover-by">Photo by.<br>Yatori Fukao</div>
+                                <div class="info-cover-date">2019.10.09</div>
+                                <a class="info-cover-more" href="https://goo.gl/maps/j9VCiJDjCSHKZLXc7">>>more</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="intro">
+                    <h3>香味四溢的神戶牛，吃過了嗎?</h3>
+                    <p>
+                        但馬牛是和牛的一種，飼養方式獨特，<br>
+                        其肉則為日本料理中的珍饈，<br style="display:block">
+                        特性表現為美味、肥嫩以及外表呈現的大理石紋理。<br style="display:block">
+                        當地和牛專門名店優惠這邊買!<br>
+                        讓你吃的開心放心又安心!
+                    </p>
+                </div>
+                <a class="btn" href="https://matcha-jp.com/tw/6379">神戶私藏景點!GO!</a>
+            </div>
+            <!--JR banner-->
+            <div id="JRbn">
+                <img src="./images/trainsport-BN-2.jpg" alt="JRbn">
+                <a href="https://ticket.settour.com.tw/product/TKT0000003683?ctp=2&cp=&nt=JP&p1p=4&p2p=44&kp=&st=SD" class="JRbn-btn">代訂交通車票</a>
+            </div>
+            <div id="JRbn-mobile">
+                <img src="./images/trainsport-BN-mobile.jpg" alt="JRbn">
+                <a href="https://ticket.settour.com.tw/product/TKT0000003683?ctp=2&cp=&nt=JP&p1p=4&p2p=44&kp=&st=SD" class="JRbn-btn">代訂交通車票</a>
+            </div>
+            <!--icon-->
+            <div class="icon-all">
+                <div class="icon-all-single">
+                    <a href="#"><div class="icon-all-circle" ><img src="./images/plane.png"></div></a>
+                    <p>機票查詢</p>
+                </div>
+                <div class="icon-all-single">
+                    <a href="#"><div class="icon-all-circle"><img src="./images/hotel.png"></div></a>
+                    <p>住宿查詢</p>
+                </div>
+                <div class="icon-all-single">
+                    <a href="#"><div class="icon-all-circle"><img src="./images/ticket.png"></div></a>
+                    <p>景點門票</p>
+                </div>
+                <div class="icon-all-single">
+                    <a href="#"><div class="icon-all-circle"><img src="./images/meal.png"></div></a>
+                    <p>美食套票</p>
+                </div>
+            </div>
+            <!--更多行程-->
+            <div class="more-btn">
+                <a href="#">查看更多日本行程</a>
+            </div>
+
+        </div><!--#wrapper-->
+
+        <script src="./js/main.js" type="text/javascript"></script>
+    </body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW"> <!--語言為繁體中文-->
+    <head>
+        <meta charset="UTF-8"> <!--編碼-->
+        <!--#include virtual="./inc/seo_free.shtml"-->
+        <link rel="stylesheet" href="../../css/reset.css" type="text/css">
+        <link rel="stylesheet" href="./css/style.css?v=20210225" type="text/css">
+        <!-- c23樣式 -->
+        <link rel="stylesheet" href="./css/c23-style.css" type="text/css">
+        <!--寬度符合裝置的寬度-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;">
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+        
+    </head>
+    <body>
+        <div id="mktContent">
+            <!--版頭-->
+            <header class="header">
+                <h1>
+                    <img src="./images/header-m.jpg" alt="作客北北基">
+                </h1>
+
+                <!-- 個人自由行-團體旅遊 按鈕 -->
+                <div class="wrap-menu">
+                    <ul class="menu-bar">
+                        <li><a href="index.html">個人自由行</a></li>
+                        <li class="on"><a>團體旅遊</a></li>
+                    </ul>
+                </div>
+
+            </header>
+            
+            <!-- 內容區塊 -->
+            <section class="wrap-content">
+                <!-- 頁籤 -->
+                <div class="wrap-tags-bar">
+                    <ul class="tags-bar">
+                        <li class="on"><a href="javascript:void(0)">台北出發</a></li>
+                        <li><a href="javascript:void(0)">台中出發</a></li>
+                        <li><a href="javascript:void(0)">高雄出發</a></li>
+                    </ul>
+                    <div class="deco-bar"></div>
+                </div>
+
+                <!-- 模組內容 -->
+                <div class="standard-content" id="group">
+                    <ul class="city-list">
+                        <li>台北、新北</li>
+                        <li>基隆</li>
+                    </ul>   
+                    <div class="city on noKee">
+                        <!--#include virtual="./mod/ttc_23986.shtml"-->
+                    </div>
+                    <div class="city">
+                        <!--#include virtual="./mod/ttc_23990.shtml"-->
+                        <!--#include virtual="./mod/ttc_23992.shtml"-->
+                    </div>
+                    <div class="city noKee">
+                        <!--#include virtual="./mod/ttc_23996.shtml"-->
+                    </div>
+                    
+                </div>
+
+                <div class="deco-bar"></div>
+            </section>
+
+        </div><!--mktContent-->
+  
+        
+        <script>
+            $(document).ready(function(){
+                // 切換頁籤
+                var cityTag = $('ul.tags-bar').find('li'),
+                    cityPannel = $('#group').find('.city');
+                cityTag.click(function(){
+                    var tag_num = $(this).index();
+                    cityTag.removeClass('on');
+                    $(this).addClass('on');
+                    cityPannel.removeClass('on');
+                    cityPannel.eq(tag_num).addClass('on');
+                    
+                    checkKeelung('noKee');
+                    
+                });
+                
+                //點擊開分頁
+                var goBlank = $('.carrier').find('a');
+                function go_blank(){goBlank.attr('target','_blank');}
+                go_blank();
+
+                // 點擊至區塊頂
+                var city_li = $('ul.city-list').find('li');
+                city_li.click(function(){
+                    var _carrier = $('.city.on').find('.carrier');
+                    var li_num = $(this).index();
+                    // console.log("點擊index:" + li_num);
+                    $('html,body').animate({scrollTop: _carrier.eq(li_num).offset().top},500);
+                });
+                
+                //隱藏某某出發的基隆選項
+                function checkKeelung(nnn){
+                    var city_li_kee = $('ul.city-list').find('li');
+                    var noKeelung = $('#group').find('.city.on').hasClass(nnn);
+
+                    // console.log(noKeelung);
+                    if(noKeelung == true){
+                        city_li_kee.eq(1).addClass('off');
+                    }else{city_li_kee.removeClass('off');};
+                    
+                };
+                checkKeelung('noKee');
+                
+                //追蹤碼
+                var url = location.href;
+                console.log(url);
+                if(url.indexOf("mkttab") !== -1){
+                    console.log("有");
+                    var sign = url.split('mkttab');
+                    console.log(sign);
+                    sign = sign[1].substr(1,2);
+                    sign = parseInt(sign) - 1; //網址的數字是由1開始數，用於eq()的序號要從0開始數，所以-1
+
+                    cityTag.removeClass('on');
+                    cityTag.eq(sign).addClass('on');
+                    cityPannel.removeClass('on');
+                    cityPannel.eq(sign).addClass('on');
+
+                    checkKeelung('noKee');
+                }
+
+            });
+        
+        </script>
+
+    </body>
+</html>

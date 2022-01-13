@@ -1,0 +1,16 @@
+<footer>
+    <div class="footer-wrap">                    
+        <h2 class="footer-h2 main-font">
+            Find Me Here
+        </h2>
+        
+        <ul>
+            <li><a href="https://www.yukihiew.com" target="_blank" title="YUKI HIEW.com">Blog</a></li>
+            <li><a href="https://codepen.io/yukiyin" target="_blank" title="YUKI's codepen">Codepen</a></li>
+            <li><a href="https://github.com/milkcat123" target="_blank" title="YUKI's GitHub">GitHub</a></li>
+            <li><a class="out-link" href="https://www.cakeresume.com/s--Ih1zkGv-UFrugwx6o0saXQ--/123milkcat" target="_blank" title="YUKI's cake resume">Cake resume</a></li>
+            <li><a class="out-link" href="" target="_blank" title="YUKI's 104 resume">104 resume</a></li>
+        </ul>
+        
+    </div>
+</footer>

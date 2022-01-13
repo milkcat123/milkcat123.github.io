@@ -1,0 +1,375 @@
+<article class="ph">
+    <div class="ph-title" style="display: none;">天后多多</div>
+    <!--錨點選單開始-->
+    <nav class="ph-menu has-banner">
+        <ul class="slidecontain">
+            <li>
+                <a class="anchorLink" href="#9949">
+                    <img src="https://www.settour.com.tw/st_dist/img/amp/poi-icon-01.png" alt="台北出發" />
+                    <div>台北出發 </div>
+                </a>
+            </li>
+            <li>
+                <a class="anchorLink" href="#11426">
+                    <img src="https://www.settour.com.tw/st_dist/img/amp/poi-icon-01.png" alt="台中出發" />
+                    <div>台中出發 </div>
+                </a>
+            </li>
+            <li>
+                <a class="anchorLink" href="#9951">
+                    <img src="https://www.settour.com.tw/st_dist/img/amp/poi-icon-01.png" alt="高雄出發" />
+                    <div>高雄出發 </div>
+                </a>
+            </li>
+        </ul>
+        <div class="ph-menu-arrow-left disabled">
+            <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        </div>
+        <div class="ph-menu-arrow-right">
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+        </div>
+    </nav>
+    <!--錨點選單結束-->
+    <header class="ph-group-title" id="9949">
+        <img src="https://www.settour.com.tw/st_dist/img/amp/poi-icon-01.png" alt="台北出發" onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';" />
+        <span>台北出發</span>
+
+    </header>
+
+    <!-- 直式 三個一排 累加模組 V113 -->
+    <section class="ph-group type-3-normal">
+        <!--ph-group-content-->
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002771">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GRT/0000/0027/71/ori_31780278.jpg"
+                        alt="
+                                                                            【媽祖平安護照集章】漫步阿里山、經典鐵道小火車、新港懷舊文化情，嘉義二日遊
+                                                                            "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+                <span class="ph-group-content-tag">
+                    買一送一
+                </span>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002771" class="ph-group-content-text-name">
+                    【媽祖護照集章】漫步阿里山、經典鐵道小火車，嘉義二日遊
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    ● 含每人阿里山門票、小火車票、媽祖護照<br />● 阿里山森呼吸、鐵道小火車
+                </p>
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002771" class="ph-group-content-text-price">
+                    <span>2天</span>
+                    請洽客服
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002774">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GRT/0000/0027/74/ori_31780297.jpg"
+                        alt="
+                                                                            【媽祖平安護照集章】徜徉山林美境森呼吸．溪頭森林遊樂區．妖怪村二日遊
+                                                                            "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+                <span class="ph-group-content-tag">
+                    買一送一
+                </span>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002774" class="ph-group-content-text-name">
+                    【媽祖護照集章】徜徉山林美境森呼吸．溪頭森林遊樂區二日遊
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    ● 含每人溪頭門票、媽祖平安護照乙本<br />● 溪頭森林遊樂區、妖怪村、 彩虹眷村
+                </p>
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002774" class="ph-group-content-text-price">
+                    <span>2天</span>
+                    請洽客服
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002775">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GRT/0000/0027/75/ori_31780611.jpg"
+                        alt="
+                                                                            【媽祖平安護照集章】後山新樂園、慶修院納涼趣、醉美月牙灣、山城布洛灣二日遊
+                                                                            "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+                <span class="ph-group-content-tag">
+                    買一送一
+                </span>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002775" class="ph-group-content-text-name">
+                    【媽祖護照集章】後山新樂園、醉美月牙灣、山城布洛灣二日遊
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    ● 貨櫃屋星巴克、吉安慶修院<br />● 東大門夜市、七星潭風景區<br />● 新城天主堂、太魯閣布洛灣台地
+                </p>
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002775" class="ph-group-content-text-price">
+                    <span>2天</span>
+                    請洽客服
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002768">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GRT/0000/0027/68/ori_31728439.jpg"
+                        alt="
+                                                                            【媽祖平安護照集章】最美海洋公路_台61線、情定雙天后_大甲媽、白沙屯一日遊
+                                                                            "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+                <span class="ph-group-content-tag">
+                    買一送一
+                </span>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002768" class="ph-group-content-text-name">
+                    【媽祖護照集章】台61線、情定雙天后_大甲媽、白沙屯一日遊
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    ● 專人導覽大甲鎮瀾宮<br />● 全台首間粉紅夢幻糖果屋<br />● 兒時回憶-月眉觀光糖廠
+                </p>
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002768" class="ph-group-content-text-price">
+                    <span>1天</span>
+                    $299 <span>起</span>
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+        <!-- end of foreach -->
+    </section>
+    <!-- 看更多連結 -->
+
+
+
+    <header class="ph-group-title" id="11426">
+        <img src="https://www.settour.com.tw/st_dist/img/amp/poi-icon-01.png" alt="台中出發" onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';" />
+        <span>台中出發</span>
+
+    </header>
+
+    <!-- 直式 三個一排 累加模組 V113 -->
+    <section class="ph-group type-3-normal">
+        <!--ph-group-content-->
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000001280">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GRT/0000/0012/80/ori_31593437.jpg"
+                        alt="
+                                                                            【媽祖平安護照集章】松山媽祖廟、和平島、忘憂谷海景、十分幸福，基隆二日遊
+                                                                            "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000001280" class="ph-group-content-text-name">
+                    【媽祖護照集章】松山媽祖廟、忘憂谷海景、十分幸福，基隆二日遊
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    ●【松山慈祐宮】<br />●【正濱漁港】基隆新亮點彩色威尼斯<br />●【十分瀑布】台版尼加拉瀑布
+                </p>
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000001280" class="ph-group-content-text-price">
+                    <span>2天</span>
+                    請洽客服
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+        <!-- end of foreach -->
+    </section>
+    <!-- 看更多連結 -->
+
+
+
+    <header class="ph-group-title" id="9951">
+        <img src="https://www.settour.com.tw/st_dist/img/amp/poi-icon-01.png" alt="高雄出發" onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';" />
+        <span>高雄出發</span>
+
+    </header>
+
+    <!-- 直式 三個一排 累加模組 V113 -->
+    <section class="ph-group type-3-normal">
+        <!--ph-group-content-->
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002471">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GRT/0000/0024/71/ori_31817385.jpg"
+                        alt="
+                                                                            【媽祖平安護照集章】來嘉好好玩、竹崎天空步道、3D彩繪 1日遊
+                                                                            "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002471" class="ph-group-content-text-name">
+                    【媽祖平安護照集章】來嘉好好玩、竹崎天空步道、3D彩繪 1日遊
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    ● 竹崎公園天空走廊<br />● 拾粹院文創藝術園區<br />● 新港奉天宮專人導覽解說
+                </p>
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002471" class="ph-group-content-text-price">
+                    <span>1天</span>
+                    請洽客服
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002348">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GRT/0000/0023/48/ori_31875844.jpg"
+                        alt="
+                                                                            【媽祖平安護照集章】雲見幸福千巧谷、蘿莎玫瑰、尋幽訪古1日遊
+                                                                            "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002348" class="ph-group-content-text-name">
+                    【媽祖平安護照集章】雲見幸福千巧谷、蘿莎玫瑰、尋幽訪古1日遊
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    ● 老街美食巡禮<br />● 毛巾工廠 <br />● 千巧谷牛樂園牧場
+                </p>
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002348" class="ph-group-content-text-price">
+                    <span>1天</span>
+                    請洽客服
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002553">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GRT/0000/0025/53/ori_31875923.jpg"
+                        alt="
+                                                                            【媽祖平安護照集章】與女神有約、白沙屯媽祖、軟身媽祖、田園採果樂1日遊
+                                                                            "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+                <span class="ph-group-content-tag">
+                    買一送一
+                </span>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002553" class="ph-group-content-text-name">
+                    【媽祖護照集章】與女神有約、白沙屯媽祖、田園採果樂1日遊
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    ● 慢活田園採果樂趣<br />● 白沙屯拱天宮、大里福興宮<br />● 月桃故事館，愛心天橋步道
+                </p>
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002553" class="ph-group-content-text-price">
+                    <span>1天</span>
+                    請洽客服
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002344">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GRT/0000/0023/44/ori_31872863.jpg"
+                        alt="
+                                                                            【媽祖平安護照集章】花現麋鹿～亞洲大學、鐵道酒莊、大甲漫步2日遊
+                                                                            "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+                <span class="ph-group-content-tag">
+                    買一送一
+                </span>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002344" class="ph-group-content-text-name">
+                    【媽祖護照集章】花現麋鹿～亞洲大學、鐵道酒莊、大甲漫步2日遊
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    ● 亞洲大學賞花趣<br />● 特別安排品酒活動、手作DIY<br />● 復古小火車體驗
+                </p>
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002344" class="ph-group-content-text-price">
+                    <span>2天</span>
+                    $1,699 <span>起</span>
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+        <!-- end of foreach -->
+    </section>
+    <!-- 看更多連結 -->
+
+
+
+</article>

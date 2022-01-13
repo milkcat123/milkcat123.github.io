@@ -1,0 +1,237 @@
+<!-- 主banner2 -->
+<!-- 主banner -->
+
+<!-- POI MODULE -->
+<!-- 模組區塊 -->
+<!-- 模組開始 -->
+<article class="ph">
+    <div class="ph-title" style="display: none;">花錢多多</div>
+    <!--錨點選單開始-->
+    <nav class="ph-menu has-banner">
+        <ul class="slidecontain">
+            <li>
+                <a class="anchorLink" href="#9954">
+                    <img src="https://www.settour.com.tw/st_dist/img/amp/poi-icon-01.png" alt="個人迷你遊" />
+                    <div>個人迷你遊 </div>
+                </a>
+            </li>
+            <li>
+                <a class="anchorLink" href="#11277">
+                    <img src="https://www.settour.com.tw/st_dist/img/amp/poi-icon-01.png" alt="團體旅遊" />
+                    <div>團體旅遊 </div>
+                </a>
+            </li>
+        </ul>
+        <div class="ph-menu-arrow-left disabled">
+            <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        </div>
+        <div class="ph-menu-arrow-right">
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+        </div>
+    </nav>
+    <!--錨點選單結束-->
+    <!--一個錨點內容商品開始-->
+    <header class="ph-group-title" id="9954">
+        <img src="https://www.settour.com.tw/st_dist/img/amp/poi-icon-01.png" alt="個人迷你遊" onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';" />
+        <span>個人迷你遊</span>
+
+    </header>
+
+    <!-- 直式 三個一排 累加模組 V113 -->
+    <section class="ph-group type-3-normal">
+        <!--ph-group-content-->
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://trip.settour.com.tw/thsr/product/HRH0000000192">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/HRH/0000/0001/92/ori_3474960.jpg"
+                        alt="
+                                                                            南投車埕風光．日月潭雲品 2日高端遊
+                                                                            "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/thsr/product/HRH0000000192" class="ph-group-content-text-name">
+                    南投車埕風光．日月潭雲品 2日高端遊
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    商務艙來回高鐵票<br />入住日月潭雲品酒店(含飯店早、晚餐)<br /><br />朝霧小棧午餐、日月潭自駕電動船遊湖、 逐鹿市集、台灣香紅茶廠
+                </p>
+                <a href="https://trip.settour.com.tw/thsr/product/HRH0000000192" class="ph-group-content-text-price">
+                    <span>2天</span>
+                    $14,400 <span>起</span>
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://trip.settour.com.tw/thsr/product/HRH0000000319">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/HRH/0000/0003/19/ori_3557961.jpg"
+                        alt="
+                                                                            屏東原住民文化園區．墾丁國家公園 2日高端遊
+                                                                            "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/thsr/product/HRH0000000319" class="ph-group-content-text-name">
+                    屏東原住民文化園區．墾丁國家公園 2日高端遊
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    商務艙來回高鐵票<br />秋月的店享用原住民風味餐<br /><br />貝殼砂島、風吹沙地質景觀、龍磐公園、滿洲鄉港口吊橋
+                </p>
+                <a href="https://trip.settour.com.tw/thsr/product/HRH0000000319" class="ph-group-content-text-price">
+                    <span>2天</span>
+                    $12,610 <span>起</span>
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://trip.settour.com.tw/thsr/product/HRH0000000496">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/HRH/0000/0004/96/ori_5139823.jpg"
+                        alt="
+                                                                            台南藝術之旅．晶英酒店 2日高端遊
+                                                                            "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/thsr/product/HRH0000000496" class="ph-group-content-text-name">
+                    台南藝術之旅．晶英酒店 2日高端遊
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    商務艙來回高鐵票<br />入住日月潭雲品酒店(含飯店早、晚餐)<br /><br />日式洋樓名店「霜花亭」、富盛號碗粿、台南美術館、四草綠色隧道、安平老街。
+                </p>
+                <a href="https://trip.settour.com.tw/thsr/product/HRH0000000496" class="ph-group-content-text-price">
+                    <span>2天</span>
+                    $6,440 <span>起</span>
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://trip.settour.com.tw/thsr/product/HRH0000002113">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/HRH/0000/0021/13/ori_31000726.jpg"
+                        alt="
+                                                                            宜蘭里山藝境．礁溪老爺 2日高端遊
+                                                                            "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/thsr/product/HRH0000002113" class="ph-group-content-text-name">
+                    宜蘭里山藝境．礁溪老爺 2日高端遊
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    商務艙來回高鐵票<br />入住礁溪老爺酒店-洋式標準套房<br /><br />特色小吃 - 蒜味肉羹、羅東林業文化園區、宜蘭渡小月餐廳、里山藝境。
+                </p>
+                <a href="https://trip.settour.com.tw/thsr/product/HRH0000002113" class="ph-group-content-text-price">
+                    <span>2天</span>
+                    $14,490 <span>起</span>
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+        <!-- end of foreach -->
+    </section>
+    <!-- 看更多連結 -->
+    <!--一個錨點內容商品開始-->
+    <!--一個錨點內容商品開始-->
+    <!--一個錨點內容商品開始-->
+    <!--一個錨點內容商品開始-->
+    <!--一個錨點內容商品開始-->
+    <!--一個錨點內容商品開始-->
+    <!--一個錨點內容商品開始-->
+
+    <!--一個錨點內容商品開始-->
+
+
+    <!--一個錨點內容商品開始-->
+    <header class="ph-group-title" id="11277">
+        <img src="https://www.settour.com.tw/st_dist/img/amp/poi-icon-01.png" alt="團體旅遊" onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';" />
+        <span>團體旅遊</span>
+
+    </header>
+
+    <!-- 直式 三個一排 累加模組 V113 -->
+    <section class="ph-group type-3-normal">
+        <!--ph-group-content-->
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002777">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GRT/0000/0027/77/ori_31780621.png"
+                        alt="
+                                                                            【Sinasera 24法式餐廳】宿!! 畫日風尚 + 松邑莊園‧舞鶴吉林茶園 3日遊
+                                                                            "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002777" class="ph-group-content-text-name">
+                    【Sinasera 24法式餐廳】宿!! 畫日風尚 + 松邑莊園‧舞鶴吉林茶園 3日遊
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    ● ZeraCafe 手沖咖啡體驗<br />● 吳神父按摩(自費)<br />● 三仙台-比西里岸部落
+                </p>
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002777" class="ph-group-content-text-price">
+                    <span>3天</span>
+                    請洽客服
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+        <!-- end of foreach -->
+    </section>
+    <!-- 看更多連結 -->
+    <!--一個錨點內容商品開始-->
+    <!--一個錨點內容商品開始-->
+    <!--一個錨點內容商品開始-->
+    <!--一個錨點內容商品開始-->
+    <!--一個錨點內容商品開始-->
+    <!--一個錨點內容商品開始-->
+    <!--一個錨點內容商品開始-->
+
+    <!--一個錨點內容商品開始-->
+
+
+    <!--一個錨點內容商品開始-->
+</article>

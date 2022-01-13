@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW"> <!--語言為繁體中文-->
+    <head>
+        <meta charset="UTF-8"> <!--編碼-->
+        <!--#include virtual="./inc/hot-spring-seo.shtml"-->
+        <link rel="stylesheet" href="../../css/reset.css" type="text/css">
+        <link rel="stylesheet" href="./css/hot-spring-style.css?v=20201112" type="text/css">
+        <!--寬度符合裝置的寬度-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;">
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="mktContent">
+            <!--menu bar-->
+            <div class="menu-bar">
+                <ul>
+                    <li style="background: #f17639;"><a>溫泉<br>物語</a></li>
+                    <li><a href="./hot-pot.html">冬令<br>大補帖</a></li>
+                    <li><a href="./hotel.html">線上<br>訂房</a></li>
+                </ul>
+            </div><!--menu bar-->
+            <!--版頭-->
+            <header class="header">
+                <h1>
+                    <img src="./images/hot-spring-header-m.jpg" alt="">
+                </h1>
+            </header>
+            <!--page1-->
+            <div class="page1">
+                <div class="banner"><a href="https://blog.settour.com.tw/special-plan/taiwanhotspring" target="_blank"><img src="./images/hot-spring-bn.jpg"></a></div>
+                <div class="group">
+                    <h2>跟團旅遊</h2>
+                    <!--預留位置-->
+                    <div class="group-c23">
+                        <div class="group-c23-tag">
+                            <ul>
+                                <li class="on">台北出發</li>
+                                <li>台中出發</li>
+                                <li>高雄出發</li>
+                            </ul>
+                        </div>
+                        <div class="group-c23-pannel">
+                            <div class="group-c23-pannel-content on"><!--#include virtual="./mod/winter_23566.shtml"--></div>
+                            <div class="group-c23-pannel-content"><!--#include virtual="./mod/winter_23567.shtml"--></div>
+                            <div class="group-c23-pannel-content"><!--#include virtual="./mod/winter_23570.shtml"--></div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--page1-->
+            <!--page2-->
+            <div class="page2">
+                <div class="group">
+                    <h2>迷你小團</h2>
+                    <div class="group-c23">
+                        <div class="group-c23-tag">
+                            <ul>
+                                <li class="on">經典推薦</li>
+                                <li>賓士車旅</li>
+                                <li>高鐵假期</li>
+                                <li>和運假期</li>
+                            </ul>
+                        </div>
+                        <div class="group-c23-pannel">
+                            <div class="group-c23-pannel-content on"><!--#include virtual="./mod/winter_23566.shtml"--></div>
+                            <div class="group-c23-pannel-content"><!--#include virtual="./mod/winter_23567.shtml"--></div>
+                            <div class="group-c23-pannel-content"><!--#include virtual="./mod/winter_23570.shtml"--></div>
+                            <div class="group-c23-pannel-content"><!--#include virtual="./mod/winter_23566.shtml"--></div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--page2-->
+            
+        </div><!--mktContent-->
+        
+        <script>
+            $(document).ready(function(){
+                var touch_li = $('.group-c23-pannel-content').children('.carrier').find('li');
+                touch_li.hover(function(){
+                    $(this).addClass('touch');
+                },function(){
+                    $(this).removeClass('touch');
+                });
+                
+                var click_tag = $('.group-c23-tag').find('li');
+                click_tag.click(function(){
+                    var tag_num = $(this).parent('ul').find('li').index(this);
+                    $(this).parent('ul').find('li').removeClass('on');
+                    $(this).addClass('on');
+                    $(this).parents('.group-c23-tag').siblings('.group-c23-pannel').find('.group-c23-pannel-content').removeClass('on');
+                    $(this).parents('.group-c23-tag').siblings('.group-c23-pannel').find('.group-c23-pannel-content').eq(tag_num).addClass('on');
+                    console.log("點選的li序號"+ tag_num);
+                });
+                
+               
+            });
+        </script>   
+    </body>
+</html>

@@ -1,0 +1,142 @@
+* { box-sizing: border-box;}
+#mktContent { position: relative; }
+a{text-decoration: none;}
+/*大補帖*/
+/*版頭*/
+header.header{position: relative; height: 711px; background: url(../images/hot-pot-header.jpg) top center no-repeat;}
+header.header h1{display: none;}
+header.header::after{position: absolute; content:""; height: 711px; background: url(../images/header-fog.png) bottom center no-repeat; bottom: -30px; left:0; width: 100%;}
+/*menubar*/
+.menu-bar{z-index: 10; position: sticky; width: 100%; max-width: 1200px; top:0px; text-align: center; margin: 0 auto; }
+.menu-bar ul{position: absolute; width: 100%; top:0px; border-radius: 0 0 30px 30px;}
+.menu-bar ul li{display: inline-block; width: 22%; padding: 15px 0 15px 33px; transition: 0.4s;}
+.menu-bar ul li a{position: relative; width: 100%; font: 400 28px/1 '思源黑體','微軟正黑體'; color: #ffffff; }
+.menu-bar ul li a::before{position: absolute; left: -50px; top:calc(50% - 18px); transform: scale(0.9);}
+.menu-bar ul li:nth-child(1) a::before{content: url(../images/menu1.png); }
+.menu-bar ul li:nth-child(2) a::before{content: url(../images/menu2.png);top:calc(50% - 20px);}
+.menu-bar ul li:nth-child(3) a::before{content: url(../images/menu3.png);}
+.menu-bar ul li:nth-child(4) a::before{content: url(../images/menu4.png);}
+
+.menu-bar ul{background: #ff7252; transition: 0.4s;}
+.menu-bar ul li:hover{background: #f05c3b; transition: 0.4s;}
+.menu-bar ul li a br{display: none;}
+
+/*page1*/
+h2{ font: 600 42px/1 '思源黑體','微軟正黑體'; padding: 20px 0 50px 0;}
+.page1{width: 100%; text-align: center; padding: 10px 0 150px 0; background: url(../images/hot-pot-bg.png) top center no-repeat ,linear-gradient(#ffffff,#ffe5b8); overflow: hidden;}
+.page1 .ticket{max-width: 1200px; width: 100%; padding: 20px 0;  margin: 20px auto 0px auto;}
+.page1 .ticket h2{color: #dfab2d; background: url(../images/hot-pot-h2-1.png) bottom center no-repeat;}
+.page1 .ticket-content{display: inline-flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between; width: 100%; margin: 40px 0 0 0; }
+.page1 .ticket-content a.ticket-content-single{position: relative; display: inline-block; width: 23.5%; border-radius: 10px; overflow: hidden; text-align: center; margin: 12px 0;}
+.page1 .ticket-content a.ticket-content-single::before{position: absolute; content: ""; width: 100%; height: 100%; top:0; left:0; background: rgba(0,0,0,0.45);}
+.page1 .ticket-content a.ticket-content-single img{width: 100%;}
+.page1 .ticket-content a.ticket-content-single p.city{position: absolute; width: 100%; font: 500 46px/1 '思源黑體','微軟正黑體'; color:#ffffff; top: calc(50% - 23px);}
+.page1 .ticket-content .extra{position: relative; display: inline-block; width: 23.5%; text-align: center; margin: 12px 0; overflow: visible; }
+.page1 .ticket-content .extra::before{position: absolute; content: url(../images/city-extra.png); top: 16px; left: 0;}
+
+/*page2*/
+.page2{position: relative; width: 100%; text-align: center; padding:5px 0 210px 0;background: url(../images/hot-pot-footer.png) bottom center no-repeat ,linear-gradient(#ffffff,#ffd1c6); }
+.page2::before{position: absolute; content: ""; width: 100%; height: 93px; top: -93px; left: 0; background: url(../images/hot-pot-fog.png) bottom center no-repeat; }
+.page2 .activity{max-width: 1200px; width: 100%;  margin: 20px auto 0px auto;}
+.page2 .activity h2{color: #ff7859; background: url(../images/hot-pot-h2-2.png) bottom center no-repeat;}
+.page2 .activity-content{display: inline-flex; flex-direction: row; justify-content: space-between; width: 100%; margin: 40px 0;}
+.page2 .activity-content .activity-content-banner{display: inline-block; width: 45%; border-radius: 15px; overflow: hidden;}
+.page2 .activity-content .activity-content-banner img{width: 100%;}
+
+
+.set-footer-alert{display: none;}
+
+
+/*手機板*/
+@media screen and (max-width:1024px){
+    header.header{height: auto; background: none;}
+    header.header h1{display: block;}
+    header.header h1 img{width: 100%;}
+    header.header::after{position: absolute; content:""; height: 176px; background: url(../images/header-fog-m.png) bottom center no-repeat; bottom: -16px; left:0; width: 100%;}
+    .menu-bar ul li a{font-size: 24px;}
+    .menu-bar ul li a::before{transform: scale(0.85);}
+    h2{font-size: 38px; background-size: 80%;}
+    .page1 .ticket h2{background-size: 400px auto;}
+    .page2 .activity h2{background-size: 400px auto;}
+
+    .page1 .ticket{padding: 20px 15px; margin: 20px auto 20px auto;}
+    .page1 .ticket-content .extra::before{transform: scale(0.65); left: -63px;}
+    .page1 .ticket-content a.ticket-content-single p.city{font-size: 38px; top: calc(50% - 19px);}
+    .page2{background: url(../images/hot-pot-footer-m.png) bottom center no-repeat ,linear-gradient(#ffffff,#ffd1c6); background-size: 100% auto; padding: 5px 15px 311px 15px;}
+}
+@media screen and (max-width:780px){
+    .menu-bar ul{border-radius: 0 0 20px 20px;}
+    .menu-bar ul li a{font-size: 20px;}
+    .menu-bar ul li{padding: 12px 0 12px 30px;}
+    .menu-bar ul li a::before{transform: scale(0.75);}
+    
+    .page2{padding: 5px 15px 228px 15px;}
+    .page2::before{background-size: 100% auto;}
+}
+@media screen and (max-width:680px){
+    .menu-bar ul{overflow: hidden;}
+    .menu-bar ul li{width: 24.2%;}
+    .page1{padding: 10px 0 88px 0;}
+    .page1 .ticket-content .extra{width: 31%;}
+    .page1 .ticket-content a.ticket-content-single{width: 31%;}
+    .page1 .ticket-content .extra::before{top: 0%; left: -92%; transform: scale(0.85);}
+    .page1 .ticket-content a.ticket-content-single p.city{font-size: 32px; top: calc(50% - 16px); }
+    .page1 .ticket-content{margin: 20px 0 0 0;}
+    .page2{padding: 5px 15px 207px 15px;}
+}
+@media screen and (max-width:585px){
+    header.header{margin-top: 45px;}
+    h2{font-size: 34px; padding: 20px 0 42px 0;}
+    
+    .page1 .ticket h2{background-size: 350px auto;}
+    .page2 .activity h2{background-size: 350px auto;}
+    .menu-bar ul li a{font: 400 20px/1.2 '思源黑體','微軟正黑體';}
+    .menu-bar ul li a br{display: block;}
+    .menu-bar ul li a::before{transform: scale(0.8);}
+    .page2{padding: 5px 15px 171px 15px;}
+    .page2 .activity-content .activity-content-banner{width: 48%;}
+}
+@media screen and (max-width:540px){
+    .menu-bar ul{border-radius: 0 0 10px 10px;}
+    .page2{padding: 5px 15px 150px 15px;}
+    .page1 .ticket-content a.ticket-content-single,
+    .page1 .ticket-content .extra{width: 32%;}
+    .page1 .ticket-content .extra::before{left: -116%;}
+}
+@media screen and (max-width:425px){
+    header.header{margin-top: 41px;}
+    header.header::after{bottom: -2px; background-size: 100% auto;}
+    h2{font-size: 30px;}
+    .page1 .ticket h2{background-size: 320px auto;}
+    .page2 .activity h2{background-size: 320px auto;}
+    .menu-bar ul li{padding: 8px 0;}
+    .menu-bar ul li a{font-size: 18px;}
+    
+    .menu-bar ul li a::before{display: none;}
+    .page1{padding: 10px 0 49px 0;}
+    .page1 .ticket-content a.ticket-content-single, .page1 .ticket-content .extra{width: 48%;}
+    .page1 .ticket-content .extra{width: 48%;}
+    .page1 .ticket-content .extra::before{left: -44%; transform: scale(0.6);}
+    .page2{padding: 5px 15px 108px 15px;}
+}
+@media screen and (max-width:375px){
+    .page1 .ticket-content a.ticket-content-single{margin: 7px 0;}
+    .page1 .ticket-content a.ticket-content-single p.city{font-size: 30px; top: calc(50% - 15px);}
+    .page1 .ticket-content .extra::before{left: -61%; transform: scale(0.5); top: -28%;}
+    .page1 .ticket{padding: 5px 15px;}
+    .page2{padding: 5px 15px 77px 15px;}
+    .page2::before{top: -92px;}
+    .page2 .activity-content{flex-wrap: wrap;}
+    .page2 .activity-content .activity-content-banner{width: 100%; margin-bottom: 20px;}
+    .page2 .activity-content{margin: 20px 0 40px 0;}
+}
+@media screen and (max-width:320px){
+    header.header{margin-top: 51px;}
+    .menu-bar ul li{width: 24%;}
+
+    .page1{padding: 10px 0 35px 0;}
+    .page1 .ticket-content .extra::before{left: -80%; transform: scale(0.45); top: -48%;}
+    .page1 .ticket-content a.ticket-content-single p.city{font-size: 28px; top: calc(50% - 14px);}
+    .page2{padding: 5px 15px 53px 15px;}
+    .page2 .activity h2{padding: 20px 0 38px 0; font-size: 28px; background-size: 285px auto;}
+}

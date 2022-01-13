@@ -1,0 +1,178 @@
+<!-- 主banner2 -->
+<!-- 主banner -->
+
+<!-- POI MODULE -->
+<!-- 模組區塊 -->
+<!-- 模組開始 -->
+<article class="ph">
+    <div class="ph-title" style="display: none;">司馬多多</div>
+    <!--錨點選單開始-->
+    <nav class="ph-menu has-banner">
+        <ul class="slidecontain">
+            <li>
+                <a class="anchorLink" href="#9932">
+                    <img src="https://www.settour.com.tw/st_dist/img/amp/poi-icon-01.png" alt="個人迷你遊" />
+                    <div>個人迷你遊 </div>
+                </a>
+            </li>
+        </ul>
+        <div class="ph-menu-arrow-left disabled">
+            <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        </div>
+        <div class="ph-menu-arrow-right">
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+        </div>
+    </nav>
+    <!--錨點選單結束-->
+    <header class="ph-group-title" id="9932">
+        <img src="https://www.settour.com.tw/st_dist/img/amp/poi-icon-01.png" alt="個人迷你遊" onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';" />
+        <span>個人迷你遊</span>
+
+    </header>
+
+    <!-- 直式 三個一排 累加模組 V113 -->
+    <section class="ph-group type-3-normal">
+        <!--ph-group-content-->
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000001918">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GRT/0000/0019/18/ori_31404139.jpg"
+                        alt="
+                                                                            【司馬庫斯】上帝的部落、神木群、尋訪最深山的泰雅族 2日
+                                                                            "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+                <span class="ph-group-content-tag">
+                    6人成行
+                </span>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000001918" class="ph-group-content-text-name">
+                    【司馬庫斯】上帝的部落、神木群、尋訪最深山的泰雅族 2日
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    台中出發-到府接送 / 小巴GOGO
+                </p>
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000001918" class="ph-group-content-text-price">
+                    <span>2天</span>
+                    $5,999 <span>起</span>
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002260">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GRT/0000/0022/60/ori_31382766.jpg"
+                        alt="
+                                                                            【司馬庫斯】東安古橋、軍艦岩吊橋、宇老觀景台 2日
+                                                                            "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+                <span class="ph-group-content-tag">
+                    4人成行
+                </span>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002260" class="ph-group-content-text-name">
+                    【司馬庫斯】東安古橋、軍艦岩吊橋、宇老觀景台 2日
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    探索神秘的巨木國度 / 內灣老街 / 原民風情
+                </p>
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002260" class="ph-group-content-text-price">
+                    <span>2天</span>
+                    請洽客服
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002327">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GRT/0000/0023/27/ori_31404886.jpg"
+                        alt="
+                                                                            【遇見山林星夜】鎮西堡 / 司馬庫斯、司立富瀑布 2日
+                                                                            "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+                <span class="ph-group-content-tag">
+                    6人成行
+                </span>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002327" class="ph-group-content-text-name">
+                    【遇見山林星夜】鎮西堡 / 司馬庫斯、司立富瀑布 2日
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    健走+騎自行車 / 曙光甫照之地
+                </p>
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000002327" class="ph-group-content-text-price">
+                    <span>2天</span>
+                    請洽客服
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+
+
+        <article class="ph-group-content">
+            <div class="ph-group-content-photo">
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000001657">
+                    <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GRT/0000/0016/57/ori_31000781.jpg"
+                        alt="
+                                                                            【司馬庫斯】巨木の原鄉、鎮西堡森林小學、原生態部落 3日
+                                                                            "
+                        onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                </a>
+                <span class="ph-group-content-tag">
+                    4人成行
+                </span>
+            </div>
+            <div class="ph-group-content-text">
+
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000001657" class="ph-group-content-text-name">
+                    【司馬庫斯】巨木の原鄉、鎮西堡森林小學、原生態部落 3日
+                </a>
+                <p class="ph-group-content-text-sale">
+                </p>
+                <p class="ph-group-content-text-detail">
+                    商旅包車 到府接送 / 內灣老街 / 崎頂車站、子母隧道
+                </p>
+                <a href="https://trip.settour.com.tw/taiwan/product/GRT0000001657" class="ph-group-content-text-price">
+                    <span>3天</span>
+                    $6,690 <span>起</span>
+                </a>
+                <div class="ph-group-content-otherlink">
+                </div>
+            </div>
+        </article>
+
+        <!-- end of foreach -->
+    </section>
+    <!-- 看更多連結 -->
+
+
+
+</article>

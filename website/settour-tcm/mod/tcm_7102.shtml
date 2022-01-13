@@ -1,0 +1,50 @@
+<div class="intro-anchors">
+	<a href="#anc_1">桃竹訂房</a>
+</div>
+<div class="carrier">
+	<a id="anc_1" name="anc_1"></a>
+	<h4>桃竹訂房</h4>
+	<ul>
+		<li class="box-head">
+			<a href="#">
+				<img src="/st_ec/img/sys/210x140.gif" width="210" height="140" alt="alt" />
+				<p><strong>#</strong><q>#</q><span>更多»</span></p>
+			</a>
+		</li>
+		<li>
+			<a href="https://hotel.settour.com.tw/product/HDP0000000751">
+				<strong>【桃園】東森山林渡假酒店</strong>
+				坐落於桃園楊梅台地
+				<em class="price">$<span>4,188起</span></em></a></li>
+		<li>
+			<a href="https://hotel.settour.com.tw/product/HDP0000000128">
+				<strong>【桃園】中壢古華花園飯店</strong>
+				緊鄰中壢觀光夜市、鄰近中壢SOGO百貨商圈、中壢站前商圈
+				<em class="price">$<span>4,299起</span></em></a></li>
+		<li>
+			<a href="https://hotel.settour.com.tw/product/HDP0000000053">
+				<strong>【桃園】福容大飯店</strong>
+				矗立於桃園市最具發展潛力的工商藝文特區
+				<em class="price">$<span>3,190起</span></em></a></li>
+		<li>
+			<a href="https://hotel.settour.com.tw/product/HDP0000000388">
+				<strong>【桃園】采宴精英大飯店</strong>
+				位於桃園火車站旁
+				<em class="price">$<span>2,980起</span></em></a></li>
+		<li>
+			<a href="https://hotel.settour.com.tw/product/HDP0000020007">
+				<strong>【新竹】美麗信酒店</strong>
+				緊臨新竹市公道五路交流道旁
+				<em class="price">$<span>4,070起</span></em></a></li>
+		<li>
+			<a href="https://hotel.settour.com.tw/product/HDP0000000402">
+				<strong>【新竹】國賓飯店</strong>
+				緊鄰新光三越百貨公司、巨城購物中心等精華商圈，數分鐘可達新竹火車站
+				<em class="price">$<span>4,620起</span></em></a></li>
+		<li>
+			<a href="https://hotel.settour.com.tw/product/HDP0000010444">
+				<strong>【新竹】喜來登大飯店</strong>
+				鄰近高鐵站及國道一號交流道
+				<em class="price">$<span>6,006起</span></em></a></li>
+	</ul>
+</div>
