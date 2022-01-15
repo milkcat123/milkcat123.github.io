@@ -51,7 +51,7 @@ a, a:hover {
   width: 50px;
   height: 50px;
   bottom: 100px;
-  right: 15px;
+  right: 40px;
   text-align: center;
   font-size: 18px;
   color: #fff;
@@ -401,6 +401,63 @@ main section > * {
 .web .web-single.even .web-number {
   left: auto;
   right: 15px;
+}
+
+footer {
+  background: #ff7070;
+}
+
+footer .footer-wrap {
+  max-width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 16px;
+  margin: 0 auto;
+}
+
+footer h2.footer-h2 {
+  color: #fff;
+  font-size: 48px;
+}
+
+footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer ul li {
+  display: inline-block;
+  text-align: center;
+  margin: 0 8px;
+}
+
+footer ul li a {
+  display: inline-block;
+  color: #fff5ed;
+  font-size: 18px;
+  padding: 10px;
+}
+
+footer ul li a.out-link {
+  border-radius: 99rem;
+  padding: 6px 12px;
+  border: #fff5ed solid 2px;
+}
+
+footer ul li a.out-link:hover {
+  color: #ff7070;
+  background: #fff5ed;
 }
 
 .yellow-bg {
