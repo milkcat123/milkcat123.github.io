@@ -278,7 +278,7 @@ header ::after {
 section.about {
   max-width: 1200px;
   text-align: center;
-  padding: 60px 0 30px 0;
+  padding: 80px 0 30px 0;
   margin: 0 auto;
 }
 
@@ -293,7 +293,7 @@ section.about p {
   color: #626262;
   letter-spacing: 1px;
   line-height: 1.8;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 section.exp {
@@ -505,6 +505,10 @@ section.exp .learn-exp .wrap li {
   border-bottom: 2px solid #cf9f42;
   padding-top: 24px;
   padding-bottom: 16px;
+}
+
+.skill .wrap .content .row:last-child {
+  border-bottom: none;
 }
 
 .skill .wrap .content .row .single {
@@ -768,11 +772,11 @@ section.exp .learn-exp .wrap li {
 
 .future {
   background: -10px 40px/contain no-repeat url("../images/future-left.png"), right 80%/contain no-repeat url("../images/future-right.png");
-  padding: 60px 0;
+  padding: 80px 0;
 }
 
 .future h2 {
-  font-size: 52px;
+  font-size: 56px;
   color: #ff7070;
   margin-bottom: 32px;
 }

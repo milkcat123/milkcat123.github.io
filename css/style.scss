@@ -229,7 +229,7 @@ header{
 section.about{
     max-width: 1200px;
     text-align: center;
-    padding: 60px 0 30px 0;
+    padding: 80px 0 30px 0;
     margin: 0 auto;
     h2{
         font-size: 80px;
@@ -241,7 +241,7 @@ section.about{
         color: $color-grey;
         letter-spacing: 1px;
         line-height: 1.8;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
 }
 //經歷
@@ -403,6 +403,9 @@ section.exp{
                 border-bottom: 2px solid $primary-color;
                 padding-top:24px;
                 padding-bottom: 16px;
+                &:last-child{
+                    border-bottom: none;
+                }
                 .single{
                     display: inline-flex;
                     width: 33.33%;
@@ -588,9 +591,9 @@ section.exp{
 //future
 .future{
     background: -10px 40px / contain no-repeat url('../images/future-left.png'),right 80% / contain no-repeat url('../images/future-right.png');
-    padding: 60px 0;
+    padding: 80px 0;
     h2{
-        font-size: 52px;
+        font-size: 56px;
         color: $secondary-color;
         margin-bottom: 32px;
     }
