@@ -1,78 +1,441 @@
 <!DOCTYPE html>
-<html lang="zh-Hant-TW"> <!--語言為繁體中文-->
-    <head>
-        <meta charset="UTF-8"> <!--編碼-->
-        <!--#include virtual="inc/gold-seo.shtml"-->
-        <link rel="stylesheet" href="../../css/reset.css" type="text/css">
-        <link rel="stylesheet" href="./css/style.css?v=20211213-7" type="text/css">
-        <link rel="stylesheet" href="./css/golden-style.css?v=20211213-7" type="text/css">
-        <link rel="stylesheet" href="./css/rwd.css?v=20211213-7" type="text/css">
-        <!--寬度符合裝置的寬度-->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;">
-        <!-- jQuery -->
-        <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-    </head>
-    <body>
-        <div id="mktContent" class="gold">
-           <div id="goTop" class="hover-y">TOP</div>
-           <!-- header -->
-            <header class="header">
-                <h1>
-                    <img src="./images/gold-header-m.jpg" alt="桃園金牌旅遊" title="桃園金牌旅遊">
-                </h1>
-            </header>
-            <!-- 切換頁籤 -->
-            <nav>
-                <ul>
-                    <li class="on"><a><span>{</span>2021桃園金牌好遊<span>}</span></a> <div class="dot"></div></li>
-                    <li><a href="group-index.html"><span>{</span>團體旅遊<span>}</span></a> <div class="dot"></div></li>
-                    <li><a href="index.html"><span>{</span>個人自由行<span>}</span></a> <div class="dot"></div></li>
-                </ul>
-            </nav>
-            <ul class="sub-nav nav-height scroll-tag">
-                <li class="on"><a href="javascript:void(0)"><span class="deco">◆</span>樂活漫遊<span class="deco">◆</span></a></li>
-                <li><a href="javascript:void(0)"><span class="deco">◆</span>親子同遊<span class="deco">◆</span></a></li>
-            </ul>
-           <div class="intro">
-               <p>
-                    由桃園市政府觀光旅遊局主辦，<br>
-                    透過專家評審及民眾票選，從多件的旅遊行程中，<br>
-                    選出結合桃園在地特色及深度體驗的青春品味、樂活慢遊、親子同遊的優質遊程。<br>
-                    <br style="display:block;">
-                    東南旅遊能夠榮獲「樂活慢遊」、「親子同遊」的雙料殊榮與肯定，<br>
-                    是從產品設計、專業服務品質、行程內容創意，<br>
-                    以及最重要客戶與喜愛民眾的支持，透過專業的把關獲選為最佳的優質行程。                    
-               </p>
-           </div>
-           <main class="scroll-target">
-               <section>
-                   <h2 class="gold-1">樂活漫遊 得獎行程</h2>
-                   <div class="content hover-y">
-                       <!--#include virtual="./mod/tcm-006.shtml"-->
-                   </div>
-               </section>
-               <section>
-                   <h2 class="gold-2">親子同遊 得獎行程</h2>
-                   <div class="content hover-y">
-                       <!--#include virtual="./mod/tcm-007.shtml"-->
-                    </div>
-                   
-               </section>
-           </main>
-            
-        </div><!--mktContent-->
-        <!--東南Footer-->
-        <script src="./js/slideTop.js" type="text/javascript"></script>
-        <script>
-            $(document).ready(function(){
-                $('.ph .ph-group a').attr('target','_blank');
-                
-                const h3_content = ' <h3><span class="deco">◆</span>推薦行程</h3>',
-                      _class = '.ph .ph-group:nth-of-type(2)';
-                
-                $(_class).prepend(h3_content);
+<html lang="zh-Hant-TW">
+<!--語言為繁體中文-->
 
-            });
-        </script>   
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <!--編碼-->
+    <title>桃園金牌好遊，歷年獲獎行程</title>
+    <meta name="description" content="東南旅遊榮獲桃園金牌好遊的肯定與殊榮，專業團隊嚴選行程掛保證，合理的價格，舒適的行程，提供最優質的服務，東南旅遊值得您信賴的旅遊專家" />
+    <!-- fb meta -->
+    <meta property="og:title" content="桃園金牌好遊，歷年獲獎行程">
+    <meta property="og:description" content="東南旅遊榮獲桃園金牌好遊的肯定與殊榮，專業團隊嚴選行程掛保證，合理的價格，舒適的行程，提供最優質的服務，東南旅遊值得您信賴的旅遊專家">
+    <meta property="fb:app_id" content="1692681850967543">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="東南旅遊">
+    <meta property="og:url" content="https://www.settour.com.tw/act/gdg/thmr2016/tygoldenaward.html">
+    <meta property="og:image" content="https://www.settour.com.tw/act/gdg/thmr2016/images/gold-fb.jpg">
+    <!-- google meta -->
+    <meta itemprop="name" content="桃園金牌好遊，歷年獲獎行程" />
+    <meta itemprop="description" content="東南旅遊榮獲桃園金牌好遊的肯定與殊榮，專業團隊嚴選行程掛保證，合理的價格，舒適的行程，提供最優質的服務，東南旅遊值得您信賴的旅遊專家" />
+    <meta itemprop="image" content="https://www.settour.com.tw/act/gdg/thmr2016/images/gold-fb.jpg" />
+
+    <link rel="icon" sizes="196x196" href="https://www.settour.com.tw/favicon.ico">
+    <link rel="canonical" href="https://www.settour.com.tw/act/gdg/thmr2016/tygoldenaward.html">
+    <link rel="amphtml" href="https://www.settour.com.tw/act/gdg/thmr2016/tygoldenaward.html">
+
+    <link rel="stylesheet" href="../../css/reset.css" type="text/css">
+    <link rel="stylesheet" href="./css/style.css?v=20211213-7" type="text/css">
+    <link rel="stylesheet" href="./css/golden-style.css?v=20211213-7" type="text/css">
+    <link rel="stylesheet" href="./css/rwd.css?v=20211213-7" type="text/css">
+    <!--寬度符合裝置的寬度-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div id="mktContent" class="gold">
+        <div id="goTop" class="hover-y">TOP</div>
+        <!-- header -->
+        <header class="header">
+            <h1>
+                <img src="./images/gold-header-m.jpg" alt="桃園金牌旅遊" title="桃園金牌旅遊">
+            </h1>
+        </header>
+        <!-- 切換頁籤 -->
+        <nav>
+            <ul>
+                <li class="on"><a><span>{</span>2021桃園金牌好遊<span>}</span></a>
+                    <div class="dot"></div>
+                </li>
+                <li><a href="group-index.html"><span>{</span>團體旅遊<span>}</span></a>
+                    <div class="dot"></div>
+                </li>
+                <li><a href="index.html"><span>{</span>個人自由行<span>}</span></a>
+                    <div class="dot"></div>
+                </li>
+            </ul>
+        </nav>
+        <ul class="sub-nav nav-height scroll-tag">
+            <li class="on"><a href="javascript:void(0)"><span class="deco">◆</span>樂活漫遊<span class="deco">◆</span></a>
+            </li>
+            <li><a href="javascript:void(0)"><span class="deco">◆</span>親子同遊<span class="deco">◆</span></a></li>
+        </ul>
+        <div class="intro">
+            <p>
+                由桃園市政府觀光旅遊局主辦，<br>
+                透過專家評審及民眾票選，從多件的旅遊行程中，<br>
+                選出結合桃園在地特色及深度體驗的青春品味、樂活慢遊、親子同遊的優質遊程。<br>
+                <br style="display:block;">
+                東南旅遊能夠榮獲「樂活慢遊」、「親子同遊」的雙料殊榮與肯定，<br>
+                是從產品設計、專業服務品質、行程內容創意，<br>
+                以及最重要客戶與喜愛民眾的支持，透過專業的把關獲選為最佳的優質行程。
+            </p>
+        </div>
+        <main class="scroll-target">
+            <section>
+                <h2 class="gold-1">樂活漫遊 得獎行程</h2>
+                <div class="content hover-y">
+                    <!-- 主banner2 -->
+                    <!-- 主banner -->
+
+                    <!-- POI MODULE -->
+                    <!-- 模組區塊 -->
+                    <!-- 模組開始 -->
+                    <article class="ph">
+                        <div class="ph-title" style="display: none;">桃園金牌_樂活慢遊</div>
+                        <!--錨點選單開始-->
+                        <nav class="ph-menu has-banner">
+                            <ul class="slidecontain">
+                                <li>
+                                    <a class="anchorLink" href="#32417">
+                                        <div>樂活慢遊_得獎 </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="anchorLink" href="#32419">
+                                        <div>樂園慢遊_推薦 </div>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="ph-menu-arrow-left disabled">
+                                <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                            </div>
+                            <div class="ph-menu-arrow-right">
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                            </div>
+                        </nav>
+                        <!--錨點選單結束-->
+                        <header class="ph-group-title" id="32417">
+                            <span>樂活慢遊_得獎</span>
+
+                        </header>
+
+                        <!-- 直式 三個一排 累加模組 V113 -->
+                        <section class="ph-group type-3-normal">
+                            <!--ph-group-content-->
+
+
+                            <article class="ph-group-content">
+                                <div class="ph-group-content-photo">
+                                    <a href="https://trip.settour.com.tw/taiwan/product/GRT0000003251">
+                                        <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/info/location/TYU/U0/TYU0000049/TYU0000049_89091.jpg"
+                                            alt="
+                                                                                                        【尋幽漫旅山水行】巴陵生態古道、石門水庫遊船、薑母島、霧隱城探秘2日
+                                                                                                        "
+                                            onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                                    </a>
+                                    <span class="ph-group-content-tag">
+                                        高雄出發
+                                    </span>
+                                </div>
+                                <div class="ph-group-content-text">
+
+                                    <a href="https://trip.settour.com.tw/taiwan/product/GRT0000003251"
+                                        class="ph-group-content-text-name">
+                                        【尋幽漫旅山水行】巴陵生態古道、石門水庫遊船、薑母島、霧隱城探秘2日
+                                    </a>
+                                    <p class="ph-group-content-text-sale">
+                                        榮獲冠軍及人氣票選最高票肯定
+                                    </p>
+                                    <p class="ph-group-content-text-detail">
+                                        ．渡船搭乘暢遊石門水庫含及登薑母島<br />．入住石門水庫福華飯店<br />．安排三年內歐規豪華巴士
+                                    </p>
+                                    <a href="https://trip.settour.com.tw/taiwan/product/GRT0000003251"
+                                        class="ph-group-content-text-price">
+                                        <span>2天</span>
+                                        $3,599 <span>起</span>
+                                    </a>
+                                    <div class="ph-group-content-otherlink">
+                                    </div>
+                                </div>
+                            </article>
+
+                            <!-- end of foreach -->
+                        </section>
+                        <!-- 看更多連結 -->
+
+
+
+                        <header class="ph-group-title" id="32419">
+                            <span>樂園慢遊_推薦</span>
+
+                        </header>
+
+                        <!-- 直式 三個一排 累加模組 V113 -->
+                        <section class="ph-group type-3-normal">
+                            <!--ph-group-content-->
+
+
+                            <article class="ph-group-content">
+                                <div class="ph-group-content-photo">
+                                    <a href="https://trip.settour.com.tw/taiwan/product/GRT0000003148">
+                                        <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GRT/0000/0031/48/ori_32392418.jpg"
+                                            alt="
+                                                                                                        【美好老時光】探索馬武督、石門水庫薑母島、江戶霧隱城、老街巡禮2日
+                                                                                                        "
+                                            onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                                    </a>
+                                    <span class="ph-group-content-tag">
+                                        XX出發
+                                    </span>
+                                </div>
+                                <div class="ph-group-content-text">
+
+                                    <a href="https://trip.settour.com.tw/taiwan/product/GRT0000003148"
+                                        class="ph-group-content-text-name">
+                                        【美好老時光】探索馬武督、石門水庫薑母島、江戶霧隱城、老街巡禮2日
+                                    </a>
+                                    <p class="ph-group-content-text-sale">
+                                    </p>
+                                    <p class="ph-group-content-text-detail">
+                                        內容描述
+                                    </p>
+                                    <a href="https://trip.settour.com.tw/taiwan/product/GRT0000003148"
+                                        class="ph-group-content-text-price">
+                                        <span>2天</span>
+                                        $3,399 <span>起</span>
+                                    </a>
+                                    <div class="ph-group-content-otherlink">
+                                    </div>
+                                </div>
+                            </article>
+
+
+
+                            <article class="ph-group-content">
+                                <div class="ph-group-content-photo">
+                                    <a href="https://trip.settour.com.tw/taiwan/product/GRT0000003148">
+                                        <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GRT/0000/0031/48/ori_32392418.jpg"
+                                            alt="
+                                                                                                        【美好老時光】探索馬武督、石門水庫薑母島、江戶霧隱城、老街巡禮2日
+                                                                                                        "
+                                            onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                                    </a>
+                                    <span class="ph-group-content-tag">
+                                        XX出發
+                                    </span>
+                                </div>
+                                <div class="ph-group-content-text">
+
+                                    <a href="https://trip.settour.com.tw/taiwan/product/GRT0000003148"
+                                        class="ph-group-content-text-name">
+                                        【美好老時光】探索馬武督、石門水庫薑母島、江戶霧隱城、老街巡禮2日
+                                    </a>
+                                    <p class="ph-group-content-text-sale">
+                                    </p>
+                                    <p class="ph-group-content-text-detail">
+                                        內容描述
+                                    </p>
+                                    <a href="https://trip.settour.com.tw/taiwan/product/GRT0000003148"
+                                        class="ph-group-content-text-price">
+                                        <span>2天</span>
+                                        $3,399 <span>起</span>
+                                    </a>
+                                    <div class="ph-group-content-otherlink">
+                                    </div>
+                                </div>
+                            </article>
+
+                            <!-- end of foreach -->
+                        </section>
+                        <!-- 看更多連結 -->
+
+
+
+                    </article>
+                </div>
+            </section>
+            <section>
+                <h2 class="gold-2">親子同遊 得獎行程</h2>
+                <div class="content hover-y">
+                    <!-- 主banner2 -->
+                    <!-- 主banner -->
+
+                    <!-- POI MODULE -->
+                    <!-- 模組區塊 -->
+                    <!-- 模組開始 -->
+                    <article class="ph">
+                        <div class="ph-title" style="display: none;">桃園金牌_親子同遊</div>
+                        <!--錨點選單開始-->
+                        <nav class="ph-menu has-banner">
+                            <ul class="slidecontain">
+                                <li>
+                                    <a class="anchorLink" href="#32428">
+                                        <div>親子同遊_得獎 </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="anchorLink" href="#32430">
+                                        <div>親子同遊_推薦</div>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="ph-menu-arrow-left disabled">
+                                <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                            </div>
+                            <div class="ph-menu-arrow-right">
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                            </div>
+                        </nav>
+                        <!--錨點選單結束-->
+                        <header class="ph-group-title" id="32428">
+                            <span>親子同遊_得獎</span>
+
+                        </header>
+
+                        <!-- 直式 三個一排 累加模組 V113 -->
+                        <section class="ph-group type-3-normal">
+                            <!--ph-group-content-->
+
+
+                            <article class="ph-group-content">
+                                <div class="ph-group-content-photo">
+                                    <a href="https://trip.settour.com.tw/taiwan/product/GRT0000003259">
+                                        <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GRT/0000/0032/59/ori_32438002.jpg"
+                                            alt="
+                                                                                                        桃園好棒!爸爸帶我趣Xpark.藍色公路遊湖.水鹿之家.史努比親子2日
+                                                                                                        "
+                                            onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                                    </a>
+                                    <span class="ph-group-content-tag">
+                                        新北出發
+                                    </span>
+                                </div>
+                                <div class="ph-group-content-text">
+
+                                    <a href="https://trip.settour.com.tw/taiwan/product/GRT0000003259"
+                                        class="ph-group-content-text-name">
+                                        桃園好棒!爸爸帶我趣Xpark.藍色公路遊湖.水鹿之家.史努比親子2日
+                                    </a>
+                                    <p class="ph-group-content-text-sale">
+                                        榮獲親子同遊金牌肯定
+                                    </p>
+                                    <p class="ph-group-content-text-detail">
+                                        ．鹿場水鹿之家生態解說導覽<br />．搭乘石門水庫遊艇欣賞最美水域<br />．人氣親子景點 :
+                                        X-PARK水族館<br />．保證入住名人堂花園酒店<br />．全程星級飯店內用餐、安全乘車享受東南遊覽車
+                                    </p>
+                                    <a href="https://trip.settour.com.tw/taiwan/product/GRT0000003259"
+                                        class="ph-group-content-text-price">
+                                        <span>2天</span>
+                                        $8,888 <span>起</span>
+                                    </a>
+                                    <div class="ph-group-content-otherlink">
+                                        <a href=""></a>
+                                        <a href=""></a>
+                                        <a href=""></a>
+                                        <a href=""></a>
+                                        <a href=""></a>
+                                        <a href=""></a>
+                                        <a href=""></a>
+                                        <a href=""></a>
+                                        <a href=""></a>
+                                        <a href=""></a>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <!-- end of foreach -->
+                        </section>
+                        <!-- 看更多連結 -->
+
+
+
+                        <header class="ph-group-title" id="32430">
+                            <span>親子同遊_推薦</span>
+                        </header>
+
+                        <!-- 橫式小 一左一右模組 H111-->
+                        <section class="ph-group type-introlist-mult">
+                            <!--ph-group-content-->
+                            <article class="ph-group-content">
+                                <div class="ph-group-content-photo">
+                                    <a href="https://trip.settour.com.tw/taiwan/product/GRT0000003166">
+                                        <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GRT/0000/0031/66/ori_32564462.jpg"
+                                            alt="【相揪來桃園2.0】石門水庫、橫山書法藝術、大溪老茶廠、史努比2日"
+                                            onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                                    </a>
+                                    <span class="ph-group-content-tag">
+                                        xx出發
+                                    </span>
+                                </div>
+                                <div class="ph-group-content-text">
+                                    <a href="https://trip.settour.com.tw/taiwan/product/GRT0000003166"
+                                        class="ph-group-content-text-name">
+                                        【相揪來桃園2.0】石門水庫、橫山書法藝術、大溪老茶廠、史努比2日
+                                    </a>
+                                    <p class="ph-group-content-text-sale">
+                                    </p>
+                                    <p class="ph-group-content-text-detail">
+                                        內容描述
+                                    </p>
+                                    <a href="https://trip.settour.com.tw/taiwan/product/GRT0000003166"
+                                        class="ph-group-content-text-price">
+                                        <span>2天</span>
+                                        $1,499 <span>起</span>
+                                    </a>
+                                    <div class="ph-group-content-otherlink">
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="ph-group-content">
+                                <div class="ph-group-content-photo">
+                                    <a href="https://trip.settour.com.tw/taiwan/product/GRT0000003166">
+                                        <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/GRT/0000/0031/66/ori_32564462.jpg"
+                                            alt="【相揪來桃園2.0】石門水庫、橫山書法藝術、大溪老茶廠、史努比2日"
+                                            onerror="this.onerror=null;this.src='https://photo.settour.com.tw/900x600/https://www.settour.com.tw/st_dist/img/default/0000.jpg';">
+                                    </a>
+                                    <span class="ph-group-content-tag">
+                                        xx出發
+                                    </span>
+                                </div>
+                                <div class="ph-group-content-text">
+                                    <a href="https://trip.settour.com.tw/taiwan/product/GRT0000003166"
+                                        class="ph-group-content-text-name">
+                                        【相揪來桃園2.0】石門水庫、橫山書法藝術、大溪老茶廠、史努比2日
+                                    </a>
+                                    <p class="ph-group-content-text-sale">
+                                    </p>
+                                    <p class="ph-group-content-text-detail">
+                                        內容描述
+                                    </p>
+                                    <a href="https://trip.settour.com.tw/taiwan/product/GRT0000003166"
+                                        class="ph-group-content-text-price">
+                                        <span>2天</span>
+                                        $1,499 <span>起</span>
+                                    </a>
+                                    <div class="ph-group-content-otherlink">
+                                    </div>
+                                </div>
+                            </article>
+                        </section>
+                        <!-- 看更多連結 -->
+
+
+
+
+                    </article>
+                </div>
+
+            </section>
+        </main>
+
+    </div>
+    <!--mktContent-->
+    <!--東南Footer-->
+    <script src="./js/slideTop.js" type="text/javascript"></script>
+    <script>
+        $(document).ready(function () {
+            $('.ph .ph-group a').attr('target', '_blank');
+
+            const h3_content = ' <h3><span class="deco">◆</span>推薦行程</h3>',
+                _class = '.ph .ph-group:nth-of-type(2)';
+
+            $(_class).prepend(h3_content);
+
+        });
+    </script>
+</body>
+
 </html>

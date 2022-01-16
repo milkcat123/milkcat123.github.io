@@ -1,0 +1,182 @@
+* { box-sizing: border-box; font-family: Arial, Helvetica, sans-serif, '思源黑體', '微軟正黑體'; transition: 0.3s;}
+body{display:block; overflow-x: hidden;}
+a{text-decoration: none; color:#ffffff;}
+ /*右邊商品區*/
+article.ph-group-content{ border: #ffc1c0 2px solid;}
+ul.slidecontain{display: none;}
+.ph-group-content-photo{display: none;}
+article.ph-group-content{position: relative; display: inline-block; width: 100%; background: #ffffff;margin: 0 0 5px 0;}
+.ph-group-content-text{width:82%; text-align: left; padding: 10px;}
+a.ph-group-content-text-name{font-size: 20px; font-weight: 500; line-height: 1.3;}
+p.ph-group-content-text-detail{color: #6c6c6c; font-size: 16px; line-height: 1.5;}
+a.ph-group-content-text-price{position: absolute;width: 18%; height: 100%; font-size: 24px;text-align: left; font-weight: 500; right: 0; top: 0; padding: 15px 6px;}
+a.ph-group-content-text-price span{font-size: 20px; vertical-align: baseline;}
+a.ph-group-content-text-price span:nth-child(1){display: block;}
+ 
+/*手機板*/
+@media screen and (max-width:1200px){
+
+    a.ph-group-content-text-name{font-size: 20px;}
+    p.ph-group-content-text-detail{font-size: 16px;}
+    .ph-group-content-text{width: 80%;}
+    a.ph-group-content-text-price{width: 20%;}
+}
+@media screen and (max-width:1024px){
+    header.header{height: auto; background: none;}
+    header.header h1{display: block;}
+    header.header h1 img{width: 100%;}
+    .teaMenu .drinkList{width: 100%;}
+    .teaMenu .wrap{padding: 60px 10px 40px 10px;}
+    .teaMenu .content{width: 80%;}
+    .leftIntro{display: inline-block; width: 90%;}
+    .leftTT{display: inline-block; width: 45%; vertical-align: middle;}
+    .leftPer{width: 54%; vertical-align: middle; padding: 20px 10px 0 10px;}
+    .perSingle .perBG{width: 130px; height: 130px;}
+    .perSingle .perLine{width: 65px; height: 130px;}
+    .perSingle .perLine::before,.perSingle .perLine::after
+    {width: 130px; height: 65px; border-radius: 65px 65px 0 0;  transform-origin: 65px 65px;}
+    .perSingle .perNum{width: 118px;height: 118px;font-size: 44px;padding: 28% 0;margin: 6px;}
+    .perSingle .perNum span{font-size: 26px;}
+    .perSingle p{font-size: 18px;}
+    .rightProd{width: 100%; margin: 0;}
+    .drink1 .rightProd{margin-top: 2%;}
+    .igPostWrap{width: 29%; margin-bottom: 15px;}
+    .igPostTop .topTT{font-size: 20px;}
+    .igPostTop .wrapTopTT p{font-size: 16px;}
+    .igPostTT{font-size: 22px;}
+    .igPostPicSingle{width: 100%;}
+    .igPostPicSingle img{width: 100%;}
+    .igProd{width: 70%;margin-left: 0;}
+    .igProd article.ph-group-content{width: 32.5%;}
+    .prodContent{margin: 0 auto;}
+    .prodContent section.ph-group.on{display: block; white-space: nowrap; overflow-x: scroll; text-align:left;}
+    .prodContent section.ph-group article.ph-group-content{width: 35%; white-space: normal;}
+    .prodContent section.ph-group a.ph-group-content-text-name,
+    .prodContent section.ph-group.ticket a.ph-group-content-text-name{font-size: 18px;}
+    .prodContent section.ph-group.ticket .ph-group-content-text{width: 85%;}
+    .prodContent section.ph-group.ticket a.ph-group-content-text-price{width: 15%; font-size: 25px;}
+    
+}
+@media screen and (max-width:880px){
+    header.header::before{width: 90px;}
+    .leftIntro{width: 100%;}
+    nav ul li{width: 190px; font-size: 22px;}
+    .teaMenu .title img{width: 55%;}
+    .teaMenu .content{width: 85%; font-size: 16px;}
+    .teaMenu ul li{font-size: 19px;}
+    .drinkList.aaa{top: 62px;}
+    .drinkList.aaa ul li{font-size: 19px; padding: 0 8px; margin: 8px 0;}
+    .perSingle .perBG{width: 110px; height: 110px;}
+    .perSingle .perLine{width: 55px; height: 110px;}
+    .perSingle .perLine::before,.perSingle .perLine::after
+    {width: 110px; height: 55px; border-radius: 55px 55px 0 0;  transform-origin: 55px 55px;}
+    .perSingle .perNum{width: 102px;height: 102px;font-size: 38px;padding: 28% 0;margin: 4px;}
+    .perSingle .perNum span{font-size: 24px;}
+    .perSingle p{font-size: 16px;}
+    .leftTT{width: 49%;}
+    .leftTT img{width: 100%; margin-left: -20px;}
+    .leftPer{width: 50%; padding: 10px 0 0 0;}
+    .prodContent nav.ph-menu a.planeBtn,
+    .prodContent ul.slidecontain li{width: 160px; font-size: 18px;}
+    .prodContent section.ph-group.ticket p.ph-group-content-text-detail{font-size: 14px;}
+    .igProd article.ph-group-content{width: 49%;}
+    .igPostWrap{width: 100%;}
+    .igProd{width: 100%}
+    .igProd section.ph-group{display: block; text-align: left; white-space: nowrap; overflow-x: scroll;}
+    .igProd .ph-group-content-text{white-space: normal;}
+}
+@media screen and (max-width:768px){
+    .teaMenu .co-banner{margin: 0 auto 10px auto;}
+    .teaMenu .co-banner img{border-radius:5px;}
+    .drinkList.aaa ul{white-space: nowrap; overflow: scroll;}
+    .drinkList.aaa ul li{font-size: 17px;}
+    .drink1::before{top: -154px;}
+    .teaMenu::before,.drink2::before,.drink3::before,.drink4::before,.drink5::before,.drink6::before,.drink7::before{background-size: 180% auto;}
+    .prodContent section.ph-group article.ph-group-content{width: 49%;margin: 0.5%;}
+    
+    .prodContent section.ph-group.ticket a.ph-group-content-text-price{font-size: 22px; padding: 1%;}
+    a.ph-group-content-text-name,
+    .prodContent section.ph-group.ticket a.ph-group-content-text-price span{font-size: 18px;}
+    .drink6 .prodContent section.ph-group.ticket a.ph-group-content-text-price,
+    .drink7 .prodContent section.ph-group.ticket a.ph-group-content-text-price
+    {width: 20%; padding:1%;}
+    a.ph-group-content-text-price{font-size: 22px;}
+    a.ph-group-content-text-price span{font-size: 18px;}
+    .perSingle .perBG{width: 90px; height: 90px;}
+    .perSingle .perLine{width: 45px; height: 90px;}
+    .perSingle .perLine::before,.perSingle .perLine::after
+    {width: 90px; height: 45px; border-radius: 45px 45px 0 0;  transform-origin: 45px 45px;}
+    .perSingle .perNum{width: 84px;height: 84px;font-size: 32px;padding: 28% 0;margin: 3px;}
+    .perSingle .perNum span{font-size: 22px;}
+    .perSingle p{font-size: 14px;}
+    .leftPer{padding: 32px 0 0 0 ;}
+    .teaMenu .content::before, .teaMenu .content::after{height: 120px; width: 31px;}
+    .prodContent nav.ph-menu a.planeBtn, .prodContent ul.slidecontain li{width: 150px; font-size: 16px; padding: 8px 0;}
+}
+@media screen and (max-width:642px){
+    .teaMenu .content br{display:none;}
+    .prodContent nav.ph-menu a.planeBtn, .prodContent ul.slidecontain li{width: 120px;}
+}
+@media screen and (max-width:624px){
+    header.header::before{display: none;}
+    nav ul li{padding: 8px 0; font-size: 20px;}
+    nav.menuBar{padding: 5px 0;}
+    .drinkList.aaa{top: 46px;}
+    .teaMenu{padding: 15px 0 100px 0;}
+    .teaMenu .wrap{padding: 10px 10px 0 10px;}
+    .teaMenu .title img{width: 70%;}
+    .drink1::before{height: 90px; top:-89px;}
+    .drink1 .moveWrap{transform: translate(0, -120px);}
+    .leftIntro{margin-bottom: 5px;}
+    .prodContent nav.ph-menu{white-space: nowrap; overflow-x: scroll;}
+    .wrapAllDrinks .wrap{padding: 0 10px 40px 10px;}
+    .wrapAllDrinks .drink7.wrap{padding-bottom: 25px;}
+    .drink7.wrap .moveWrap{padding-bottom: 0;}
+}
+@media screen and (max-width:560px){
+    .teaMenu .drinkList{display: none;}
+    .teaMenu .wrap{padding: 10px 10px 20px 10px;}
+    .teaMenu .title{margin-bottom: 10px;}
+    .teaMenu .content{margin: 30px 0;}
+    .teaMenu .content::before, .teaMenu .content::after{top: calc(50% - 60px);}
+    .leftTT,.leftPer{width: 100%; padding: 0 15%;}
+    .igContent{margin: 10px auto 30px auto;}
+    .perSingle .perBG{width: 110px; height: 110px;}
+    .perSingle .perLine{width: 55px; height: 110px;}
+    .perSingle .perLine::before,.perSingle .perLine::after
+    {width: 110px; height: 55px; border-radius: 55px 55px 0 0;  transform-origin: 55px 55px;}
+    .perSingle .perNum{width: 102px;height: 102px;font-size: 38px;padding: 28% 0;margin: 4px;}
+    .perSingle .perNum span{font-size: 24px;}
+    .perSingle p{font-size: 16px;}
+    a.ph-group-content-text-name,
+    .prodContent section.ph-group.ticket a.ph-group-content-text-price span{font-size: 16px;}
+    .prodContent section.ph-group.ticket .ph-group-content-text,
+    .ph-group-content-text{width: 100%;padding: 10px 10px 32px 10px;}
+    .prodContent section.ph-group.ticket a.ph-group-content-text-price,
+    a.ph-group-content-text-price{width: auto;height: auto; bottom: 0; top: auto; padding: 3px 8px;}
+    a.ph-group-content-text-price span:nth-child(1){display: inline-block;}
+    .prodContent section.ph-group p.ph-group-content-text-detail,
+    p.ph-group-content-text-detail{font-size: 14px;}
+    .drink4 .rightProd, .drink5 .rightProd, .drink6 .rightProd, .drink7 .rightProd{margin-top: 20px;}
+}
+@media screen and (max-width:485px){
+    .teaMenu .wrap{padding-bottom: 0;}
+    .leftTT, .leftPer{padding: 0;}
+    .igProd section.ph-group,
+    .prodContent section.ph-group.on{display: block;white-space: nowrap; overflow: scroll; text-align: left;}
+    .igProd article.ph-group-content,
+    .prodContent section.ph-group article.ph-group-content{width: 60%;white-space: normal; margin-right: 4px;}
+    .drink6 .prodContent section.ph-group.ticket a.ph-group-content-text-price,
+    .drink7 .prodContent section.ph-group.ticket a.ph-group-content-text-price{width: auto;}
+    .prodContent section.ph-group.ticket a.ph-group-content-text-price span:nth-child(1){display: inline-block;}
+    .prodContent section.ph-group.ticket a.ph-group-content-text-price{font-size: 18px;}
+}
+@media screen and (max-width:425px){
+    .teaMenu .title img{width: 90%;}
+    .teaMenu .content{font-size: 14px; width: 95%; margin-top: 15px;}
+    .teaMenu .content::before, .teaMenu .content::after{display: none;}
+    .perSingle .perNum{font-size: 36px; padding: 32% 0;}
+    .leftIntro{margin-bottom: 15px;}
+    igPostTT {font-size: 20px; padding: 7px 0;}
+    nav ul li{width: 150px;  margin: 0;}
+}
