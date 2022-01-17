@@ -1,6 +1,29 @@
 *{box-sizing: border-box; font-family: Helvetica,'Noto Sans TC', '思源黑體', Arial, sans-serif;}
 h1,h1 span,h2{font-weight: normal;}
 a,a:hover{transition: 0.3s; cursor:pointer;}
+@mixin Lpc {
+    @media (max-width:1400px){
+        @content;
+    }
+}
+
+@mixin Mpc{
+    @media (max-width:1200px){
+        @content;
+    }
+}
+
+@mixin Spc{
+    @media (max-width:1024px){
+        @content;
+    }
+}
+
+@mixin pad{
+    @media (max-width:768px){
+        @content;
+    }
+}
 
 $primary-color:#cf9f42;
 $secondary-color:#ff7070;
@@ -72,6 +95,10 @@ nav{
     text-align: center;
     z-index: 20;
     box-shadow: 0px 4px 8px rgba($color: #000000, $alpha: 0.08);
+
+    @include Lpc{
+        padding: 0 20px;
+    }
     .nav-wrap{
         display: flex;
         justify-content: space-between;
@@ -84,6 +111,10 @@ nav{
     .nav-logo{
         display: inline-block;
         font-size: 38px;
+
+        @include Spc{
+            font-size: 36px;
+        }
     }
 
     .nav-menu-wrap{
@@ -104,6 +135,9 @@ nav{
                 font-weight: 300;
                 letter-spacing: 1.2px;
                 padding: 10px 12px;
+                @include Spc{
+                    font-size: 18px;
+                }
             }
         }
     }
@@ -181,6 +215,12 @@ header{
         span{
             font-size: 56px;
         }
+
+        @include Mpc{
+            width: auto;
+            margin-right: 5%;
+            font-size: 76px;
+        }
     }
     .header-photo{
         width: 25%;
@@ -243,6 +283,18 @@ section.about{
         line-height: 1.8;
         margin-bottom: 40px;
     }
+    @include Mpc{
+        p{font-size: 18px;}
+    }
+    @include Spc{
+        padding: 50px 0 30px 0;
+        h2{
+            font-size: 66px;
+        }
+        p{
+            font-size: 17px;
+        }
+    }
 }
 //經歷
 section.exp{
@@ -264,6 +316,9 @@ section.exp{
         justify-content: center;
         background: $background-color;
         padding: 16px 100px;
+        @include Spc{
+            padding: 16px;
+        }
         
     }
     .single{
@@ -341,6 +396,12 @@ section.exp{
                     font-weight: 400;
                     letter-spacing: 1px;
                     padding:4px;
+                    
+                }
+                @include Spc{
+                    li{
+                        width: 140px;
+                    }
                 }
             }
         }//detail
@@ -438,10 +499,14 @@ section.exp{
                         font-size: 15px;
                     }
 
-                }
-            }
-        }
+                }//single
+            }//row
+        }//content
+    }//wrap
+    @include Mpc{
+        padding: 0 20px;
     }
+
 }//skills
 @keyframes jump{
     0%{ transform: translateY(0px);}
@@ -467,6 +532,9 @@ section.exp{
                 img{width: 100%;}
                 overflow: hidden;
                 transition: 2s;
+                @include Mpc{
+                    img{width: auto; height: 300px;}
+                }
             }
             &:hover{
                 .filter{
@@ -481,6 +549,7 @@ section.exp{
             width: 50%;
             max-width: 600px;
             padding: 0 0 0 40px;
+            @include Mpc{padding-left: 50px;}
             h3{
                 color: $primary-color;
                 font-size: 34px;
@@ -592,15 +661,21 @@ section.exp{
 .future{
     background: -10px 40px / contain no-repeat url('../images/future-left.png'),right 80% / contain no-repeat url('../images/future-right.png');
     padding: 80px 0;
+    @include Mpc{
+        background: -66px 40px / contain no-repeat url(../images/future-left.png), 60px 80% / contain no-repeat url(../images/future-right.png);
+    }
     h2{
         font-size: 56px;
         color: $secondary-color;
         margin-bottom: 32px;
     }
     p{
-        font-size: 18px;
+        font-size: 20px;
         color: $color-grey;
         line-height: 1.8;
+        @include Mpc{
+            font-size: 18px;
+        }
     }
 }//future
 
@@ -608,7 +683,9 @@ section.exp{
 //頁尾
 footer{
     background:$secondary-color;
-    
+    @include Mpc{
+        padding: 0 20px;
+    }
     .footer-wrap{
         max-width: 1200px;
         display: flex;
