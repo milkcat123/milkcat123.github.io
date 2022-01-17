@@ -482,27 +482,52 @@ section.exp{
     .learn-exp{
         display: flex;
         padding: 24px 100px;
+        @include pad{
+            padding: 10px 20px 20px 20px;
+            flex-wrap: wrap;
+        }
         .wrap{
             display: flex;
+            width: 100%;
             align-items: center;
             justify-content:left;
+            @include pad{
+                flex-wrap: wrap;
+                margin-top: 10px;
+            }
             .title{
                 width: 50px;
                 color: $secondary-color;
                 font-size: 20px;
                 line-height: 1.1;
                 font-weight: 500;
+                @include pad{
+                    display: block;
+                    width: 100%;
+                    margin-bottom:10px;
+                    br{display: none;}
+                }
             }
             .status{
                 display: inline-block;
                 writing-mode: vertical-lr;
                 color: $secondary-color;
+                @include pad{
+                    width: 100%;
+                    writing-mode: horizontal-tb;
+                }
             }
             ul{
                 display: inline-block;
                 width: 80%;
                 text-align: left;
                 margin-left: 16px;
+                @include pad{
+                    text-align: center;
+                    width: 100%;
+                    margin-left:0px;
+                    margin-top: 6px;
+                }
             }
             li{
                 display: inline-block;
@@ -516,6 +541,9 @@ section.exp{
 .skill{
     background: $background-color;
     margin-top: 120px;
+    @include pad{
+        margin-top: 80px;
+    }
     .wrap{
         max-width: 1200px;
         padding: 40px 0;
@@ -526,6 +554,10 @@ section.exp{
             color: $primary-color;
             margin-top: -100px;
             margin-bottom: 40px;
+            @include pad{
+                font-size: 80px;
+                margin-bottom: 0;
+            }
         }
         .content{
 
@@ -543,6 +575,10 @@ section.exp{
                 .single{
                     display: inline-flex;
                     width: 33.33%;
+                    @include pad{
+                        flex-wrap: wrap;
+                        justify-content: center ;
+                    }
                     &:hover{
                         animation: jump 0.5s;
                     }
@@ -553,11 +589,19 @@ section.exp{
                         @include Spc{
                             width: 40%;
                         }
+                        @include pad{
+                            width: 70%;
+                        }
                     }
                     .detail{
                         display: inline-block;
                         width: 80%;
                         padding:10px 0;
+                        @include pad{
+                            width: 100%;
+                            text-align: center;
+                            padding: 0 0 10px 0;
+                        }
                     }
                     .title{
                         color: $primary-color;
