@@ -24,6 +24,11 @@ a,a:hover{transition: 0.3s; cursor:pointer;}
         @content;
     }
 }
+@mixin mobile{
+    @media (max-width:425px){
+        @content;
+    }
+}
 
 $primary-color:#cf9f42;
 $secondary-color:#ff7070;
@@ -106,6 +111,7 @@ nav{
         max-width:1200px;
         padding:10px $nav-padding-horizontal;
         margin: 0 auto;
+
     }
 
     .nav-logo{
@@ -115,10 +121,25 @@ nav{
         @include Spc{
             font-size: 36px;
         }
+        @include pad{
+            font-size: 32px;
+        }
+    }
+
+    .mobile-menu{
+        display: none;
+        width: 50px;
+        height: 50px;
+        background: url('../images/menu.png')center center no-repeat;
+        @include mobile{
+            display: block;
+        }
     }
 
     .nav-menu-wrap{
         display: inline-block;
+        @include pad{
+        }
     }
 
     ul{
@@ -138,13 +159,18 @@ nav{
                 @include Spc{
                     font-size: 18px;
                 }
+                @include pad{
+                    font-size: 16px;
+                }
             }
         }
     }
     .social{
         display: inline-block;
         vertical-align: middle;
-        
+        @include pad{
+            display: none;
+        }
         a{
             display: inline-block;
             width: 28px;
@@ -198,6 +224,9 @@ header{
     height: 458px;
     background:url('../images/index-header.png')top center no-repeat;
     background-attachment: fixed;
+    @include pad{
+        height: 300px;
+    }
     .header-wrap{
         max-width: 1200px;
         height: 100%;
@@ -221,18 +250,33 @@ header{
             margin-right: 5%;
             font-size: 76px;
         }
+        @include pad{
+            font-size: 60px;
+            text-align: center;
+            margin-right: 0;
+            margin-bottom: 30px;
+            span{
+                font-size: 42px;
+            }
+        }
     }
     .header-photo{
-        width: 25%;
-        
+        width: 25%;       
         overflow: hidden;
         img{
             border: #fff solid 8px;
-        border-radius: 99rem;
+            border-radius: 99rem;
             width: 100%;
         }
+        @include pad{
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            bottom: -100px;
+            left: calc(50% - 100px);
+        }
     }
-    ::before,::after{
+    &::before,&::after{
         content: "";
         position: absolute;
         width: 0px;
@@ -242,12 +286,15 @@ header{
         border-color: transparent transparent #fff #fff;
         transform: rotate(-45deg);
         left: calc(50% - 4px);
+        @include pad{
+            content:none;
+        }
     }
-    ::before{
+    &::before{
         bottom: 25px;
         animation: 'arrows' 2s infinite;
     }
-    ::after{
+    &::after{
         opacity: 0;
         bottom: 50px;
         animation: 'arrows' 2s infinite 1s;
@@ -295,12 +342,24 @@ section.about{
             font-size: 17px;
         }
     }
+    @include pad{
+        margin-top: 70px;
+        h2{
+            font-size: 60px;    
+            margin-bottom: 24px;
+        }
+        p{
+            font-size: 15px;
+            margin-bottom: 24px;
+        }
+    }
 }
 //經歷
 section.exp{
     max-width: 1200px;
     margin: 0 auto;
     border: $secondary-color solid 4px;
+
     h2{
         display: block;
         text-align: left;
@@ -317,18 +376,26 @@ section.exp{
         background: $background-color;
         padding: 16px 100px;
         @include Spc{
+            flex-wrap: wrap;
             padding: 16px;
         }
         
     }
     .single{
         display:inline-block;
-        min-width: 270px;
         width: 35%;
         padding: 10px;
         text-align: left;
         &:nth-child(2){
             width: 30%;
+        }
+        @include Spc{
+            display: flex;
+            justify-content:center ;
+            width: 100%;
+            &:nth-child(2){
+               width: 100%;
+           }
         }
         .name{
             display: inline-flex;
@@ -355,6 +422,9 @@ section.exp{
                 span{
                     font-size:18px;
                 }
+            }
+            @include Spc{
+                width: 340px;
             }
         }//name
         .detail{
@@ -403,6 +473,9 @@ section.exp{
                         width: 140px;
                     }
                 }
+            }
+            @include Spc{
+                width: 50%;
             }
         }//detail
     }//single
@@ -477,6 +550,9 @@ section.exp{
                         display: inline-block;
                         width: 55%;
                         img{width: 100%;}
+                        @include Spc{
+                            width: 40%;
+                        }
                     }
                     .detail{
                         display: inline-block;
@@ -497,8 +573,11 @@ section.exp{
                         padding: 4px;
                         color: $color-grey;
                         font-size: 15px;
+                        @include Spc{
+                            font-size: 14px;
+                        }
                     }
-
+                    
                 }//single
             }//row
         }//content

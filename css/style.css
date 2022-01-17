@@ -116,6 +116,25 @@ nav .nav-logo {
   }
 }
 
+@media (max-width: 768px) {
+  nav .nav-logo {
+    font-size: 32px;
+  }
+}
+
+nav .mobile-menu {
+  display: none;
+  width: 50px;
+  height: 50px;
+  background: url("../images/menu.png") center center no-repeat;
+}
+
+@media (max-width: 425px) {
+  nav .mobile-menu {
+    display: block;
+  }
+}
+
 nav .nav-menu-wrap {
   display: inline-block;
 }
@@ -144,9 +163,21 @@ nav ul li a {
   }
 }
 
+@media (max-width: 768px) {
+  nav ul li a {
+    font-size: 16px;
+  }
+}
+
 nav .social {
   display: inline-block;
   vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+  nav .social {
+    display: none;
+  }
 }
 
 nav .social a {
@@ -207,6 +238,12 @@ header {
   background-attachment: fixed;
 }
 
+@media (max-width: 768px) {
+  header {
+    height: 300px;
+  }
+}
+
 header .header-wrap {
   max-width: 1200px;
   height: 100%;
@@ -242,6 +279,18 @@ header h1.header-title span {
   }
 }
 
+@media (max-width: 768px) {
+  header h1.header-title {
+    font-size: 60px;
+    text-align: center;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  header h1.header-title span {
+    font-size: 42px;
+  }
+}
+
 header .header-photo {
   width: 25%;
   overflow: hidden;
@@ -253,7 +302,17 @@ header .header-photo img {
   width: 100%;
 }
 
-header ::before, header ::after {
+@media (max-width: 768px) {
+  header .header-photo {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: -100px;
+    left: calc(50% - 100px);
+  }
+}
+
+header::before, header::after {
   content: "";
   position: absolute;
   width: 0px;
@@ -266,13 +325,19 @@ header ::before, header ::after {
   left: calc(50% - 4px);
 }
 
-header ::before {
+@media (max-width: 768px) {
+  header::before, header::after {
+    content: none;
+  }
+}
+
+header::before {
   bottom: 25px;
   -webkit-animation: 'arrows' 2s infinite;
           animation: 'arrows' 2s infinite;
 }
 
-header ::after {
+header::after {
   opacity: 0;
   bottom: 50px;
   -webkit-animation: 'arrows' 2s infinite 1s;
@@ -340,6 +405,20 @@ section.about p {
   }
 }
 
+@media (max-width: 768px) {
+  section.about {
+    margin-top: 70px;
+  }
+  section.about h2 {
+    font-size: 60px;
+    margin-bottom: 24px;
+  }
+  section.about p {
+    font-size: 15px;
+    margin-bottom: 24px;
+  }
+}
+
 section.exp {
   max-width: 1200px;
   margin: 0 auto;
@@ -372,13 +451,14 @@ section.exp .job-exp {
 
 @media (max-width: 1024px) {
   section.exp .job-exp {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     padding: 16px;
   }
 }
 
 section.exp .single {
   display: inline-block;
-  min-width: 270px;
   width: 35%;
   padding: 10px;
   text-align: left;
@@ -386,6 +466,21 @@ section.exp .single {
 
 section.exp .single:nth-child(2) {
   width: 30%;
+}
+
+@media (max-width: 1024px) {
+  section.exp .single {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+  section.exp .single:nth-child(2) {
+    width: 100%;
+  }
 }
 
 section.exp .single .name {
@@ -422,6 +517,12 @@ section.exp .single .name .title {
 
 section.exp .single .name .title span {
   font-size: 18px;
+}
+
+@media (max-width: 1024px) {
+  section.exp .single .name {
+    width: 340px;
+  }
 }
 
 section.exp .single .detail {
@@ -477,6 +578,12 @@ section.exp .single .detail .text-wrap li {
 @media (max-width: 1024px) {
   section.exp .single .detail .text-wrap li {
     width: 140px;
+  }
+}
+
+@media (max-width: 1024px) {
+  section.exp .single .detail {
+    width: 50%;
   }
 }
 
@@ -588,6 +695,12 @@ section.exp .learn-exp .wrap li {
   width: 100%;
 }
 
+@media (max-width: 1024px) {
+  .skill .wrap .content .row .single .img {
+    width: 40%;
+  }
+}
+
 .skill .wrap .content .row .single .detail {
   display: inline-block;
   width: 80%;
@@ -610,6 +723,12 @@ section.exp .learn-exp .wrap li {
   padding: 4px;
   color: #626262;
   font-size: 15px;
+}
+
+@media (max-width: 1024px) {
+  .skill .wrap .content .row .single li {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 1200px) {
