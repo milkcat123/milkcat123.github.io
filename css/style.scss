@@ -974,6 +974,7 @@ section.exp{
     @include Mpc{
         background: -66px 40px / contain no-repeat url(../images/future-left.png), 60px 80% / contain no-repeat url(../images/future-right.png);
     }
+    @include mobile{padding: 60px 16px;}
     h2{
         font-size: 56px;
         color: $secondary-color;
@@ -993,6 +994,9 @@ section.exp{
         @include pad{
             font-size: 15px;
         }
+        @include mobile{
+            br{display: none;}
+        }
     }
 }//future
 
@@ -1002,6 +1006,9 @@ footer{
     background:$secondary-color;
     @include Mpc{
         padding: 0 20px;
+    }
+    @include mobile{
+        padding: 0 8px;
     }
     .footer-wrap{
         max-width: 1200px;
@@ -1038,17 +1045,22 @@ footer{
             text-align: center;
             margin: 0 8px;
             @include pad{margin:0px 4px 0 0;}
+            @include mobile{margin:0;}
             a{
                 display: inline-block;
                 color: $background-color;
                 font-size: 18px;
                 padding: 10px;
                 @include pad{font-size: 15px;}
+                @include mobile{font-size: 14px;}
             }
             a.out-link{
                 border-radius: 99rem;
                 padding: 6px 12px;
                 border: $background-color solid 2px;
+                @include mobile{
+                    padding: 4px 6px;
+                }
             }
             a.out-link:hover{
                 color: $secondary-color;

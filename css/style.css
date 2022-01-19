@@ -1403,6 +1403,12 @@ section.exp .learn-exp .wrap li {
   }
 }
 
+@media (max-width: 426px) {
+  .future {
+    padding: 60px 16px;
+  }
+}
+
 .future h2 {
   font-size: 56px;
   color: #ff7070;
@@ -1434,6 +1440,12 @@ section.exp .learn-exp .wrap li {
   }
 }
 
+@media (max-width: 426px) {
+  .future p br {
+    display: none;
+  }
+}
+
 footer {
   background: #ff7070;
 }
@@ -1441,6 +1453,12 @@ footer {
 @media (max-width: 1200px) {
   footer {
     padding: 0 20px;
+  }
+}
+
+@media (max-width: 426px) {
+  footer {
+    padding: 0 8px;
   }
 }
 
@@ -1512,6 +1530,12 @@ footer ul li {
   }
 }
 
+@media (max-width: 426px) {
+  footer ul li {
+    margin: 0;
+  }
+}
+
 footer ul li a {
   display: inline-block;
   color: #fff5ed;
@@ -1525,10 +1549,22 @@ footer ul li a {
   }
 }
 
+@media (max-width: 426px) {
+  footer ul li a {
+    font-size: 14px;
+  }
+}
+
 footer ul li a.out-link {
   border-radius: 99rem;
   padding: 6px 12px;
   border: #fff5ed solid 2px;
+}
+
+@media (max-width: 426px) {
+  footer ul li a.out-link {
+    padding: 4px 6px;
+  }
 }
 
 footer ul li a.out-link:hover {
