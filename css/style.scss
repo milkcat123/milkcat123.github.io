@@ -60,7 +60,7 @@ $nav-padding-horizontal:10px;
         opacity: 1;
         transition: 0.3s;
     }
-
+    @include pad{right: 20px; bottom:25px;}
 }
 //goTop
 #goTop{
@@ -85,6 +85,7 @@ $nav-padding-horizontal:10px;
         opacity: 1;
         transition: 0.3s;
     }
+    @include pad{right: 20px; bottom: 95px;}
 
 }
 //ordinary
@@ -513,8 +514,15 @@ section.exp{
                 writing-mode: vertical-lr;
                 color: $secondary-color;
                 @include pad{
-                    width: 100%;
+                    display: block;
+                    width: 60px;
                     writing-mode: horizontal-tb;
+                    color: $background-color;
+                    letter-spacing: 1.5px;
+                    padding: 4px 6px;
+                    margin: 0 auto;
+                    border-radius: 99rem;
+                    background: $secondary-color;
                 }
             }
             ul{
@@ -557,6 +565,7 @@ section.exp{
             @include pad{
                 font-size: 80px;
                 margin-bottom: 0;
+                margin-top: -82px;
             }
         }
         .content{
@@ -645,18 +654,29 @@ section.exp{
         display: flex;
         text-align: left;
         align-items: center;
+        @include pad{
+            flex-wrap: wrap;
+            border-bottom: #fff solid 1px;
+        }
         a.img{
             position: relative;
             display: inline-block;
             width: 50%;
             background: #000;
             overflow: hidden;
+            @include pad{
+                width: 100%;
+            }
             .filter{
                 img{width: 100%;}
                 overflow: hidden;
                 transition: 2s;
                 @include Mpc{
                     img{width: auto; height: 300px;}
+                }
+                @include pad{
+                    height: 250px;
+                    img{width: 100%;}
                 }
             }
             &:hover{
@@ -673,16 +693,21 @@ section.exp{
             max-width: 600px;
             padding: 0 0 0 40px;
             @include Mpc{padding-left: 50px;}
+            @include pad{
+                position: absolute;
+            }
             h3{
                 color: $primary-color;
                 font-size: 34px;
                 letter-spacing: 1px;
+                @include pad{color:#fff;}
             }
             .note{
                 font-size: 18px;
                 color: $primary-color;
                 letter-spacing: 1px;
                 margin: 8px 0;
+                @include pad{color:#fff;}
             }
             .line{
                 font-size: 18px;
@@ -690,11 +715,14 @@ section.exp{
                 letter-spacing: 8px;
                 font-weight: 200;
                 margin: 12px 0;
+                @include pad{display: none;}
             }
             .detail{
                 font-size: 16px;
                 line-height: 1.5;
                 color: $color-grey;
+                font-weight: 300;
+                @include pad{display: none;}
             }
         }//content
     }//single
@@ -703,11 +731,14 @@ section.exp{
         display: inline-block;
         width: 60px;
         height: 60px;
-        bottom: 25px;
+        bottom: 95px;
         right: 35px;
         background: rgba(255, 255, 255, 0.7);
         border-radius: 99rem;
         transition: 0.3s;
+        @include pad{
+            // background: none;
+        }
         &::before{
             content: "";
             position: absolute;
@@ -717,6 +748,12 @@ section.exp{
             right: -20px;
             background: center center/ contain url('../images/arrow-left.png');
             transition: 0.3s;
+            
+            @include pad{
+                background: center center/ contain url('../images/arrow-right.png');
+                left: -20px;
+                right: auto;
+            }
         }  
     }//arrow
     .other{
@@ -750,13 +787,21 @@ section.exp{
     }//other
     .single.even{
         flex-direction: row-reverse;
+        @include pad{
+            flex-direction: row;
+        }
         .arrow{
             right: auto;
             left: 35px;
+            @include pad{
+                left: auto;
+                right: 35px;
+            }
             &::before{
                 left:-20px;
                 right: auto;
                 background: center center/ contain url('../images/arrow-right.png');
+                
             }
         }
         a:hover{
@@ -791,6 +836,10 @@ section.exp{
         font-size: 56px;
         color: $secondary-color;
         margin-bottom: 32px;
+        @include pad{
+            font-size: 48px;
+            margin-bottom: 24px;
+        }
     }
     p{
         font-size: 20px;
@@ -798,6 +847,9 @@ section.exp{
         line-height: 1.8;
         @include Mpc{
             font-size: 18px;
+        }
+        @include pad{
+            font-size: 15px;
         }
     }
 }//future
@@ -821,6 +873,7 @@ footer{
     h2.footer-h2{
         color: #fff;
         font-size: 48px;
+        @include pad{font-size: 36px;}
     }
 
     
@@ -832,11 +885,13 @@ footer{
             display: inline-block;
             text-align: center;
             margin: 0 8px;
+            @include pad{margin:0px 4px 0 0;}
             a{
                 display: inline-block;
                 color: $background-color;
                 font-size: 18px;
                 padding: 10px;
+                @include pad{font-size: 15px;}
             }
             a.out-link{
                 border-radius: 99rem;
