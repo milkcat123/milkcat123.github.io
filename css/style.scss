@@ -24,8 +24,13 @@ a,a:hover{transition: 0.3s; cursor:pointer;}
         @content;
     }
 }
+@mixin Spad{
+    @media (max-width:620px){
+        @content;
+    }
+}
 @mixin mobile{
-    @media (max-width:425px){
+    @media (max-width:426px){
         @content;
     }
 }
@@ -61,6 +66,7 @@ $nav-padding-horizontal:10px;
         transition: 0.3s;
     }
     @include pad{right: 20px; bottom:25px;}
+    @include Spad{width: 44px; height: 44px; line-height: 44px; font-size: 15px; bottom: 8px; right: 10px;}
 }
 //goTop
 #goTop{
@@ -86,6 +92,7 @@ $nav-padding-horizontal:10px;
         transition: 0.3s;
     }
     @include pad{right: 20px; bottom: 95px;}
+    @include Spad{width: 44px; height: 44px; line-height: 44px; font-size: 15px; bottom: 58px; right: 10px;}
 
 }
 //ordinary
@@ -104,6 +111,9 @@ nav{
 
     @include Lpc{
         padding: 0 20px;
+    }
+    @include Spad{
+
     }
     .nav-wrap{
         display: flex;
@@ -129,28 +139,86 @@ nav{
 
     .mobile-menu{
         display: none;
-        width: 50px;
-        height: 50px;
-        background: url('../images/menu.png')center center no-repeat;
-        @include mobile{
-            display: block;
+        width: 36px;
+        height: 36px;
+        // background: center center / contain no-repeat url('../images/menu.png');
+        @include Spad{
+            display: inline-flex;
+            align-items: center;
         }
-    }
+        .stripe{
+            display: inline-block;
+            position: relative;
+            width: 100%;
+            height: 5px;
+            background: $primary-color;
+            &::before,&::after{
+                content: '';
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                left:0px;
+                background: $primary-color;
+            }
+            &::before{
+                top: 12px;
+                
+            }
+            &::after{
+                bottom: 12px;
+                
+            }
+            &.on{
+             transform: rotate(45deg);
+             &::before,&::after{
+                top: 0px;
+                bottom: auto;
+                transform: rotate(-90deg);
+             }
+            }
+            @include mobile{
+                height: 4px;
+                &::before{
+                    top: 8px;
+                    
+                }
+                &::after{
+                    bottom: 8px;
+                    
+                }
+            }
+        }
+        @include mobile{
+            width: 32px;
+            height: 32px;
+        }
+    }//mobile-menu
 
     .nav-menu-wrap{
         display: inline-block;
-        @include pad{
+        @include Spad{
+            position: absolute;
+            display: none;
+            top:100%;
+            right: 0px;
+            background: rgba(255, 255, 255, 0.8);
+            overflow-y: hidden;
+            
         }
+
     }
 
     ul{
         display: inline-block;
         vertical-align: middle;
-
+        
         li{
             display: inline-block;
             margin: 0 4px;
-
+            @include Spad{
+                display: block;
+                padding: 8px 0;
+            }
             a{
                 display: inline-block;
                 font-size: 20px;
@@ -163,6 +231,9 @@ nav{
                 @include pad{
                     font-size: 16px;
                 }
+                @include Spad{
+                    display: block;
+                }
             }
         }
     }
@@ -171,7 +242,7 @@ nav{
         vertical-align: middle;
         @include pad{
             display: none;
-        }
+        }   
         a{
             display: inline-block;
             width: 28px;
@@ -259,6 +330,9 @@ header{
             span{
                 font-size: 42px;
             }
+        }
+        @include mobile{
+            font-size: 50px;
         }
     }
     .header-photo{
@@ -354,6 +428,12 @@ section.about{
             margin-bottom: 24px;
         }
     }
+    @include mobile{
+        padding: 50px 16px 30px 16px;
+        p{
+            br{display: none;}
+        }
+    }
 }
 //經歷
 section.exp{
@@ -398,6 +478,10 @@ section.exp{
                width: 100%;
            }
         }
+        
+        @include Spad{
+            flex-wrap: wrap;
+        }
         .name{
             display: inline-flex;
             color: $primary-color;
@@ -426,6 +510,9 @@ section.exp{
             }
             @include Spc{
                 width: 340px;
+            }
+            @include Spad{
+                width: 100%;
             }
         }//name
         .detail{
@@ -478,6 +565,10 @@ section.exp{
             @include Spc{
                 width: 50%;
             }
+            
+            @include Spad{
+                width: 100%;
+            }
         }//detail
     }//single
     .learn-exp{
@@ -486,6 +577,7 @@ section.exp{
         @include pad{
             padding: 10px 20px 20px 20px;
             flex-wrap: wrap;
+            text-align: left;
         }
         .wrap{
             display: flex;
@@ -520,7 +612,6 @@ section.exp{
                     color: $background-color;
                     letter-spacing: 1.5px;
                     padding: 4px 6px;
-                    margin: 0 auto;
                     border-radius: 99rem;
                     background: $secondary-color;
                 }
@@ -531,7 +622,7 @@ section.exp{
                 text-align: left;
                 margin-left: 16px;
                 @include pad{
-                    text-align: center;
+                    text-align: left;
                     width: 100%;
                     margin-left:0px;
                     margin-top: 6px;
@@ -556,6 +647,7 @@ section.exp{
         max-width: 1200px;
         padding: 40px 0;
         margin: 0 auto;
+        
         h2{
             font-size: 110px;
             text-align: left;
@@ -569,6 +661,9 @@ section.exp{
             }
         }
         .content{
+            @include mobile{
+                padding-top: 20px;
+            }
 
             .row{
                 display: flex;
@@ -581,12 +676,25 @@ section.exp{
                 &:last-child{
                     border-bottom: none;
                 }
+                @include mobile{
+                    flex-wrap: wrap;
+                    border-bottom: none;
+                    padding-top:0px;
+                    padding-bottom: 0px;
+                    
+                }
                 .single{
                     display: inline-flex;
                     width: 33.33%;
                     @include pad{
                         flex-wrap: wrap;
                         justify-content: center ;
+                    }
+                    @include mobile{
+                        width: 100%;
+                        flex-wrap: nowrap;
+                        align-items: center;
+                        margin-bottom: 20px;
                     }
                     &:hover{
                         animation: jump 0.5s;
@@ -601,6 +709,9 @@ section.exp{
                         @include pad{
                             width: 70%;
                         }
+                        @include mobile{
+                            width: 30%;
+                        }
                     }
                     .detail{
                         display: inline-block;
@@ -611,11 +722,15 @@ section.exp{
                             text-align: center;
                             padding: 0 0 10px 0;
                         }
+                        @include mobile{
+                            width: 70%;
+                            text-align: left;
+                        }
                     }
                     .title{
                         color: $primary-color;
                         font-size: 20px;
-                        font-weight: 600;
+                        font-weight: 500;
                         margin-bottom: 6px;
                     }
                     ul{
@@ -628,6 +743,9 @@ section.exp{
                         font-size: 15px;
                         @include Spc{
                             font-size: 14px;
+                        }
+                        @include mobile{
+                           display: inline-block;
                         }
                     }
                     
@@ -678,6 +796,10 @@ section.exp{
                     height: 250px;
                     img{width: 100%;}
                 }
+                @include mobile{
+                    height: 180px;
+                    img{height: 100%;}
+                }
             }
             &:hover{
                 .filter{
@@ -693,14 +815,17 @@ section.exp{
             max-width: 600px;
             padding: 0 0 0 40px;
             @include Mpc{padding-left: 50px;}
-            @include pad{
-                position: absolute;
-            }
+            @include pad{position: absolute;}
+            @include mobile{padding-left:20px ; width: 100%;}
             h3{
                 color: $primary-color;
                 font-size: 34px;
                 letter-spacing: 1px;
                 @include pad{color:#fff;}
+                @include mobile{
+                    font-size: 28px;
+                    font-weight: 500;
+                }
             }
             .note{
                 font-size: 18px;
@@ -708,6 +833,9 @@ section.exp{
                 letter-spacing: 1px;
                 margin: 8px 0;
                 @include pad{color:#fff;}
+                @include mobile{
+                    font-size: 14px;
+                }
             }
             .line{
                 font-size: 18px;
@@ -736,8 +864,10 @@ section.exp{
         background: rgba(255, 255, 255, 0.7);
         border-radius: 99rem;
         transition: 0.3s;
-        @include pad{
-            // background: none;
+        @include mobile{
+            width: 40px;
+            height: 40px;
+            bottom:70px;
         }
         &::before{
             content: "";
@@ -746,13 +876,19 @@ section.exp{
             height: 60px;
             top: 0px;
             right: -20px;
-            background: center center/ contain url('../images/arrow-left.png');
+            background: center center/ contain no-repeat url('../images/arrow-left.png');
             transition: 0.3s;
             
             @include pad{
-                background: center center/ contain url('../images/arrow-right.png');
+                background: center center/ contain no-repeat url('../images/arrow-right.png');
                 left: -20px;
                 right: auto;
+            }
+            @include mobile{
+                width: 40px;
+                height: 30px;
+                left: -10px;
+                top:4px;
             }
         }  
     }//arrow
@@ -780,8 +916,11 @@ section.exp{
             &::before{
                 left:-20px;
                 right: auto;
-                background: center center/ contain url('../images/arrow-right.png');
+                background: center center/ contain no-repeat url('../images/arrow-right.png');
                 transition: 0.3s;
+                @include mobile{
+                    left: -10px;
+                }
             }
         }//arrow
     }//other
@@ -797,11 +936,14 @@ section.exp{
                 left: auto;
                 right: 35px;
             }
+            
             &::before{
                 left:-20px;
                 right: auto;
-                background: center center/ contain url('../images/arrow-right.png');
-                
+                background: center center/ contain no-repeat url('../images/arrow-right.png');
+                @include mobile{
+                    left: -10px;
+                }
             }
         }
         a:hover{
@@ -868,12 +1010,18 @@ footer{
         align-items: center;
         padding: 20px $nav-padding-horizontal;
         margin:0 auto;
+        @include mobile{
+            padding: 10px 0;
+        }
     }
 
     h2.footer-h2{
         color: #fff;
         font-size: 48px;
         @include pad{font-size: 36px;}
+        @include Spad{
+            display: none;
+        }
     }
 
     
@@ -881,6 +1029,10 @@ footer{
     ul{
         display: flex;
         align-items: center;
+        @include Spad{
+            width: 100%;
+            justify-content: space-between;
+        }
         li{
             display: inline-block;
             text-align: center;

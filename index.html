@@ -31,7 +31,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Yellowtail&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500&family=Yellowtail&display=swap"
         rel="stylesheet">
     <!-- style.css -->
     <link rel="stylesheet" href="./css/style.css" type="text/css">
@@ -42,11 +42,13 @@
 <body>
     <a class="contact" href="mailto:123milkcat@gmail.com" title="contact me by mail!">mail</a>
     <div id="goTop">TOP</div>
-    <nav class="nav-height">
+    <nav class="menu-height">
         <!--導覽列-->
         <div class="nav-wrap">
             <div class="nav-logo main-font">Yuki Hiew</div>
-            <div class="mobile-menu"></div>
+            <a href="javascript:void(0)" class="mobile-menu">
+                <div class="stripe"></div>
+            </a>
             <div class="nav-menu-wrap">
                 <ul class="scroll-tag">
                     <li><a>關於我</a></li>
@@ -430,6 +432,16 @@
         </div>
     </footer>
     <script src="./js/slideTop.js" type="text/javascript"></script>
+    
+    <script type="text/javascript">
+        $(document).ready(function(){
+            let mobile_menu = $(".mobile-menu");
+            let menu_wrap = $(".nav-menu-wrap")
+            mobile_menu.click(function(){
+                $(".stripe").toggleClass("on");
+                menu_wrap.slideToggle("slow");
+            });
+        });
+    </script>
 </body>
-
 </html>
