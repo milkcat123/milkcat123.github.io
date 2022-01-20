@@ -9,7 +9,25 @@ $top-nav-bg-color:#fff;
 $sub-nav-bg-color:#cf9f42;
 $sub-nav-font-color:#fff5e6;
 $color-grey:#626262;
-$nav-padding-horizontal:16px;
+@mixin Lpc {
+    @media (max-width:1400px){ @content; }
+}
+@mixin Mpc{
+    @media (max-width:1200px){ @content; }
+}
+@mixin Spc{
+    @media (max-width:1024px){ @content; }
+}//pc
+@mixin pad{
+    @media (max-width:768px){ @content; }
+}
+@mixin Spad{
+    @media (max-width:620px){ @content; }
+}//pad
+@mixin mobile{
+    @media (max-width:426px){ @content; }
+}
+
 
 // slick模板修改
 .slick-prev:before, .slick-next:before,.slick-prev:before, .slick-next:before{
@@ -38,6 +56,8 @@ $nav-padding-horizontal:16px;
         opacity: 1;
         transition: 0.3s;
     }
+    @include pad{right: 20px; bottom:25px;}
+    @include Spad{width: 44px; height: 44px; line-height: 44px; font-size: 15px; bottom: 8px; right: 10px;}
 
 }
 #goTop{
@@ -62,6 +82,8 @@ $nav-padding-horizontal:16px;
         opacity: 1;
         transition: 0.3s;
     }
+    @include pad{right: 20px; bottom: 95px;}
+    @include Spad{width: 44px; height: 44px; line-height: 44px; font-size: 15px; bottom: 58px; right: 10px;}
 
 }//goTop
 .scroll-tag{
@@ -95,23 +117,35 @@ $nav-padding-horizontal:16px;
 }
 
 nav{
-    
+    position: sticky;
+    top: 0px;
     color: $primary-color;
     background: $top-nav-bg-color;
     text-align: center;
+    z-index: 20;
+    box-shadow: 0px 4px 8px rgba($color: #000000, $alpha: 0.08);
 
+    @include Lpc{
+        padding: 0 20px;
+    }
     .nav-wrap{
         display: flex;
         justify-content: space-between;
         align-items: center;
         max-width:1200px;
-        padding:10px $nav-padding-horizontal;
+        padding:10px 16px;
         margin: 0 auto;
     }
 
     .nav-logo{
         display: inline-block;
         font-size: 38px;
+        @include Spc{
+            font-size: 36px;
+        }
+        @include pad{
+            font-size: 32px;
+        }
     }
 
     a.nav-back{
@@ -139,11 +173,19 @@ nav{
 
 .sub-nav{
     position: sticky;
-    top: 0px;
+    top: 58px;
     left: 0px;
     background: $sub-nav-bg-color;
     text-align: center;
-    z-index: 10;
+    z-index: 30;
+    @include Spc{
+        padding: 0 20px;
+        top: 56px;
+    }
+    @include pad{
+        top: 52px;
+
+    }
     ul{
         display: flex;
         justify-content: center;
@@ -164,6 +206,17 @@ nav{
                 padding: 16px 10px;
             }
         }
+        @include Spc{
+            justify-content: space-evenly;
+            li{
+                width: auto;
+                font-size: 16px;
+                margin: 0;
+                a{
+                    padding: 12px 12px;
+                }
+            }
+        }
     }
 }//sub-nav
 
@@ -171,7 +224,7 @@ header{
     text-align: center;
     padding: 60px 0;
     background:$background-color;
-
+    
     h1{
         font-size: 100px;
         font-weight: normal;
@@ -184,19 +237,33 @@ header{
             width: 100%;
         }
     }
-
+    @include Spc{
+        h1{
+            font-size: 90px;
+        }
+        .h1-img{
+            width: 14%;
+        }
+    }
+    @include pad{
+        h1{
+            font-size: 72px;
+        }
+    }
 }//header
 
 main{
     text-align: center;
-
+    
     section{
         >*{
             max-width: 1200px;
             margin:0 auto;
         }
         padding: 30px 0;
-
+        @include Mpc{
+            padding: 30px 40px;
+        }
     }
 }//main
 
@@ -206,13 +273,18 @@ main{
         max-width: 1200px;
         text-align: left;
         font-size: 16px;
-        line-height: 50px;
+        line-height: 2;
         letter-spacing: 0.9px;
         color: $color-grey;
+        padding: 16px 0;
         margin: 0 auto;
+        @include Mpc{
+            padding: 16px 40px;
+        }
     }
 
     main{
+        
         h2{
             text-align: left;
             color: $primary-color;
@@ -263,6 +335,21 @@ main{
         }//banner-more-wrap
 
 
+    }
+}
+
+ul.slick-dots{
+    li{
+        button::before{
+            @include Mpc{
+                transform:scale(0.5);
+            }
+        }
+    }
+}
+.banner main .banner-container .img-container .slick-dots li{
+    @include Mpc{
+        margin: 0px;
     }
 }
 
@@ -379,19 +466,31 @@ main{
 //頁尾
 footer{
     background:$secondary-color;
-    
+    @include Mpc{
+        padding: 0 20px;
+    }
+    @include mobile{
+        padding: 0 8px;
+    }
     .footer-wrap{
         max-width: 1200px;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 20px $nav-padding-horizontal;
+        padding: 20px 16px;
         margin:0 auto;
+        @include mobile{
+            padding: 10px 0;
+        }
     }
 
     h2.footer-h2{
         color: #fff;
         font-size: 48px;
+        @include pad{font-size: 36px;}
+        @include Spad{
+            display: none;
+        }
     }
 
     
@@ -399,20 +498,31 @@ footer{
     ul{
         display: flex;
         align-items: center;
+        @include Spad{
+            width: 100%;
+            justify-content: space-between;
+        }
         li{
             display: inline-block;
             text-align: center;
             margin: 0 8px;
+            @include pad{margin:0px 4px 0 0;}
+            @include mobile{margin:0;}
             a{
                 display: inline-block;
                 color: $background-color;
                 font-size: 18px;
                 padding: 10px;
+                @include pad{font-size: 15px;}
+                @include mobile{font-size: 14px;}
             }
             a.out-link{
                 border-radius: 99rem;
                 padding: 6px 12px;
                 border: $background-color solid 2px;
+                @include mobile{
+                    padding: 4px 6px;
+                }
             }
             a.out-link:hover{
                 color: $secondary-color;
