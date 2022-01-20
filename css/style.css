@@ -1481,7 +1481,7 @@ section.exp .learn-exp .wrap li {
 
 @media (max-width: 1200px) {
   .future {
-    background: -66px 40px/contain no-repeat url(../images/future-left.png), 60px 80%/contain no-repeat url(../images/future-right.png);
+    background: -66px 40px/contain no-repeat url("../images/future-left.png"), 60px 80%/contain no-repeat url(../images/future-right.png);
   }
 }
 

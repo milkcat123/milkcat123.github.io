@@ -989,7 +989,7 @@ section.exp{
     background: -10px 40px / contain no-repeat url('../images/future-left.png'),right 80% / contain no-repeat url('../images/future-right.png');
     padding: 80px 0;
     @include Mpc{
-        background: -66px 40px / contain no-repeat url(../images/future-left.png), 60px 80% / contain no-repeat url(../images/future-right.png);
+        background: -66px 40px / contain no-repeat url('../images/future-left.png'), 60px 80% / contain no-repeat url(../images/future-right.png);
     }
     @include mobile{padding: 60px 16px;}
     h2{

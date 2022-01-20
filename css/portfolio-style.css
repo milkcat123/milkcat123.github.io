@@ -746,6 +746,12 @@ button.slick-prev {
   transition: 5s;
 }
 
+@media (max-width: 426px) {
+  .web .web-single .web-container {
+    height: 200px;
+  }
+}
+
 .web .web-single .web-container img {
   position: absolute;
   left: 0px;
@@ -760,6 +766,12 @@ button.slick-prev {
   bottom: 0px;
   -webkit-transition: 5s ease-in;
   transition: 5s ease-in;
+}
+
+@media (max-width: 426px) {
+  .web .web-single .web-container img:hover {
+    height: -380px;
+  }
 }
 
 .web .web-single .more-wrap {
