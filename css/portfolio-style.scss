@@ -19,7 +19,7 @@ $color-grey:#626262;
     @media (max-width:1024px){ @content; }
 }//pc
 @mixin pad{
-    @media (max-width:768px){ @content; }
+    @media (max-width:769px){ @content; }
 }
 @mixin Spad{
     @media (max-width:620px){ @content; }
@@ -124,6 +124,9 @@ nav{
     @include Lpc{
         padding: 0 20px;
     }
+    @include mobile{
+        padding: 0px;
+    }
     .nav-wrap{
         display: flex;
         justify-content: space-between;
@@ -164,6 +167,9 @@ nav{
             width: 100%;
             transition: 0.3s;
         }
+        @include mobile{
+            font-size: 16px;
+        }
     }
 }//nav
 
@@ -180,7 +186,10 @@ nav{
     }
     @include pad{
         top: 52px;
-
+        padding: 0 15px;
+    }
+    @include mobile{
+        padding: 0 8px;
     }
     ul{
         display: flex;
@@ -223,6 +232,14 @@ nav{
                 }
             }
         }
+        @include mobile{
+            li{
+                font-size: 14px;
+            }
+            a{
+                padding: 12px 2px;
+            }
+        }
     }
 }//sub-nav
 
@@ -261,6 +278,9 @@ header{
             font-size: 64px;
         }
     }
+    @include mobile{
+        h1{font-size: 44px;}
+    }
 }//header
 
 main{
@@ -277,6 +297,9 @@ main{
         }
         @include Spad{
             padding: 25px 20px; 
+        }
+        @include mobile{
+            padding: 30px 10px;
         }
     }
 }//main
@@ -346,7 +369,12 @@ main{
 
         .banner-more-wrap{
             text-align: right; 
-
+            @include Spad{
+                margin-top: 16px;
+            }
+            @include mobile{
+                text-align: center;
+            }
             a.banner-more-btn{
                 display: inline-block;
                 font-size: 18px;
@@ -354,6 +382,10 @@ main{
                 padding:8px 16px;
                 border:2px $secondary-color solid;
                 border-radius: 99rem;
+                @include mobile{
+                    font-size: 15px;
+                    padding:4px 12px;
+                }
             }
 
             a.banner-more-btn:hover{
@@ -401,6 +433,9 @@ main{
                 img{
                     @include Spad{
                         transform: scale(1.5) translateY(30px);
+                    }
+                    @include mobile{
+                        transform: scale(1.5) translateY(21px);
                     }
                 }
             }
@@ -492,7 +527,7 @@ main{
             text-align: center;
             z-index: 5;
             padding:16px 0;
-            // background: linear-gradient(rgba(255,255,255,0),rgba(255,255,255,0.8));
+            
             a{
                 display: inline-block;
                 width: 180px;
