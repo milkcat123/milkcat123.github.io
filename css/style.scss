@@ -886,6 +886,10 @@ section.exp{
             height: 40px;
             bottom:70px;
         }
+        @include Smobile{
+            right: 12px;
+            bottom: 12px;
+        }
         &::before{
             content: "";
             position: absolute;
@@ -953,6 +957,9 @@ section.exp{
                 left: auto;
                 right: 35px;
             }
+            @include Smobile{
+                right: 12px;
+            }
             
             &::before{
                 left:-20px;
@@ -989,9 +996,10 @@ section.exp{
     background: -10px 40px / contain no-repeat url('../images/future-left.png'),right 80% / contain no-repeat url('../images/future-right.png');
     padding: 80px 0;
     @include Mpc{
-        background: -66px 40px / contain no-repeat url('../images/future-left.png'), 60px 80% / contain no-repeat url(../images/future-right.png);
+        background: -66px 40px / contain no-repeat url('../images/future-left.png'), 60px 80% / contain no-repeat url('../images/future-right.png');
     }
     @include mobile{padding: 60px 16px;}
+    @include Smobile{background: -66px 40px / contain no-repeat url('../images/future-left.png'), -163px 95% / 152% auto no-repeat url('../images/future-right.png');}
     h2{
         font-size: 56px;
         color: $secondary-color;
@@ -999,6 +1007,9 @@ section.exp{
         @include pad{
             font-size: 48px;
             margin-bottom: 24px;
+        }
+        @include Smobile{
+            font-size: 40px;
         }
     }
     p{
@@ -1013,6 +1024,9 @@ section.exp{
         }
         @include mobile{
             br{display: none;}
+        }
+        @include Smobile{
+            font-size: 14px;
         }
     }
 }//future

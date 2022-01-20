@@ -1343,6 +1343,13 @@ section.exp .learn-exp .wrap li {
   }
 }
 
+@media (max-width: 426px) {
+  .portfolio .arrow {
+    right: 12px;
+    bottom: 12px;
+  }
+}
+
 .portfolio .arrow::before {
   content: "";
   position: absolute;
@@ -1447,6 +1454,12 @@ section.exp .learn-exp .wrap li {
   }
 }
 
+@media (max-width: 426px) {
+  .portfolio .single.even .arrow {
+    right: 12px;
+  }
+}
+
 .portfolio .single.even .arrow::before {
   left: -20px;
   right: auto;
@@ -1481,13 +1494,19 @@ section.exp .learn-exp .wrap li {
 
 @media (max-width: 1200px) {
   .future {
-    background: -66px 40px/contain no-repeat url("../images/future-left.png"), 60px 80%/contain no-repeat url(../images/future-right.png);
+    background: -66px 40px/contain no-repeat url("../images/future-left.png"), 60px 80%/contain no-repeat url("../images/future-right.png");
   }
 }
 
 @media (max-width: 426px) {
   .future {
     padding: 60px 16px;
+  }
+}
+
+@media (max-width: 426px) {
+  .future {
+    background: -66px 40px/contain no-repeat url("../images/future-left.png"), -163px 95%/152% auto no-repeat url("../images/future-right.png");
   }
 }
 
@@ -1501,6 +1520,12 @@ section.exp .learn-exp .wrap li {
   .future h2 {
     font-size: 48px;
     margin-bottom: 24px;
+  }
+}
+
+@media (max-width: 426px) {
+  .future h2 {
+    font-size: 40px;
   }
 }
 
@@ -1525,6 +1550,12 @@ section.exp .learn-exp .wrap li {
 @media (max-width: 426px) {
   .future p br {
     display: none;
+  }
+}
+
+@media (max-width: 426px) {
+  .future p {
+    font-size: 14px;
   }
 }
 
