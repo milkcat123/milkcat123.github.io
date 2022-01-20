@@ -3,9 +3,17 @@
 	//slick_usage
 	$('.portfolio-banner-1').slick({
 		dots: true,
-		infinite: false,
+		infinite: true,
 		autoplay:true,
-		lazyLoad: 'ondemand'
+		lazyLoad: 'ondemand',
+		responsive:[
+			{
+				breakpoint:769,
+				settings:{
+					dots:false,
+				}
+			}
+		]
 			
 	});
 	$('.portfolio-banner-2').slick({
@@ -14,7 +22,23 @@
 		dots: true,
 		infinite: true,
 		autoplay:true,
-		lazyLoad: 'ondemand'
+		lazyLoad: 'ondemand',
+		responsive:[
+			{
+				breakpoint:769,
+				settings:{
+					dots:false
+				}
+			},
+			{
+				breakpoint:426,
+				settings:{
+					slidesToShow: 2,
+					slidesToScroll: 2,
+					dots:false
+				}
+			}
+		]
 			
 	});
 	$('.portfolio-banner-3').slick({
@@ -24,7 +48,23 @@
 		speed: 900,
 		infinite: true,
 		autoplay:true,
-		lazyLoad: 'ondemand'
+		lazyLoad: 'ondemand',
+		responsive:[
+			{
+				breakpoint:769,
+				settings:{
+					dots:false
+				}
+			},
+			{
+				breakpoint:426,
+				settings:{
+					slidesToShow: 2,
+					slidesToScroll: 2,
+					dots:false
+				}
+			}
+		]
 			
 	});
 	$('.portfolio-banner-4').slick({
@@ -36,7 +76,15 @@
 		autoplay:true,
 		variableWidth: true,
 		centerMode: true,
-		lazyLoad: 'ondemand'
+		lazyLoad: 'ondemand',
+		responsive:[
+			{
+				breakpoint:769,
+				settings:{
+					dots:false
+				}
+			}
+		]
 			
 	});
 	$('.portfolio-banner-5').slick({
@@ -46,7 +94,23 @@
 		speed: 500,
 		infinite: true,
 		autoplay:true,
-		lazyLoad: 'ondemand'
+		lazyLoad: 'ondemand',
+		responsive:[
+			{
+				breakpoint:769,
+				settings:{
+					dots:false
+				}
+			},
+			{
+				breakpoint:426,
+				settings:{
+					slidesToShow: 2,
+					slidesToScroll: 2,
+					dots:false
+				}
+			}
+		]
 			
 	});
 	
