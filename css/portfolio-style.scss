@@ -27,7 +27,9 @@ $color-grey:#626262;
 @mixin mobile{
     @media (max-width:426px){ @content; }
 }
-
+@mixin Smobile{
+    @media (max-width:426px){ @content; }
+}
 
 // portfolio css
 //contact
@@ -145,6 +147,9 @@ nav{
         @include pad{
             font-size: 32px;
         }
+        @include Smobile{
+            font-size: 24px;
+        }
     }
 
     a.nav-back{
@@ -170,6 +175,9 @@ nav{
         @include mobile{
             font-size: 16px;
         }
+        @include Smobile{
+            font-size: 14px;
+        }
     }
 }//nav
 
@@ -180,6 +188,7 @@ nav{
     background: $sub-nav-bg-color;
     text-align: center;
     z-index: 18;
+    vertical-align: middle;
     @include Spc{
         padding: 0 20px;
         top: 56px;
@@ -191,11 +200,20 @@ nav{
     @include mobile{
         padding: 0 8px;
     }
+    @include Smobile{
+        top: 50px;
+        padding: 0;
+        span{
+            display: none;
+        }
+    }
+
     ul{
         display: flex;
         justify-content: center;
         max-width: 1200px;
         margin: 0 auto;
+        vertical-align: middle;
 
         li{
             display: inline-block;
@@ -235,9 +253,17 @@ nav{
         @include mobile{
             li{
                 font-size: 14px;
+                a{
+                    padding: 12px 2px;
+                }
             }
-            a{
-                padding: 12px 2px;
+        }
+        @include mobile{
+            li{
+                font-size: 12px;
+                a{
+                    padding: 12px  0px;
+                }
             }
         }
     }
@@ -335,12 +361,18 @@ main{
             @include pad{
                 font-size: 20px;
             }
+            @include Smobile{
+                font-size: 18px;
+            }
         }
 
         .banner-container{
             padding: 24px 0px 12px 0;
             @include Spad{
                 padding: 24px 0 0 0;
+            }
+            @include Smobile{
+                padding: 10px 0 0 0;
             }
             .img-container{
                 li{
@@ -441,27 +473,54 @@ main{
             }
         }
     }
-}
+}//slick_modify
 
 //web css
 .web{
+    header{
+        @include Mpc{.h1-img{width: 20%;}}
+    }
     .h2-wrap{
         text-align: center;
         color: #fff;
         background: $secondary-color;
         padding: 32px 0;
+        p{br{display: none;}}
+        @include Mpc{
+            margin: 0 20px;
+        }
+        @include pad{
+            padding: 20px;
+            p{br{display: block;}}
+        }
+        @include mobile{
+            padding: 12px;
+            p{br{display: none;}}
+        }
+        
     }
     h2{
         font-size: 28px;
         font-weight: 500;
-        margin-bottom: 16px
+        margin-bottom: 16px;
+        @include pad{
+            font-size: 24px;
+        }
+        @include mobile{
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
     }
     .h2-detail{
         max-width:1200px ; 
         font-size: 18px;
+        line-height: 1.5;
         letter-spacing: 0.8px;
         font-weight: 300;
         margin: 0 auto;
+        @include pad{
+            font-size:15px;    
+        }
     }
     main{
         padding: 30px 0;
@@ -475,10 +534,14 @@ main{
         padding: 32px 0;
         margin: 40px auto 0 auto;
         border-bottom: 2px solid $background-color;
+        @include Mpc{
+            padding: 32px 20px;
+        }
         h3{
             font-size: 26px;
             font-weight: 500;
             color: $primary-color;
+            @include mobile{font-size: 22px;}
         }
         p{
             font-size: 16px;
@@ -487,6 +550,7 @@ main{
             line-height: 1.5;
             letter-spacing: 0.9px;
             margin: 12px 0;
+            @include mobile{font-size: 14px;}
         }
         
         .web-number{
@@ -495,6 +559,8 @@ main{
             left: 15px;
             font-size: 130px;
             color: $background-color;
+            z-index: -1;
+            @include mobile{font-size: 70px;}
         }
         .web-container{
             position: relative;
@@ -562,6 +628,9 @@ footer{
     @include mobile{
         padding: 0 8px;
     }
+    @include Smobile{
+        padding: 0px;
+    }
     .footer-wrap{
         max-width: 1200px;
         display: flex;
@@ -592,12 +661,17 @@ footer{
             width: 100%;
             justify-content: space-between;
         }
+        @include Smobile{
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
         li{
             display: inline-block;
             text-align: center;
             margin: 0 8px;
             @include pad{margin:0px 4px 0 0;}
-            @include mobile{margin:0;}
+            @include mobile{margin:0 0 10px 0;}
+            
             a{
                 display: inline-block;
                 color: $background-color;
@@ -605,14 +679,14 @@ footer{
                 padding: 10px;
                 @include pad{font-size: 15px;}
                 @include mobile{font-size: 14px;}
+                @include Smobile{ width: 80px;}
             }
             a.out-link{
                 border-radius: 99rem;
                 padding: 6px 12px;
                 border: $background-color solid 2px;
-                @include mobile{
-                    padding: 4px 6px;
-                }
+                @include mobile{ padding: 4px 6px; }
+                @include Smobile{ width: 100px; }
             }
             a.out-link:hover{
                 color: $secondary-color;
@@ -620,7 +694,8 @@ footer{
             }
         }
     }
-}
+    
+}//footer
 
 .yellow-bg{
     background: $background-color;
